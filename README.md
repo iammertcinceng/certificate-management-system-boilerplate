@@ -46,4 +46,4 @@ Bu projenin mimari kararları, karşılaştığım teknik zorluklar ve lojistik 
 ## 👨‍💻 Contact & Consultancy
 Mert Çin - Software Consultant & Computer Engineer
 
-LinkedIn: linkedin.com/in/mertcin
+LinkedIn: https://www.linkedin.com/in/mertcin/
