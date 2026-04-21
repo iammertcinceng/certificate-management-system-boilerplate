@@ -29,11 +29,21 @@ Bu proje, karmaşık onay mekanizmalarını yönetmek için inşa edilmiş bir *
 ## Getting Started
 
 npm run dev
-# or
+or
 yarn dev
-# or
+or
 pnpm dev
-# or
+or
 bun dev
 
 - Open http://localhost:3000 with your browser to see the result.
+
+📖 Case Study (Deep Dive)
+Bu projenin mimari kararları, karşılaştığım teknik zorluklar ve lojistik optimizasyon süreçleri hakkında yazdığım detaylı teknik analize buradan ulaşabilirsiniz:
+
+👉 [https://medium.com/@mert.cin] 
+
+## 👨‍💻 Contact & Consultancy
+Mert Çin - Software Consultant & Computer Engineer
+
+LinkedIn: linkedin.com/in/mertcin
