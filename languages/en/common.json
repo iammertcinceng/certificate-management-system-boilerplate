@@ -1,0 +1,134 @@
+{
+    "common": {
+        "loading": "Loading...",
+        "error": "Error",
+        "success": "Success",
+        "sortBy": "Sort by",
+        "actions": "Actions",
+        "delete": "Delete",
+        "empty": "empty",
+        "edit": "Edit",
+        "save": "Save",
+        "cancel": "Cancel",
+        "true": "True",
+        "false": "False",
+        "add": "Add",
+        "remove": "Remove",
+        "close": "Close",
+        "back": "Back",
+        "next": "Next",
+        "submit": "Submit",
+        "credits": "credits",
+        "download": "Download",
+        "downloadPdf": "Download PDF",
+        "upload": "Upload",
+        "approve": "Approve",
+        "reject": "Reject",
+        "confirm": "Confirm",
+        "copy": "Copy",
+        "select": "Select",
+        "yes": "Yes",
+        "no": "No",
+        "search": "Search",
+        "filter": "Filter",
+        "gotIt": "Got it",
+        "all": "All",
+        "view": "View",
+        "details": "Details",
+        "noRecords": "No records found",
+        "serverError": "Server error",
+        "unexpectedError": "An unexpected error occurred.",
+        "connectionError": "Connection error. Please try again.",
+        "loginError": "Invalid email or password. Please check your credentials.",
+        "rateLimitError": "Too many login attempts. Please try again in a few minutes.",
+        "uia": "UIA",
+        "languageNames": {
+            "tr": "Turkish",
+            "en": "English",
+            "de": "German",
+            "fr": "French"
+        },
+        "countryNames": {
+            "tr": "Turkey",
+            "us": "United States",
+            "de": "Germany",
+            "gb": "United Kingdom",
+            "fr": "France"
+        },
+        "status": {
+            "active": "Active",
+            "pending": "Pending",
+            "approved": "Approved",
+            "rejected": "Rejected",
+            "completed": "Completed"
+        },
+        "roles": {
+            "institution": "Institution",
+            "partner": "Partner",
+            "acreditor": "Accreditor",
+            "admin": "Admin",
+            "guest": "Guest"
+        },
+        "table": {
+            "date": "Date",
+            "status": "Status",
+            "actions": "Actions",
+            "name": "Name",
+            "description": "Description"
+        },
+        "form": {
+            "required": "Required field",
+            "invalidEmail": "Invalid email",
+            "invalidPhone": "Invalid phone"
+        },
+        "pagination": {
+            "previous": "Previous",
+            "next": "Next",
+            "page": "Page",
+            "of": "of"
+        },
+        "trainings": {
+            "languages": "Languages",
+            "mode": "Mode",
+            "country": "Country",
+            "languagesRequired": "Languages Required",
+            "modes": {
+                "hybrid": "Hybrid",
+                "online": "Online",
+                "onsite": "Onsite"
+            }
+        },
+        "transactions": {
+            "admin_balance_loaded": "Admin loaded balance: {amount} credits",
+            "admin_balance_initial": "Admin initial balance: {amount} credits",
+            "balance_loaded": "Balance loaded: {amount} credits",
+            "certificate_created": "Certificate created: {id}",
+            "certificate_approved": "Certificate approved: {id} ({credits} credits)",
+            "bulk_certificates_created": "{count} certificates created",
+            "credit_purchase": "{credits} credits loaded",
+            "stripe_pending": "Payment pending: {credits} credits",
+            "stripe_succeeded": "Payment completed: {credits} credits",
+            "stripe_failed": "Payment failed: {credits} credits",
+            "refund": "Refund: {amount} credits"
+        }
+    },
+    "payment": {
+        "summary": {
+            "certificates": "Certificate Credits",
+            "pieces": "pieces",
+            "total": "Total Amount"
+        },
+        "buttons": {
+            "cancel": "Cancel",
+            "pay": "Secure Pay",
+            "processing": "Processing..."
+        },
+        "security": {
+            "note": "Payment is encrypted with 256-bit SSL and processed securely by Stripe."
+        },
+        "error": {
+            "cardError": "Card information is invalid.",
+            "unexpected": "An unexpected payment error occurred."
+        }
+    }
+}

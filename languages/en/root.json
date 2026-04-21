@@ -1,0 +1,700 @@
+{
+    "notFound": {
+        "title": "Page Not Found",
+        "description": "The page you are looking for does not exist or has been moved.",
+        "actions": {
+            "home": "Home",
+            "back": "Back"
+        }
+    },
+    "error": {
+        "title": "An Error Occurred",
+        "unexpected": "We encountered an unexpected error. Please try again.",
+        "digest": "Error code",
+        "retry": "Retry",
+        "backToHome": "Go back to home"
+    },
+    "nav": {
+        "home": "Home",
+        "verify": "Verify Certificate",
+        "about": "About Us",
+        "services": "Services",
+        "contact": "Contact",
+        "pricing": "Pricing",
+        "help": "Help & Support",
+        "login": "Sign In",
+        "register": "Get Started",
+        "collaborations": "Collaborations",
+        "logout": "Logout",
+        "dashboard": "Dashboard",
+        "certificates": "Certificates",
+        "students": "Students",
+        "partners": "Partners",
+        "profile": "Profile",
+        "settings": "Settings",
+        "approvals": "Approvals",
+        "institutions": "Institutions"
+    },
+    "header": {
+        "roles": {
+            "institution": "Institution",
+            "partner": "Partner",
+            "guest": "Guest",
+            "acreditor": "Acreditor"
+        }
+    },
+    "footer": {
+        "brand": {
+            "alt": "MERTCIN Certificate Authorisation"
+        },
+        "tagline": "Next-generation certificate management platform trusted worldwide.",
+        "columns": {
+            "product": {
+                "title": "Product",
+                "items": {
+                    "verify": "Certificate Verification",
+                    "howItWorks": "How It Works",
+                    "features": "Platform Features",
+                    "collaborations": "Corporate Relations"
+                }
+            },
+            "company": {
+                "title": "Company",
+                "items": {
+                    "about": "About Us",
+                    "careers": "Careers",
+                    "blog": "Blog",
+                    "contact": "Contact"
+                }
+            },
+            "support": {
+                "title": "Support",
+                "items": {
+                    "help": "Help Center",
+                    "privacy": "Privacy Policy",
+                    "terms": "Terms of Use",
+                    "kvkk": "GDPR Notice"
+                }
+            }
+        },
+        "copyright": "All rights reserved."
+    },
+    "landing": {
+        "title": "New-Gen Certificate Management",
+        "subtitle": "Secure, fast, and reliable certificate verification system trusted by institutions worldwide.",
+        "ctaVerify": "Verify Certificate",
+        "ctaLogin": "Get Started Free",
+        "featuresTitle": "Why Choose Certificate Authorisation?",
+        "featuresSubtitle": "Experience the future of certificate management with our cutting-edge platform",
+        "ctaSection": {
+            "title": "Ready to Get Started?",
+            "subtitle": "Join thousands of institutions already using CertManager to streamline their certificate verification process.",
+            "primary": "Start Free Trial",
+            "secondary": "Contact Sales"
+        },
+        "heroStats": {
+            "certificates": "50,000+",
+            "certificatesLabel": "Certificates Verified",
+            "institutions": "200+",
+            "institutionsLabel": "Partner Institutions",
+            "countries": "15+",
+            "countriesLabel": "Countries Served"
+        },
+        "trustBadge": "Trusted by leading educational institutions"
+    },
+    "features": {
+        "fastVerification": {
+            "title": "Lightning Fast Verification",
+            "description": "Verify certificates in under 2 seconds with Certificate Verify Code"
+        },
+        "secureSystem": {
+            "title": "Bank-Level Security",
+            "description": "End-to-end encryption and blockchain technology ensure maximum data protection"
+        },
+        "instantResult": {
+            "title": "Instant Digital Certificates",
+            "description": "Get verified results instantly with downloadable PDF certificates and QR codes"
+        },
+        "globalAccess": {
+            "title": "24/7 Global Access",
+            "description": "Access your certificates anytime, anywhere with our cloud-based platform"
+        },
+        "multiLanguage": {
+            "title": "Multi-Language Support",
+            "description": "Available in multiple languages with localized certificate formats"
+        },
+        "printableCertificates": {
+            "title": "Printable Certificates",
+            "description": "Download and print your certificates in PDF or high-resolution format"
+        }
+    },
+    "testimonials": {
+        "title": "Trusted by Thousands",
+        "subtitle": "See what our partners and users say about us",
+        "items": [
+            {
+                "name": "Dr. Sarah Johnson",
+                "role": "Dean of Engineering, Tech University",
+                "content": "CertManager has revolutionized how we handle certificate verification. The process is now seamless and secure."
+            },
+            {
+                "name": "Michael Chen",
+                "role": "HR Director, Global Corp",
+                "content": "We've reduced verification time from days to seconds. The API integration was incredibly smooth."
+            },
+            {
+                "name": "Prof. Elena Rodriguez",
+                "role": "Academic Coordinator, International Institute",
+                "content": "The multi-language support and global accessibility make this perfect for our international programs."
+            }
+        ]
+    },
+    "verify": {
+        "title": "Certificate Verification",
+        "subtitle": "Enter the unique verification code found on your certificate.",
+        "placeholder": "Verification code (e.g., MC1234070812)",
+        "submit": "Search",
+        "hint": "The verification code is printed on your certificate.",
+        "results": "Results",
+        "mockStudent": "Sample Student",
+        "downloadPdf": "Download PDF",
+        "downloading": "Downloading...",
+        "error": {
+            "required": "Please enter a value",
+            "invalidTckn": "Invalid National ID"
+        }
+    },
+    "verifyResult": {
+        "title": "Verification Results",
+        "subtitle": "Your certificate verification results are listed below",
+        "newQuery": "New Query",
+        "noQuery": "No query found. Please perform verification search again.",
+        "error": {
+            "title": "Verification Failed",
+            "noCertificateTitle": "Certificate Not Found",
+            "queryFailed": "Query failed",
+            "invalidCode": "Invalid verification code. Please check your code and try again.",
+            "noStudentFound": "No student found with this code. Please verify your code.",
+            "noCertificates": "No certificates found for this student.",
+            "notFound": "Record not found.",
+            "serverError": "Server is not responding. Please try again later.",
+            "networkError": "Connection error. Please check your internet connection."
+        },
+        "collision": {
+            "title": "Multiple Matches",
+            "description": "Matched with one of the following people. Please verify by entering the full name.",
+            "placeholder": "Full Name (e.g., John Doe)",
+            "verify": "Verify"
+        },
+        "success": {
+            "title": "Verification Successful",
+            "welcome": "Welcome"
+        },
+        "certificates": {
+            "title": "Certificates",
+            "found": "certificates found",
+            "verified": "Verified",
+            "verifiedInfo": "This certificate has been verified by Mert CIN Certificate Authorisation.",
+            "view": "View",
+            "tip": "Tip:",
+            "tipDescription": "Add sequence number to the end of the main key to go directly to a specific certificate.",
+            "tipExample": "Example: MC1234070811 → 1st certificate"
+        },
+        "detail": {
+            "notFound": "Certificate Not Found",
+            "notFoundDesc": "This certificate does not exist or may have been removed.",
+            "newVerification": "New Verification",
+            "verified": "Certificate Verified",
+            "certificateNo": "Certificate No:",
+            "newVerificationShort": "← New Verification",
+            "validCertificate": "Valid Certificate"
+        },
+        "share": {
+            "title": "Share Certificate",
+            "telegramAria": "Share on Telegram",
+            "xAria": "Share on X",
+            "linkedinAria": "Share on LinkedIn",
+            "facebookAria": "Share on Facebook",
+            "copy": "Copy Link",
+            "copied": "Copied!",
+            "email": "Email",
+            "emailSubject": "Certificate Share"
+        },
+        "sidebar": {
+            "quickInfo": "Certificate Information",
+            "student": "Student",
+            "training": "Training",
+            "duration": "Duration",
+            "hours": "Hours",
+            "date": "Date",
+            "institution": "Institution",
+            "download": {
+                "downloading": "Downloading...",
+                "button": "Download Certificate (PDF)"
+            },
+            "badge": {
+                "show": "Show Achievement Badge",
+                "title": "Achievement Badge",
+                "desc": "You can download this special badge and share it on social media!"
+            }
+        }
+    },
+    "certificate": {
+        "loading": "Loading certificate...",
+        "notFound": "Certificate not found",
+        "notFoundTitle": "Certificate Not Found",
+        "invalidNumber": "Invalid certificate number",
+        "loadError": "An error occurred while loading the certificate",
+        "certificateNo": "Certificate No",
+        "certificateId": "Certificate ID",
+        "exportError": "Certificate could not be downloaded as PDF. Please try again.",
+        "previewInfo": "Preview Information",
+        "previewDescription": "Certificate is displayed in reduced size on screen. When downloaded, it will be full size in landscape A4 format (297mm x 210mm)."
+    },
+    "about": {
+        "title": "About",
+        "content": "This page will be updated soon.",
+        "subtitle": "Learn more about our mission and vision",
+        "mission": {
+            "title": "Our Mission",
+            "content": "To provide a secure, transparent, and efficient platform for digital certificate management that empowers institutions and individuals worldwide."
+        },
+        "vision": {
+            "title": "Our Vision",
+            "content": "To become the global standard for certificate verification and management, trusted by millions of users and institutions across the world."
+        },
+        "stats": {
+            "title": "Our Impact"
+        }
+    },
+    "services": {
+        "title": "Our Services",
+        "subtitle": "Professional solutions we offer for your institution",
+        "certificateManagement": {
+            "title": "Certificate Management",
+            "description": "Create, manage and distribute your digital certificates on a centralized platform"
+        },
+        "verification": {
+            "title": "Fast Verification",
+            "description": "Certificate verification in seconds with national ID or certificate number"
+        },
+        "partnerNetwork": {
+            "title": "Partner Network",
+            "description": "Add credibility to your certificates by collaborating with accreditor institutions"
+        },
+        "reporting": {
+            "title": "Reporting and Analytics",
+            "description": "Track your institution's performance with detailed statistics and reports"
+        },
+        "security": {
+            "title": "Security and Compliance",
+            "description": "Bank-level security protocols and GDPR compliant data management"
+        },
+        "support": {
+            "title": "24/7 Support",
+            "description": "Our technical support team is always available to help you"
+        },
+        "cta": {
+            "title": "Ready to Get Started?",
+            "subtitle": "Join thousands of institutions using our platform",
+            "getStarted": "Get Started",
+            "contactUs": "Contact Us"
+        }
+    },
+    "collaborations": {
+        "title": "Our Collaborations",
+        "subtitle": "All registered institutions and partners",
+        "search": {
+            "placeholder": "Search institution, partner or training...",
+            "filter": "Filter",
+            "filterType": "Type",
+            "all": "All",
+            "institutionsOnly": "Institutions Only",
+            "partnersOnly": "Partners Only",
+            "activeFilters": "Active filters:",
+            "searchLabel": "Search:",
+            "clearFilters": "Clear Filters"
+        },
+        "results": {
+            "loading": "Loading...",
+            "found": "results found",
+            "noResults": "No results found",
+            "noResultsDesc": "No institution or partner found matching your search criteria"
+        },
+        "badges": {
+            "partner": "Partner",
+            "institutions": "Institutions",
+            "partners": "Partners"
+        }
+    },
+    "collaborationDetail": {
+        "notFound": "Record not found",
+        "notFoundDesc": "The institution/partner information you are looking for does not exist.",
+        "trainings": "Trainings",
+        "noTrainings": "No trainings yet"
+    },
+    "trainingDetail": {
+        "notFound": "Record not found",
+        "notFoundDesc": "The training information you are looking for does not exist.",
+        "description": "Description",
+        "noDescription": "No description available.",
+        "totalHours": "Total Hours",
+        "level": "Level",
+        "language": "Language",
+        "accreditors": "Accreditors",
+        "institution": "Institution"
+    },
+    "login": {
+        "title": "Sign in to your account",
+        "email": "Email address",
+        "password": "Password",
+        "submit": "Sign in",
+        "forgotPassword": "Forgot password?",
+        "organizationName": "Organization name",
+        "confirmPassword": "Confirm password",
+        "registerSubmit": "Create account",
+        "role": "Account Type",
+        "organizationInfo": "Organization Info",
+        "accountInfo": "Account Info",
+        "alreadyHaveAccount": "Already have an account?",
+        "loginHere": "Sign in",
+        "registering": "Registering...",
+        "noAccount": "Don't have an account?",
+        "registerHere": "Sign up",
+        "loggingIn": "Signing in...",
+        "roles": {
+            "institution": "Institution",
+            "partner": "Partner",
+            "acreditor": "Accreditor"
+        },
+        "tabs": {
+            "institution": "Institution",
+            "partner": "Partner",
+            "register": "Register",
+            "logout": "Logout"
+        },
+        "registerTitle": "Create an account",
+        "registerSubtitle": "Fill in your organization details",
+        "taxNumber": "Tax Number",
+        "taxOffice": "Tax Office",
+        "address": "Address",
+        "emailHint": "(will be used for login)",
+        "validation": {
+            "passwordsDoNotMatch": "Passwords do not match",
+            "passwordTooShort": "Password must be at least 6 characters"
+        },
+        "messages": {
+            "registrationSuccess": "Registration successful. Please sign in.",
+            "registrationFailed": "Registration failed.",
+            "unexpectedError": "An unexpected error occurred."
+        }
+    },
+    "contact": {
+        "title": "Contact Us",
+        "subtitle": "Get in touch with our team. We're here to help you.",
+        "info": {
+            "title": "Contact Information",
+            "email": "Email",
+            "phone": "Phone",
+            "phoneValue": "Coming soon",
+            "address": "Address",
+            "addressValue": "To be announced",
+            "businessHours": "Business Hours",
+            "businessHoursValue": "Monday - Friday: 9:00 AM - 6:00 PM"
+        },
+        "form": {
+            "title": "Send us a message",
+            "name": "Full Name",
+            "namePlaceholder": "John Doe",
+            "email": "Email Address",
+            "emailPlaceholder": "john@example.com",
+            "subject": "Subject",
+            "subjectPlaceholder": "How can we help you?",
+            "message": "Message",
+            "messagePlaceholder": "Tell us more about your inquiry...",
+            "submit": "Send Message",
+            "sending": "Sending...",
+            "successMessage": "Thank you! Your message has been sent successfully. We'll get back to you soon.",
+            "errorMessage": "Sorry, something went wrong. Please try again or email us directly."
+        }
+    },
+    "help": {
+        "title": "Help Center",
+        "subtitle": "Find answers to frequently asked questions",
+        "faqTitle": "Frequently Asked Questions",
+        "quickLinks": {
+            "verify": {
+                "title": "Verify Certificate",
+                "description": "Quickly verify any certificate"
+            },
+            "contact": {
+                "title": "Contact Support",
+                "description": "Get in touch with our team"
+            },
+            "howItWorks": {
+                "title": "How It Works",
+                "description": "Learn about our process"
+            }
+        },
+        "faqs": {
+            "0": {
+                "question": "How do I verify a certificate?",
+                "answer": "You can verify a certificate by entering the certificate number or national ID on our verification page. The system will instantly show you the certificate details and validity status."
+            },
+            "1": {
+                "question": "How long does it take to issue a certificate?",
+                "answer": "Certificate issuance is typically instant once all required approvals are obtained. The approval process may vary depending on your institution's settings and partner requirements."
+            },
+            "2": {
+                "question": "Can I download certificates in bulk?",
+                "answer": "Yes, institutions can download multiple certificates at once using our bulk download feature available in the certificate management panel."
+            },
+            "3": {
+                "question": "What security measures are in place?",
+                "answer": "We use bank-level encryption, blockchain technology for certificate verification, and comply with international data protection standards including GDPR and KVKK."
+            },
+            "4": {
+                "question": "How do I become a partner institution?",
+                "answer": "You can register as an institution through our registration page. After verification, you'll have access to all certificate management features."
+            },
+            "5": {
+                "question": "What payment methods do you accept?",
+                "answer": "We accept various payment methods including credit cards, bank transfers, and institutional invoicing. Contact us for enterprise payment options."
+            }
+        },
+        "contactCta": {
+            "title": "Still have questions?",
+            "subtitle": "Our support team is ready to help you",
+            "button": "Contact Us"
+        }
+    },
+    "howItWorks": {
+        "title": "How It Works",
+        "subtitle": "Discover how our platform simplifies certificate management for educational institutions",
+        "processTitle": "Simple 4-Step Process",
+        "processSubtitle": "From registration to reporting, everything you need in one platform",
+        "steps": {
+            "registration": {
+                "title": "Institution Registration",
+                "description": "Create your institutional account in minutes. Provide your organization details and get verified by our team to start issuing certificates."
+            },
+            "createCertificate": {
+                "title": "Create Certificates",
+                "description": "Design and issue digital certificates using our intuitive interface. Bulk upload student data, customize templates, and generate certificates instantly."
+            },
+            "verification": {
+                "title": "Instant Verification",
+                "description": "Recipients and employers can verify certificates in seconds using certificate verify code. All verifications are logged and tracked for security."
+            },
+            "reporting": {
+                "title": "Analytics & Reporting",
+                "description": "Access detailed reports on certificate issuance, verification requests, and student data. Export reports and track your institution's performance."
+            }
+        },
+        "whyChooseUs": "Why Choose Our Platform?",
+        "whyChooseUsSubtitle": "Built specifically for educational institutions with security and efficiency in mind",
+        "features": {
+            "fast": {
+                "title": "Lightning Fast",
+                "description": "Issue thousands of certificates in minutes with our bulk upload feature"
+            },
+            "secure": {
+                "title": "Bank-Level Security",
+                "description": "Your data is protected with enterprise-grade encryption and security protocols"
+            },
+            "cloud": {
+                "title": "Cloud-Based",
+                "description": "Access your certificates from anywhere, anytime with our cloud infrastructure"
+            },
+            "collaboration": {
+                "title": "Partner Network",
+                "description": "Collaborate with accreditor institutions to add credibility to your certificates"
+            }
+        },
+        "stats": {
+            "institutions": "Trusted Institutions",
+            "certificates": "Verified Certificates",
+            "countries": "Countries Served"
+        },
+        "cta": {
+            "title": "Ready to Get Started?",
+            "subtitle": "Join hundreds of institutions already using our platform",
+            "getStarted": "Start Free Trial",
+            "contactUs": "Contact Sales"
+        }
+    },
+    "privacy": {
+        "title": "Privacy Policy",
+        "lastUpdated": "Last Updated",
+        "sections": {
+            "intro": {
+                "title": "Introduction",
+                "content": "This Privacy Policy explains how Mert CIN Certificate Authorisation collects, uses, and protects your personal information. We are committed to ensuring your privacy and protecting your data."
+            },
+            "dataCollection": {
+                "title": "Data We Collect",
+                "content": "We collect the following types of information:",
+                "items": {
+                    "0": "Personal identification information (name, email, phone number)",
+                    "1": "Certificate and training related data",
+                    "2": "Usage data and analytics",
+                    "3": "Technical information (IP address, browser type, device information)"
+                }
+            },
+            "dataUsage": {
+                "title": "How We Use Your Data",
+                "content": "Your data is used to provide and improve our services, process certificates, communicate with you, and ensure platform security. We never sell your personal information to third parties."
+            },
+            "dataSecurity": {
+                "title": "Data Security",
+                "content": "We implement industry-standard security measures including encryption, secure servers, and regular security audits to protect your information from unauthorized access, alteration, or disclosure."
+            },
+            "userRights": {
+                "title": "Your Rights",
+                "content": "You have the right to access, correct, delete, or export your personal data. You can also object to certain data processing activities. Contact us to exercise these rights."
+            },
+            "contact": {
+                "title": "Contact Us",
+                "content": "If you have any questions about this Privacy Policy, please contact us at"
+            }
+        }
+    },
+    "terms": {
+        "title": "Terms of Use",
+        "lastUpdated": "Last Updated",
+        "sections": {
+            "acceptance": {
+                "title": "Acceptance of Terms",
+                "content": "By accessing and using this platform, you accept and agree to be bound by these Terms of Use. If you do not agree to these terms, please do not use our services."
+            },
+            "services": {
+                "title": "Description of Services",
+                "content": "Mert CIN Certificate Authorisation provides a digital platform for certificate issuance, verification, and management. We reserve the right to modify or discontinue services at any time."
+            },
+            "userResponsibilities": {
+                "title": "User Responsibilities",
+                "content": "Users are responsible for:",
+                "items": {
+                    "0": "Maintaining the confidentiality of their account credentials",
+                    "1": "Ensuring the accuracy of information provided",
+                    "2": "Complying with all applicable laws and regulations"
+                }
+            },
+            "intellectualProperty": {
+                "title": "Intellectual Property",
+                "content": "All content, trademarks, and intellectual property on this platform are owned by Mert CIN Certificate Authorisation or its licensors. Unauthorized use is prohibited."
+            },
+            "limitation": {
+                "title": "Limitation of Liability",
+                "content": "We strive to provide accurate and reliable services, but we cannot guarantee uninterrupted or error-free operation. Our liability is limited to the maximum extent permitted by law."
+            },
+            "contact": {
+                "title": "Contact Information",
+                "content": "For questions about these Terms of Use, please contact us at"
+            }
+        }
+    },
+    "kvkk": {
+        "title": "GDPR Notice",
+        "lastUpdated": "Last Updated",
+        "sections": {
+            "intro": {
+                "title": "Introduction",
+                "content": "This notice explains how we process your personal data in accordance with the General Data Protection Regulation (GDPR) and other applicable data protection laws."
+            },
+            "dataController": {
+                "title": "Data Controller",
+                "content": "Mert CIN Certificate Authorisation is the data controller responsible for your personal data. We are committed to protecting your privacy and ensuring compliance with data protection regulations."
+            },
+            "personalData": {
+                "title": "Personal Data We Process",
+                "content": "We process the following categories of personal data:",
+                "items": {
+                    "0": "Identity data (name, surname, national ID number)",
+                    "1": "Contact data (email address, phone number, address)",
+                    "2": "Certificate and training records",
+                    "3": "Technical data (IP address, login data, usage information)"
+                }
+            },
+            "processingPurpose": {
+                "title": "Purpose of Processing",
+                "content": "Your personal data is processed for certificate issuance and verification, service provision, legal compliance, and platform improvement. We only process data for legitimate purposes with appropriate legal basis."
+            },
+            "dataSubjectRights": {
+                "title": "Your Rights as a Data Subject",
+                "content": "Under GDPR, you have the following rights:",
+                "items": {
+                    "0": "Right to access your personal data",
+                    "1": "Right to rectification of inaccurate data",
+                    "2": "Right to erasure (right to be forgotten)",
+                    "3": "Right to restriction of processing",
+                    "4": "Right to data portability"
+                }
+            },
+            "contact": {
+                "title": "Contact",
+                "content": "To exercise your rights or for any questions regarding data processing, please contact us at"
+            }
+        }
+    },
+    "admin": {
+        "dashboard": "Admin Panel",
+        "users": "Users",
+        "roles": "Roles",
+        "pendingRequests": "Pending Requests",
+        "login": {
+            "title": "Admin Login",
+            "subtitle": "Sign in to access the admin panel",
+            "email": "Email",
+            "password": "Password",
+            "submit": "Sign In",
+            "loggingIn": "Signing in...",
+            "unknownError": "Unknown error",
+            "note": "Note: This login is only for users with admin role."
+        },
+        "messages": {
+            "imageFileRequired": "Please select an image file",
+            "fileSizeLimit": "File size must be less than 5MB",
+            "partnerNameRequired": "Organization name is required",
+            "partnerAdded": "Reference organization added",
+            "partnerAddError": "Could not add: {error}",
+            "partnerAddErrorUnknown": "Could not add: Unknown error",
+            "serverError": "A server error occurred",
+            "trainingApproved": "Training approved!",
+            "trainingRejected": "Training rejected.",
+            "error": "An error occurred.",
+            "settingsSaved": "Settings saved.",
+            "settingsSaveError": "Settings could not be saved.",
+            "balanceAdded": "Balance added successfully.",
+            "partnershipApproved": "Partnership approved!",
+            "partnershipRejected": "Partnership rejected.",
+            "certificateApproved": "Certificate approved!",
+            "certificateRejected": "Certificate rejected.",
+            "paymentSettingsSaved": "Settings saved successfully!"
+        }
+    },
+    "payment": {
+        "summary": {
+            "certificates": "Certificate Count",
+            "pieces": "pcs",
+            "total": "Total Amount"
+        },
+        "buttons": {
+            "cancel": "Cancel",
+            "pay": "Pay",
+            "processing": "Processing..."
+        },
+        "security": {
+            "note": "Your card information is securely encrypted. Protected by Stripe."
+        },
+        "error": {
+            "cardError": "There is an error with the card information.",
+            "unexpected": "An unexpected error occurred. Please try again."
+        },
+        "status": {
+            "processing": "Your payment is processing...",
+            "succeeded": "Payment successful!",
+            "failed": "Payment failed."
+        }
+    }
+}

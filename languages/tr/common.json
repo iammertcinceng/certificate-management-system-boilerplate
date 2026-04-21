@@ -1,0 +1,134 @@
+{
+    "common": {
+        "loading": "Yükleniyor...",
+        "error": "Hata",
+        "success": "Başarılı",
+        "sortBy": "Sırala",
+        "actions": "İşlemler",
+        "delete": "Sil",
+        "empty": "Boş",
+        "edit": "Düzenle",
+        "save": "Kaydet",
+        "cancel": "Vazgeç",
+        "true": "Doğru",
+        "false": "Yanlış",
+        "add": "Ekle",
+        "remove": "Kaldır",
+        "close": "Kapat",
+        "back": "Geri",
+        "next": "İleri",
+        "submit": "Gönder",
+        "credits": "kredi",
+        "download": "İndir",
+        "downloadPdf": "PDF İndir",
+        "upload": "Yükle",
+        "approve": "Onayla",
+        "reject": "Reddet",
+        "confirm": "Onayla",
+        "copy": "Kopyala",
+        "select": "Seç",
+        "yes": "Evet",
+        "no": "Hayır",
+        "search": "Ara",
+        "filter": "Filtrele",
+        "gotIt": "Anladım",
+        "uia": "UIA",
+        "all": "Tümü",
+        "view": "Görüntüle",
+        "details": "Detaylar",
+        "noRecords": "Kayıt bulunamadı",
+        "serverError": "Sunucu hatası.",
+        "unexpectedError": "Beklenmeyen bir hata oluştu.",
+        "connectionError": "Bağlantı hatası. Lütfen tekrar deneyin.",
+        "loginError": "E-posta veya şifre hatalı. Lütfen bilgilerinizi kontrol edin.",
+        "rateLimitError": "Çok fazla giriş denemesi. Lütfen birkaç dakika sonra tekrar deneyin.",
+        "languageNames": {
+            "tr": "Türkçe",
+            "en": "İngilizce",
+            "de": "Almanca",
+            "fr": "Fransızca"
+        },
+        "countryNames": {
+            "tr": "Türkiye",
+            "us": "Amerika Birleşik Devletleri",
+            "de": "Almanya",
+            "gb": "Birleşik Krallık",
+            "fr": "Fransa"
+        },
+        "status": {
+            "active": "Aktif",
+            "pending": "Beklemede",
+            "approved": "Onaylandı",
+            "rejected": "Reddedildi",
+            "completed": "Tamamlandı"
+        },
+        "roles": {
+            "institution": "Kurum",
+            "partner": "Partner",
+            "acreditor": "Akreditör",
+            "admin": "Admin",
+            "guest": "Misafir"
+        },
+        "table": {
+            "date": "Tarih",
+            "status": "Durum",
+            "actions": "İşlemler",
+            "name": "Ad",
+            "description": "Açıklama"
+        },
+        "form": {
+            "required": "Zorunlu alan",
+            "invalidEmail": "Geçersiz e-posta",
+            "invalidPhone": "Geçersiz telefon"
+        },
+        "pagination": {
+            "previous": "Önceki",
+            "next": "Sonraki",
+            "page": "Sayfa",
+            "of": "/"
+        },
+        "trainings": {
+            "languages": "Diller",
+            "mode": "Şekil",
+            "country": "Ülke",
+            "languagesRequired": "Diller Gerekli",
+            "modes": {
+                "hybrid": "Hibrit",
+                "online": "Online",
+                "onsite": "Yüz Yüze"
+            }
+        },
+        "transactions": {
+            "admin_balance_loaded": "Admin bakiye yükledi: {amount} kredi",
+            "admin_balance_initial": "Admin ilk bakiye yükledi: {amount} kredi",
+            "balance_loaded": "Bakiye yüklendi: {amount} kredi",
+            "certificate_created": "Sertifika oluşturuldu: {id}",
+            "certificate_approved": "Sertifika onaylandı: {id} ({credits} kredi)",
+            "bulk_certificates_created": "{count} sertifika oluşturuldu",
+            "credit_purchase": "{credits} kredi yüklendi",
+            "stripe_pending": "Ödeme bekleniyor: {credits} kredi",
+            "stripe_succeeded": "Ödeme tamamlandı: {credits} kredi",
+            "stripe_failed": "Ödeme başarısız: {credits} kredi",
+            "refund": "İade: {amount} kredi"
+        }
+    },
+    "payment": {
+        "summary": {
+            "certificates": "Sertifika Kredisi",
+            "pieces": "adet",
+            "total": "Ödenecek Tutar"
+        },
+        "buttons": {
+            "cancel": "Vazgeç",
+            "pay": "Güvenli Öde",
+            "processing": "İşleniyor..."
+        },
+        "security": {
+            "note": "Ödemeniz 256-bit SSL ile şifrelenir ve Stripe tarafından güvenli bir şekilde işlenir."
+        },
+        "error": {
+            "cardError": "Kart bilgileri geçersiz.",
+            "unexpected": "Beklenmeyen bir ödeme hatası oluştu."
+        }
+    }
+}

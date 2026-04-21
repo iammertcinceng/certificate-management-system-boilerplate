@@ -1,0 +1,177 @@
+{
+    "acreditor": {
+        "dashboard": {
+            "title": "Accreditor Dashboard",
+            "subtitle": "Manage upper institution approvals and collaborations",
+            "stats": {
+                "pendingUiaApprovals": "Pending UIA Approvals",
+                "activeCollaborations": "Active Collaborations",
+                "totalCertificates": "Total Certificates"
+            },
+            "recentApprovals": {
+                "title": "Recent Approval Requests",
+                "viewAll": "View All",
+                "loading": "Loading...",
+                "noRecords": "No records found",
+                "uiaResponsible": "You (UIA Responsible)",
+                "uiaExists": "UIA Exists",
+                "noUia": "No UIA"
+            }
+        },
+        "approvals": {
+            "title": "Approval Requests",
+            "subtitle": "Manage certificates awaiting your approval as an accreditor",
+            "searchPlaceholder": "Search certificate, institution or ID...",
+            "onlyResponsible": "Only my UIA responsible ones",
+            "filter": {
+                "all": "All",
+                "pending": "Pending",
+                "approved": "Approved",
+                "rejected": "Rejected"
+            },
+            "table": {
+                "certificateId": "Certificate ID",
+                "training": "Training",
+                "institution": "Institution",
+                "date": "Date",
+                "uia": "UIA",
+                "actions": "Actions"
+            },
+            "actions": {
+                "approve": "Approve",
+                "reject": "Reject",
+                "viewDetails": "View Details",
+                "downloadPetition": "Download petition"
+            },
+            "uia": {
+                "responsible": "UIA Responsible",
+                "exists": "UIA Exists",
+                "none": "No UIA"
+            },
+            "inspect": {
+                "title": "Certificate Details",
+                "tabs": {
+                    "details": "Certificate Info",
+                    "students": "Students & UIA Codes",
+                    "excel": "Bulk Upload via Excel"
+                },
+                "fields": {
+                    "certificateId": "Certificate ID",
+                    "issueDate": "Issue Date",
+                    "template": "Template",
+                    "studentCount": "Student Count"
+                },
+                "students": {
+                    "note": "Note: Enter and save the UIA approval code for each student.",
+                    "cols": {
+                        "student": "Student",
+                        "tc": "TC",
+                        "birthDate": "Birth Date",
+                        "approvalCode": "UIA Code"
+                    },
+                    "placeholder": {
+                        "approvalCode": "e.g. ABCD-1234"
+                    },
+                    "actions": {
+                        "saveCodes": "Save UIA Codes"
+                    }
+                },
+                "excel": {
+                    "title": "Bulk UIA Code Upload via Excel",
+                    "step1": {
+                        "title": "Download Excel File",
+                        "desc": "With current student data"
+                    },
+                    "step2": {
+                        "title": "Fill UIA_CODE Column",
+                        "desc": "Do not change other columns"
+                    },
+                    "step3": {
+                        "title": "Upload the Filled Excel"
+                    },
+                    "actions": {
+                        "download": "Download Excel",
+                        "upload": "Upload Excel and Save UIA Codes"
+                    }
+                }
+            },
+            "petition": {
+                "headerDefault": "Partner Organization",
+                "paragraph": "The {count} students listed below have completed their trainings and achieved passing scores as shown in the table. We kindly request that the certificates of the successful students be prepared and submitted to e-Government.",
+                "table": {
+                    "no": "No",
+                    "student": "Student",
+                    "tc": "TC",
+                    "birth": "Birth",
+                    "end": "End Date",
+                    "hours": "Hours",
+                    "training": "Training",
+                    "exam": "Exam Result"
+                }
+            },
+            "noRecords": "No records found",
+            "messages": {
+                "approvalCodesSaved": "UIA codes saved!",
+                "approvalCodesSaveError": "UIA codes could not be saved!",
+                "excelDownloadError": "Excel could not be downloaded!",
+                "approvalCodesUploaded": "UIA codes uploaded from Excel!",
+                "excelUploadError": "Excel could not be uploaded!",
+                "excelUploadErrorUnknown": "An error occurred while uploading Excel!",
+                "certificateApproved": "Certificate approved!",
+                "certificateRejected": "Certificate rejected!"
+            }
+        },
+        "institutions": {
+            "title": "Institutions",
+            "subtitle": "View institutions you partner with",
+            "searchPlaceholder": "Search institution or ID...",
+            "table": {
+                "name": "Institution Name",
+                "status": "Status",
+                "since": "Since",
+                "actions": "Actions"
+            },
+            "status": {
+                "pending": "Pending",
+                "approved": "Active",
+                "rejected": "Rejected"
+            },
+            "actions": {
+                "approve": "Approve",
+                "reject": "Reject",
+                "end": "End Partnership",
+                "delete": "Delete",
+                "viewDetails": "View Details"
+            },
+            "confirm": {
+                "approve": "Are you sure to approve this institution?",
+                "reject": "Are you sure to reject this institution?",
+                "end": "Are you sure to end the partnership?",
+                "delete": "Are you sure to delete the rejected collaboration?"
+            },
+            "sort": {
+                "label": "Sort:",
+                "id": "ID (default)",
+                "dateDesc": "Date (newest)",
+                "nameAz": "Name (A→Z)"
+            },
+            "noRecords": "No records found",
+            "modal": {
+                "title": "Institution Details",
+                "institutionId": "Institution ID"
+            }
+        },
+        "profile": {
+            "title": "Profile",
+            "edit": "Edit",
+            "save": "Save",
+            "messages": {
+                "updateSuccess": "Profile updated successfully!",
+                "updateError": "An error occurred while updating the profile."
+            }
+        },
+        "settings": {
+            "title": "Settings"
+        }
+    }
+}

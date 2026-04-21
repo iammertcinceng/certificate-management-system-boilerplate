@@ -1,0 +1,1062 @@
+{
+    "institution": {
+        "dashboard": "Institution Dashboard",
+        "home": {
+            "subtitle": "Welcome to your institution's certificate management center.",
+            "lowBalance": {
+                "title": "Low Balance Warning",
+                "desc": "Your current balance is {balance}. Load balance to avoid interruptions in certificate creation.",
+                "load": "Load Balance"
+            },
+            "stats": {
+                "totalCertificates": "Total Certificates",
+                "totalStudents": "Total Students",
+                "partners": "Partners",
+                "balance": "Balance",
+                "threshold": "Warn when below {threshold}"
+            },
+            "charts": {
+                "title": "Certificate and Student Statistics",
+                "subtitle": "Certificate creation and student addition activities for the last 30 days.",
+                "last30Days": "Last 30 Days"
+            },
+            "activities": {
+                "title": "Recent Activities",
+                "viewAll": "View All",
+                "allTitle": "All Activities",
+                "certificateStatus": "Certificate {id} {status}",
+                "created": "created",
+                "updated": "updated",
+                "studentAdded": "New student added: {name}",
+                "trainingCreated": "New training created: {name}"
+            },
+            "quickActions": {
+                "title": "Quick Access",
+                "createCertificate": "Create New Certificate",
+                "addStudent": "Add Student",
+                "balance": "Load Balance"
+            },
+            "notifications": {
+                "title": "Notifications",
+                "pendingCerts": "Pending Approvals",
+                "pendingDesc": "{count} certificates are waiting for your approval",
+                "noNew": "No new notifications."
+            },
+            "balanceWidget": {
+                "current": "Current Balance",
+                "load": "Load Balance"
+            }
+        },
+        "certificates": {
+            "title": "Certificate Management",
+            "subtitle": "View and manage all created certificates.",
+            "approvalsLink": "Certificate Approvals",
+            "trainings": "All Trainings",
+            "createNew": "Create New Certificate",
+            "createNewDescription": "Follow these steps to create a new certificate.",
+            "backToManagement": "Back to Certificate Management",
+            "bulkAdd": "Add in Bulk",
+            "templates": {
+                "classic": {
+                    "name": "Classic",
+                    "description": "Traditional and formal look. Ideal for corporate use."
+                },
+                "modern": {
+                    "name": "Modern",
+                    "description": "Minimal and contemporary design. Clean and professional."
+                },
+                "creative": {
+                    "name": "Creative",
+                    "description": "Colorful and dynamic design. Eye-catching and unique."
+                },
+                "elegant": {
+                    "name": "Elegant",
+                    "description": "Graceful wave patterns with gold accent, sophisticated design."
+                },
+                "professional": {
+                    "name": "Professional",
+                    "description": "Lined frame with minimal corporate design."
+                },
+                "executive": {
+                    "name": "Executive",
+                    "description": "Gold/brown decorative frame, formal academic style."
+                },
+                "minimal": {
+                    "name": "Minimal",
+                    "description": "Clean design, gold lines, dual signature area."
+                }
+            },
+            "create": {
+                "template": {
+                    "title": "Template Selection",
+                    "subtitle": "Select and preview the certificate template",
+                    "miniPreview": "Template Preview",
+                    "fullPreview": "Full Preview",
+                    "modal": {
+                        "titleSuffix": "Preview Template",
+                        "close": "Close",
+                        "footerNote": "Select this template for your certificate"
+                    },
+                    "next": "Next"
+                },
+                "training": {
+                    "title": "Training Selection",
+                    "subtitle": "Select the training for the certificate.",
+                    "loading": "Loading...",
+                    "pending": "Pending",
+                    "noItems": "No training found.",
+                    "back": "Back",
+                    "next": "Next"
+                },
+                "students": {
+                    "title": "Add Students",
+                    "subtitle": "Add students who will receive the certificate.",
+                    "listTitle": "Institution Student List",
+                    "searchPlaceholder": "Search student...",
+                    "loading": "Loading...",
+                    "notFound": "No students found.",
+                    "back": "Back",
+                    "next": "Next"
+                },
+                "partners": {
+                    "title": "Partner Selection",
+                    "subtitle": "Select partner(s) and upper institution approval.",
+                    "uiaTitle": "Upper Institution Approval",
+                    "no": "No",
+                    "yes": "Yes",
+                    "uiaHint": "If yes, you must select a partner as the upper institution responsible.",
+                    "uiaResponsible": "Upper Institution Responsible",
+                    "select": "Select",
+                    "selected": "Selected",
+                    "expired": "Expired",
+                    "loading": "Loading...",
+                    "noPartners": "No partners found.",
+                    "external": "External Partners",
+                    "externalCannotBeUia": "External partner cannot be upper institution responsible.",
+                    "back": "Back",
+                    "next": "Next"
+                },
+                "review": {
+                    "title": "Summary and Approval",
+                    "reviseTitle": "Certificate Revision",
+                    "subtitle": "Review your selections and submit the certificate for approval.",
+                    "reviseSubtitle": "You are editing a rejected certificate. You can check and update the steps below.",
+                    "reviseBoxTitle": "Certificate Revision",
+                    "reviseBoxDescription": "You are editing a rejected certificate. You can change any of the steps below.",
+                    "certificatePreview": "Certificate Preview",
+                    "details": "Certificate Details",
+                    "template": "Template:",
+                    "training": "Training:",
+                    "accreditorCount": "Accreditor Count:",
+                    "trainingHours": "Training Duration:",
+                    "hours": "Hours",
+                    "uia": "Upper Institution Approval:",
+                    "yes": "Yes",
+                    "no": "No",
+                    "studentCount": "Student Count:",
+                    "createdAt": "Created At:",
+                    "accreditors": "Accreditors",
+                    "uiaResponsible": "Accreditor",
+                    "dateSelection": {
+                        "title": "Certificate Date",
+                        "today": "Today",
+                        "range": "Date Range",
+                        "rangeLabel": "Start - End",
+                        "displayDate": "Date to appear on certificate:",
+                        "startDate": "Start Date",
+                        "endDate": "End Date",
+                        "optional": "Optional",
+                        "displayNote": "Appears as certificate date"
+                    },
+                    "creditInfo": {
+                        "title": "Credits to be Used",
+                        "calc": "{count} students × {credit} credits",
+                        "unit": "credits"
+                    },
+                    "payment": {
+                        "title": "Payment Information",
+                        "price": "Certificate Price:",
+                        "required": "Required Amount:",
+                        "balance": "Current Balance:"
+                    },
+                    "status": {
+                        "enough": "Sufficient Balance",
+                        "notEnough": "Insufficient Balance",
+                        "enoughDesc": "Provision will be reserved and deducted upon approval.",
+                        "notEnoughDesc": "Load balance or reduce student count."
+                    },
+                    "actions": {
+                        "back": "Back",
+                        "submit": "Submit for Approval",
+                        "submitting": "Submitting...",
+                        "createdSuccess": "Certificate created successfully! Sent for institution approval.",
+                        "errorPrefix": "Error:",
+                        "createFailed": "Failed to create certificate",
+                        "unexpectedError": "An error occurred. Please try again.",
+                        "reviseAndSubmit": "Revise and Submit for Approval",
+                        "reviseAndApprove": "Revise and Submit for Approval",
+                        "revisedSuccess": "Certificate successfully revised and submitted for approval!",
+                        "editTemplate": "Edit Template",
+                        "editTraining": "Edit Training",
+                        "editStudents": "Edit Students",
+                        "editPartners": "Edit Partners"
+                    }
+                },
+                "reviseModeBanner": "Revision Mode: You are editing a rejected certificate"
+            },
+            "import": {
+                "title": "Bulk Certificate Creation",
+                "subtitle": "Create certificates for your students in bulk using a single Excel file with different properties.",
+                "howTo": "How to Fill?",
+                "processing": "Processing and validating Excel file...",
+                "validationError": "A server validation error occurred.",
+                "paymentRequired": "Payment system is active. Payment step is required for certificate creation in this flow.",
+                "createSuccess": "{count} certificate groups successfully created!",
+                "createError": "An error occurred while creating certificates: {error}",
+                "unknownError": "An unexpected error occurred. Please check your information and try again.",
+                "networkError": "Could not reach the server. Please check your connection and try again.",
+                "fieldGuides": {
+                    "nationalId": {
+                        "description": "Student TC Identity Number (11 digits, required). Matches the TC number registered in the system."
+                    },
+                    "trainingId": {
+                        "description": "Training ID (TRN-XXXXXX format)"
+                    },
+                    "templateKey": {
+                        "description": "Certificate template key"
+                    },
+                    "dateIssued": {
+                        "description": "Certificate issue date (YYYY-MM-DD format)"
+                    },
+                    "startDate": {
+                        "description": "Certificate start date. Optional. Enter if the training was conducted over a specific period."
+                    },
+                    "endDate": {
+                        "description": "Certificate end/issue date. REQUIRED. If left blank, today's date will be used."
+                    },
+                    "partnerIds": {
+                        "description": "Partner organization IDs (comma-separated, must start with ACR- or RFR-)"
+                    },
+                    "uiaRequired": {
+                        "description": "Is Upper Institution Approval required? (0 or 1)"
+                    },
+                    "uiaResponsibleId": {
+                        "description": "UIA responsible (must start with ACR-, required if UIA_REQUIRED=1)"
+                    },
+                    "approvalCode": {
+                        "description": "UIA code",
+                        "specialNote": "IMPORTANT: LEAVE THIS COLUMN EMPTY! UIA code is entered by the partner on the approval screen. It should not be filled in Excel."
+                    }
+                },
+                "guide": {
+                    "modalTitle": "Excel File Instructions",
+                    "autoGroupTitle": "Automatic Grouping",
+                    "autoGroupDesc": "Rows with the same training, template, date and partner information are automatically converted into a single certificate group.",
+                    "duplicateFileWarningTitle": "Duplicate File Name",
+                    "duplicateFileWarningDesc": "If you upload a file with the same name as a previously uploaded file, the system will not reprocess it. If you have made changes to your file, please rename it (e.g., certificates_v2.xlsx) before uploading again. Each uploaded file must have a unique name."
+                },
+                "downloadTemplate": {
+                    "downloadButton": "Download Excel Template (.xlsx)",
+                    "sheetName": "Certificates",
+                    "button": "Download Template",
+                    "description": "Download the Excel template to enter your data in the correct format. Each row represents a certificate to be issued to a student."
+                },
+                "uploader": {
+                    "title": "Upload Your File",
+                    "description": "Select your completed Excel file. The data will be processed immediately.",
+                    "button": "Select File",
+                    "noFile": "No file selected"
+                },
+                "step3": {
+                    "title": "Validation and Preview",
+                    "desc": "Excel file processed successfully. You can review the certificate groups to be created below.",
+                    "totalStudents": "Total Students",
+                    "totalGroups": "Certificate Groups",
+                    "hasErrors": "There are groups with errors",
+                    "group": {
+                        "title": "Group #{index}: {count} Students",
+                        "trainingId": "Training:",
+                        "template": "Template:",
+                        "date": "Date:",
+                        "uiaRequired": "UIA Required:",
+                        "partners": "Partners:",
+                        "uiaResponsible": "UIA Responsible:",
+                        "students": "Students:",
+                        "unspecified": "Unspecified",
+                        "today": "Today",
+                        "yes": "Yes",
+                        "no": "No",
+                        "valid": "Valid",
+                        "invalid": "Invalid",
+                        "groupErrors": "Group Errors:",
+                        "invalidStudents": "{count} invalid students:"
+                    }
+                },
+                "step4": {
+                    "title": "Confirm and Create Certificates",
+                    "desc": "All {groups} groups validated and ready to create certificates for {students} students.",
+                    "creating": "Creating...",
+                    "noValid": "No Valid Groups",
+                    "createN": "Create {count} Certificate Groups"
+                }
+            },
+            "pendingApprovals": {
+                "title": "Pending Approvals",
+                "institutionWaiting": "waiting for institution approval",
+                "partnerWaiting": "{count} waiting for partner approval",
+                "viewApprovals": "View Approvals"
+            },
+            "filter": {
+                "all": "All",
+                "approved": "Approved",
+                "pending": "Pending",
+                "rejected": "Rejected"
+            },
+            "table": {
+                "certificateId": "Certificate ID",
+                "trainingName": "Training",
+                "partners": "Partners",
+                "date": "Date",
+                "studentCount": "Students",
+                "status": "Status",
+                "students": "Students",
+                "studentList": "Student List"
+            },
+            "actions": {
+                "view": "View",
+                "downloadBulk": "Download Bulk (ZIP)",
+                "downloadingBulk": "Downloading...",
+                "downloadSingle": "Download Single",
+                "sendEmail": "Send Email"
+            },
+            "loading": {
+                "downloadingBulk": "Preparing PDFs",
+                "downloadingBulkDesc": "All certificates are being downloaded as ZIP. This may take a few minutes, please wait..."
+            },
+            "email": {
+                "success": "Email sent successfully.",
+                "error": "An error occurred while sending the email.",
+                "noEmail": "Student does not have an email address"
+            },
+            "dropdowns": {
+                "allTrainings": "All Trainings",
+                "allPartners": "All Partners"
+            },
+            "sort": {
+                "label": "Sort By",
+                "idDefault": "ID (default)",
+                "dateDesc": "Newest Date",
+                "studentsDesc": "Highest Student Count"
+            },
+            "uia": {
+                "title": "Upper Institution Approval",
+                "requiredTitle": "Requires approval",
+                "notRequiredTitle": "Does not require approval",
+                "filterApproved": "UIA Approved",
+                "filterUnapproved": "UIA Pending",
+                "filterOff": "UIA Filter Off",
+                "yes": "Yes",
+                "no": "No"
+            },
+            "partners": {
+                "more": "+{count} more partners",
+                "ariaOther": "other partners",
+                "unknown": "Unknown partner"
+            },
+            "studentsModal": {
+                "title": "Student List",
+                "meta": "{count} students in total",
+                "table": {
+                    "index": "#",
+                    "fullName": "Full Name",
+                    "nationalId": "National ID",
+                    "birthDate": "Birth Date",
+                    "trainingName": "Training",
+                    "trainingDate": "Training Date",
+                    "actions": "Actions"
+                },
+                "loading": "Loading students...",
+                "noStudents": "No students found."
+            },
+            "addTrainingModal": {
+                "trainingNameLabel": "Training Name",
+                "trainingNamePlaceholder": "e.g. Front-End Development",
+                "descriptionLabel": "Description",
+                "descriptionPlaceholder": "Brief training description",
+                "cancel": "Cancel",
+                "submitSoon": "Will be available soon"
+            },
+            "errors": {
+                "cannotDownload": "Certificates could not be downloaded.",
+                "downloadError": "An error occurred while downloading.",
+                "cannotDownloadSingle": "Certificate could not be downloaded."
+            },
+            "modal": {
+                "addTraining": "Add new training",
+                "pendingNote": "Certificates pending approval are listed here."
+            },
+            "tooltip": {
+                "waitingInstitution": "Waiting for institution approval",
+                "waitingPartner": "Waiting for partner approval",
+                "waitingAdmin": "Waiting for admin approval",
+                "pendingApproval": "Approval pending",
+                "rejectedInstitution": "Rejected by institution",
+                "rejectedPartner": "Rejected by partner",
+                "rejectedAdmin": "Rejected by admin",
+                "rejected": "Rejected"
+            },
+            "approvals": {
+                "title": "Certificate Approval Requests",
+                "institutionSubtitle": "Certificates awaiting your institution's approval",
+                "partnerSubtitle": "Certificates awaiting partner approval",
+                "backToCertificates": "Back to certificates",
+                "tabs": {
+                    "institution": "Institution",
+                    "partner": "Partner",
+                    "history": "Approval History"
+                },
+                "historySubtitle": "View approved and rejected certificates.",
+                "loading": "Loading approval requests...",
+                "noPending": "No pending approval requests.",
+                "noHistory": "No approval history yet.",
+                "table": {
+                    "certificateId": "Certificate ID",
+                    "training": "Training",
+                    "institution": "Institution",
+                    "date": "Date",
+                    "status": "Status",
+                    "uia": "UIA",
+                    "actions": "Actions"
+                },
+                "uiaTooltip": {
+                    "required": "UIA approval required",
+                    "notRequired": "UIA approval not required",
+                    "yes": "Yes",
+                    "no": "No"
+                },
+                "actions": {
+                    "inspect": "Inspect",
+                    "reject": "Reject",
+                    "approve": "Approve",
+                    "resubmit": "Resubmit for Approval",
+                    "confirmReject": "Are you sure you want to reject this certificate?",
+                    "confirmApproveCredit": "Approving this certificate will deduct {count} credits. Do you want to continue?",
+                    "confirmResubmit": "Are you sure you want to resubmit this certificate for approval?",
+                    "revise": "Revise",
+                    "confirmRevise": "Are you sure you want to revise this certificate? You will switch to editing mode with current certificate details."
+                },
+                "messages": {
+                    "approved": "Certificate approved! {count} credits deducted.",
+                    "rejected": "Certificate rejected.",
+                    "resubmitted": "Certificate resubmitted for approval!",
+                    "partnerApproved": "Partner approval completed.",
+                    "partnerRejected": "Partner rejected the certificate.",
+                    "insufficientCredits": "Insufficient credits! This action requires {required} credits. Current: {balance} credits",
+                    "error": "Error: {error}",
+                    "errorUnknown": "An unknown error occurred.",
+                    "connectionError": "Connection error. Please try again."
+                },
+                "inspect": {
+                    "title": "Approval Details",
+                    "close": "Close",
+                    "tabs": {
+                        "details": "Details",
+                        "students": "Students"
+                    },
+                    "details": {
+                        "certificateNo": "Certificate No",
+                        "training": "Training",
+                        "issueDate": "Issue Date",
+                        "status": "Status",
+                        "uia": "UIA",
+                        "uiaRequired": "UIA required",
+                        "uiaNotRequired": "UIA not required",
+                        "partners": "Partners",
+                        "notFound": "Approval details not found."
+                    },
+                    "students": {
+                        "student": "Student",
+                        "tc": "National ID",
+                        "email": "Email",
+                        "phone": "Phone",
+                        "birthDate": "Birth Date",
+                        "notFound": "Student list not found."
+                    }
+                },
+                "status": {
+                    "pending": "Pending",
+                    "approved": "Approved",
+                    "rejected": "Rejected"
+                }
+            }
+        },
+        "students": {
+            "title": "Student Management",
+            "subtitle": "Manage student records and certificates.",
+            "addNew": "Add New Student",
+            "bulkAdd": "Bulk Upload",
+            "import": {
+                "title": "Bulk Student Import",
+                "subtitle": "Upload student information from an Excel file.",
+                "howToFill": "How should I fill in the Excel?",
+                "infoTitle": "Information",
+                "infoItems": {
+                    "eachRow": "Each row must contain only one student.",
+                    "uniqueTc": "National ID numbers must be unique.",
+                    "existingTc": "Existing National IDs will be updated.",
+                    "optionalFields": "Email and phone fields are optional."
+                },
+                "fieldGuides": {
+                    "nationalId": {
+                        "description": "National ID Number (11 digits)"
+                    },
+                    "firstName": {
+                        "description": "Student's first name"
+                    },
+                    "lastName": {
+                        "description": "Student's last name"
+                    },
+                    "birthDate": {
+                        "description": "Birth date (YYYY-MM-DD format)"
+                    },
+                    "secondaryLastName": {
+                        "description": "Secondary last name (maiden name, etc.) - optional. Can be displayed on certificate if provided.",
+                        "specialNote": "This field is optional. Enter if the student has an old, new, or maiden name."
+                    },
+                    "email": {
+                        "description": "Email address (optional)"
+                    },
+                    "phone": {
+                        "description": "Phone number (optional)"
+                    }
+                },
+                "step1": {
+                    "downloadButton": "Download Excel Template (.xlsx)",
+                    "button": "Download Excel Template",
+                    "description": "Download and fill in the template."
+                },
+                "step2": {
+                    "title": "Upload Your File",
+                    "description": "Select your completed Excel file. The data will be processed immediately.",
+                    "button": "Select File"
+                },
+                "step3": {
+                    "title": "Validate and Create",
+                    "description": "We will validate the uploaded file.",
+                    "processing": "Validating file...",
+                    "stats": {
+                        "total": "Total rows",
+                        "valid": "Valid entries",
+                        "invalid": "Invalid entries"
+                    },
+                    "hasErrors": "The file contains errors.",
+                    "validBadge": "Valid",
+                    "invalidBadge": "Invalid",
+                    "errorsTitle": "Error Details",
+                    "labels": {
+                        "tc": "National ID",
+                        "birthDate": "Birth Date",
+                        "email": "Email",
+                        "phone": "Phone"
+                    }
+                },
+                "actions": {
+                    "create": "Create Students",
+                    "creating": "Creating...",
+                    "noValid": "No valid student data."
+                },
+                "messages": {
+                    "createSuccess": "Students were created successfully.",
+                    "createError": "Students could not be created.",
+                    "createErrorUnknown": "An unknown error occurred.",
+                    "createNetworkError": "Network error. Please try again.",
+                    "validationError": "There are validation errors in the file."
+                }
+            },
+            "searchPlaceholder": "Search students by name, national ID or email...",
+            "confirmDelete": "Are you sure you want to delete this student?",
+            "sort": {
+                "id": "ID",
+                "dateDesc": "Newest",
+                "certDesc": "Most certificates",
+                "nameAz": "Name (A-Z)"
+            },
+            "table": {
+                "studentId": "Student ID",
+                "tc": "National ID",
+                "fullName": "Full Name",
+                "email": "Email",
+                "phone": "Phone",
+                "birthDate": "Birth Date",
+                "certificates": "Certificates",
+                "createdAt": "Created At"
+            },
+            "modal": {
+                "title": "Student Certificates",
+                "certificateCount": "Certificate",
+                "certificateId": "Certificate ID",
+                "trainingName": "Training Name",
+                "date": "Date",
+                "status": "Status",
+                "noCertificates": "No certificates found."
+            },
+            "form": {
+                "firstName": "First Name",
+                "lastName": "Last Name",
+                "otherLastName": "Secondary Surname",
+                "otherLastNamePlaceholder": "e.g., maiden name or married name",
+                "addOtherLastName": "+ Add Secondary Surname",
+                "showOnCertificate": "Visible",
+                "surnameHint": "Checked surname(s) will be displayed on certificates. Both surnames are searchable.",
+                "nationalId": "National ID Number",
+                "tcPlaceholder": "11-digit national ID",
+                "birthDate": "Birth Date",
+                "email": "Email",
+                "emailPlaceholder": "student@example.com",
+                "phone": "Phone",
+                "phonePlaceholder": "+90 555 555 55 55"
+            },
+            "otherLastName": "Secondary surname",
+            "errors": {
+                "cannotAdd": "Student could not be added.",
+                "addError": "An error occurred while adding the student.",
+                "cannotUpdate": "Student could not be updated.",
+                "updateError": "An error occurred while updating the student.",
+                "cannotDelete": "Student could not be deleted.",
+                "deleteError": "An error occurred while deleting the student.",
+                "cannotDownload": "Certificates could not be downloaded.",
+                "downloadError": "An error occurred while downloading certificates.",
+                "tcExists": "This National ID is already registered",
+                "emailExists": "This email address is already registered",
+                "phoneExists": "This phone number is already registered"
+            },
+            "selection": {
+                "selectIds": "Select IDs",
+                "idsCopied": "{count} student IDs copied!"
+            }
+        },
+        "trainings": {
+            "title": "Training Management",
+            "subtitle": "Create and manage training programs.",
+            "addNew": "Add New Training",
+            "searchPlaceholder": "Search trainings by name or description...",
+            "confirmDelete": "Are you sure you want to delete this training?",
+            "levelPrefix": "Level",
+            "filter": {
+                "all": "All",
+                "pending": "Pending",
+                "approved": "Approved",
+                "rejected": "Rejected"
+            },
+            "status": {
+                "pending": "Pending",
+                "approved": "Approved",
+                "rejected": "Rejected"
+            },
+            "table": {
+                "trainingId": "Training ID",
+                "name": "Training Name",
+                "description": "Description",
+                "level": "Level",
+                "language": "Language",
+                "totalHours": "Total Hours",
+                "status": "Status",
+                "createdAt": "Created At"
+            },
+            "form": {
+                "name": "Training Name",
+                "namePlaceholder": "e.g. Advanced Project Management",
+                "description": "Description",
+                "descriptionPlaceholder": "Explain the content and objectives of the training.",
+                "level": "Level",
+                "level_a": "Beginner",
+                "level_b": "Intermediate",
+                "level_c": "Advanced",
+                "language": "Language",
+                "languageTr": "Turkish",
+                "languageEn": "English",
+                "languageDe": "German",
+                "languageFr": "French",
+                "totalHours": "Total Hours",
+                "totalHoursPlaceholder": "e.g. 40",
+                "startDate": "Start Date",
+                "endDate": "End Date"
+            },
+            "errors": {
+                "cannotAdd": "Training could not be added.",
+                "addError": "An error occurred while adding the training.",
+                "cannotDelete": "Training could not be deleted.",
+                "deleteError": "An error occurred while deleting the training.",
+                "cannotUpdate": "Training could not be updated.",
+                "updateError": "An error occurred while updating the training."
+            }
+        },
+        "partners": {
+            "title": "Partners",
+            "subtitle": "Your institution has {count} registered partners.",
+            "addNew": "Add Partner",
+            "searchPlaceholder": "Search partner...",
+            "confirmDelete": "Are you sure you want to remove this partner?",
+            "confirmDeleteReference": "Are you sure you want to remove this reference organization?",
+            "filter": {
+                "all": "All",
+                "pending": "Pending",
+                "approved": "Active",
+                "rejected": "Rejected"
+            },
+            "status": {
+                "pending": "Pending",
+                "approved": "Active",
+                "rejected": "Rejected"
+            },
+            "table": {
+                "partnerId": "Partner ID",
+                "partnerName": "Partner Name",
+                "status": "Status",
+                "addedDate": "Added Date",
+                "actions": "Actions",
+                "remove": "Remove",
+                "renew": "Renew Accreditation"
+            },
+            "references": {
+                "title": "External Partnerships",
+                "subtitle": "Your institution's relationships with external partners (ICF, CPD, etc.)",
+                "referenceId": "Partner ID",
+                "partnerName": "Partner Name",
+                "logo": "Logo",
+                "addedDate": "Status",
+                "accreditationEnd": "Accreditation End",
+                "loading": "Loading partnerships..."
+            },
+            "addModal": {
+                "title": "Add Partner",
+                "searchLabel": "Search by Partner Public ID",
+                "searchPlaceholder": "ACR-123456 or INS-123456",
+                "searching": "Searching...",
+                "or": "or",
+                "selectFromList": "Select from Reference Organization List",
+                "loadingReferences": "Loading references...",
+                "noReferences": "No reference organizations found.",
+                "selected": "selected",
+                "selfError": "YOU - You cannot add your own institution.",
+                "toBeAdded": "Partner to be Added",
+                "alreadyAdded": "Partner Already Added",
+                "alreadyAddedDesc": "This partner is already in your list.",
+                "notFound": "No partner found with this Public ID.",
+                "cancel": "Cancel",
+                "add": "Add",
+                "statusTooltip": {
+                    "pending": "Awaiting admin approval",
+                    "approved": "Approved",
+                    "rejected": "Rejected"
+                },
+                "role": {
+                    "accreditor": "Accreditor",
+                    "institution": "Institution",
+                    "reference": "Reference"
+                },
+                "accreditationRequired": "Accreditation Period Required",
+                "accreditationDesc": "Select your accreditation period for this partner. When this period expires, this partner cannot be used on certificates.",
+                "selectDuration": "Select Duration",
+                "duration6months": "6 Months",
+                "duration1year": "1 Year",
+                "duration2years": "2 Years"
+            },
+            "renewModal": {
+                "title": "Renew Accreditation",
+                "description": "select a new accreditation period for",
+                "adminApprovalNote": "The renewal request will be sent for admin approval. The new period will be active after approval.",
+                "submit": "Submit Renewal Request"
+            },
+            "success": {
+                "addedPending": "Partner request has been sent for admin approval.",
+                "renewed": "Accreditation renewal request has been sent for admin approval.",
+                "approved": "Partnership request approved!",
+                "rejected": "Partnership request rejected."
+            },
+            "incoming": {
+                "title": "Incoming Partnership Requests",
+                "subtitle": "Institutions that added you as a partner",
+                "approve": "Approve",
+                "reject": "Reject",
+                "alreadyApproved": "Approved"
+            },
+            "confirmReject": "Are you sure you want to reject this partnership request?",
+            "errors": {
+                "cannotAdd": "Partner could not be added.",
+                "addError": "An error occurred while adding the partner.",
+                "cannotDelete": "Reference organization could not be removed.",
+                "deleteError": "An error occurred while removing the reference organization.",
+                "cannotRemove": "Partner could not be removed.",
+                "removeError": "An error occurred while removing the partner.",
+                "renewFailed": "Accreditation could not be renewed.",
+                "renewError": "An error occurred while renewing the accreditation.",
+                "errorPrefix": "Error: {error}",
+                "approveFailed": "Approval failed",
+                "rejectFailed": "Rejection failed"
+            }
+        },
+        "balance": {
+            "title": "Credit Management",
+            "subtitle": "Manage your credit balance and view transaction history.",
+            "loadBalance": "Load Credits",
+            "summary": {
+                "currentBalance": "Current Credit",
+                "credits": "credits",
+                "totalTransactions": "Total Transactions ({count})"
+            },
+            "search": "Search transactions...",
+            "sortLabel": "Sort:",
+            "filter": {
+                "allTypes": "All Types",
+                "credit": "Credit",
+                "debit": "Debit",
+                "refund": "Refund"
+            },
+            "sort": {
+                "dateDesc": "New → Old",
+                "dateAsc": "Old → New",
+                "amountDesc": "High → Low",
+                "amountAsc": "Low → High"
+            },
+            "table": {
+                "date": "Date",
+                "type": "Type",
+                "description": "Description",
+                "amount": "Amount",
+                "noTransactions": "No transactions found."
+            },
+            "modal": {
+                "title": "Load Credits",
+                "selectPackage": "Select the credit package you want to purchase.",
+                "noPackages": "No credit packages found. Please contact administrator.",
+                "creditsLabel": "credits",
+                "pricePerCredit": "/credit",
+                "bulkMessage": "Need 3000+ credits?",
+                "bulkCta": "Contact us for enterprise pricing.",
+                "selectedPackage": "Selected Package:",
+                "cancel": "Cancel",
+                "proceedToPayment": "Proceed to Payment",
+                "backToSelection": "Back to package selection"
+            },
+            "payment": {
+                "processing": "Processing Payment...",
+                "pleaseWait": "Please wait.",
+                "success": "Payment Successful!",
+                "creditsAdded": "{credits} credits have been added to your balance.",
+                "failed": "Payment Failed",
+                "retry": "Try Again"
+            },
+            "stripe": {
+                "pending": "Pending",
+                "failed": "Failed",
+                "cancelled": "Cancelled",
+                "waiting": "waiting"
+            },
+            "errors": {
+                "selectPackage": "Please select a credit package.",
+                "paymentFailed": "Payment could not be initiated. Please try again.",
+                "genericError": "An error occurred. Please try again.",
+                "invalidAmount": "Please enter a valid amount.",
+                "purchaseError": "Purchase failed."
+            }
+        },
+        "profile": {
+            "title": "Profile",
+            "subtitle": "Edit your profile information",
+            "edit": "Edit",
+            "save": "Save",
+            "cancel": "Cancel",
+            "loading": "Loading...",
+            "badge": {
+                "institution": "Institution",
+                "partner": "Partner"
+            },
+            "loginCredentials": {
+                "title": "Login Credentials",
+                "description": "This email address is used to log in to the system. It is different from your contact email.",
+                "label": "Login Email",
+                "note": "Login email cannot be changed. Contact support for changes."
+            },
+            "details": {
+                "institutionTitle": "Institution Details",
+                "partnerTitle": "Partner Details",
+                "nameInstitution": "Institution Name",
+                "namePartner": "Partner Name",
+                "vatNumber": "VAT Number",
+                "taxOffice": "Tax Office",
+                "contactEmail": "Contact Email",
+                "contactEmailPlaceholder": "help@company.com",
+                "contactEmailNote": "Email address where your customers can reach you",
+                "phone": "Phone",
+                "website": "Website",
+                "address": "Address",
+                "addressPlaceholder": "Address details..."
+            },
+            "about": {
+                "title": "About Us",
+                "placeholder": "Information about the institution/partner..."
+            },
+            "missionVision": {
+                "title": "Mission & Vision",
+                "mission": "Mission",
+                "missionPlaceholder": "Mission...",
+                "vision": "Vision",
+                "visionPlaceholder": "Vision..."
+            },
+            "socialMedia": {
+                "title": "Social Media"
+            },
+            "signature": {
+                "title": "Certificate Signature",
+                "description": "Upload your corporate signature to appear on certificates. The signature should have a transparent background.",
+                "imageLabel": "Signature Image",
+                "uploadText": "Upload Signature",
+                "removeText": "Remove Signature",
+                "nameLabel": "Signatory Name",
+                "namePlaceholder": "e.g. John Smith",
+                "nameNote": "Name that appears below the signature on the certificate",
+                "titleLabel": "Title/Position",
+                "titlePlaceholder": "e.g. General Manager",
+                "titleNote": "Title that appears below the name",
+                "previewLabel": "Certificate Appearance",
+                "previewNoSignature": "No signature uploaded",
+                "requirements": {
+                    "title": "Signature Requirements",
+                    "text": "PNG format (required for transparent background) • Max. 100KB • Max. 400x200 pixels"
+                },
+                "errors": {
+                    "formatError": "Signature file must be in PNG format (for transparent background).",
+                    "sizeError": "Signature file must be maximum 100KB.",
+                    "dimensionsError": "Signature dimensions must be maximum 400x200 pixels.",
+                    "invalidImage": "Invalid image file."
+                }
+            },
+            "advantages": {
+                "title": "Our Advantages",
+                "placeholder": "Add new advantage...",
+                "add": "Add",
+                "remove": "Remove"
+            },
+            "logo": {
+                "uploadTitle": "Upload/change logo",
+                "hint": "PNG/JPG recommended. Max. ~2MB.",
+                "remove": "Remove"
+            },
+            "partnerToggle": "Also operate as a partner",
+            "messages": {
+                "updateSuccess": "Profile updated successfully.",
+                "updateError": "Error updating profile."
+            }
+        },
+        "settings": {
+            "title": "Settings",
+            "subtitle": "Customize your institution's settings",
+            "certificateColors": "Certificate Colors",
+            "primaryColor": "Primary Color",
+            "secondaryColor": "Secondary Color",
+            "defaultTemplate": "Default Template",
+            "templateNote": "Note: This will be the default template for all certificates issued by your institution.",
+            "preview": "Preview",
+            "colors": "Colors",
+            "general": "General",
+            "messages": {
+                "saveSuccess": "Settings saved successfully",
+                "saveError": "Error saving settings",
+                "saveErrorUnknown": "Unknown error saving settings"
+            }
+        }
+    },
+    "partner": {
+        "dashboard": "Partner Dashboard"
+    },
+    "create": {
+        "template": {
+            "title": "Template Selection",
+            "subtitle": "Select and preview the certificate template",
+            "miniPreview": "Template Preview",
+            "fullPreview": "Full Preview",
+            "modal": {
+                "titleSuffix": "Preview Template",
+                "close": "Close",
+                "footerNote": "Select this template for your certificate"
+            },
+            "next": "Next"
+        },
+        "training": {
+            "title": "Training Selection",
+            "subtitle": "Select the training for the certificate",
+            "loading": "Loading trainings...",
+            "pending": "Pending trainings",
+            "noItems": "No trainings available",
+            "back": "Back",
+            "next": "Next"
+        },
+        "students": {
+            "title": "Student Selection",
+            "subtitle": "Select students to include in the certificate",
+            "listTitle": "Student List",
+            "searchPlaceholder": "Search student by name or ID",
+            "loading": "Loading students...",
+            "notFound": "No students found",
+            "back": "Back",
+            "next": "Next"
+        },
+        "partners": {
+            "title": "Partner Selection",
+            "subtitle": "Select partners to accredit the certificate",
+            "uiaTitle": "Upper Institution Approval",
+            "no": "Not Required",
+            "yes": "Required",
+            "uiaHint": "Select if this certificate requires upper institution approval",
+            "uiaResponsible": "UIA Responsible Partner",
+            "select": "Select Partner",
+            "selected": "Selected Partners",
+            "loading": "Loading partners...",
+            "noPartners": "No partners available",
+            "external": "External Partner",
+            "externalCannotBeUia": "External partners cannot be UIA responsible",
+            "back": "Back",
+            "next": "Next"
+        },
+        "review": {
+            "title": "Review and Submit",
+            "subtitle": "Review the certificate details before submission",
+            "certificatePreview": "Certificate Preview",
+            "details": "Certificate Details",
+            "template": "Template",
+            "training": "Training",
+            "accreditorCount": "Accreditors",
+            "trainingHours": "Training Hours",
+            "hours": "hours",
+            "uia": "UIA Required",
+            "yes": "Yes",
+            "no": "No",
+            "studentCount": "Students",
+            "createdAt": "Creation Date",
+            "accreditors": "Accreditors",
+            "uiaResponsible": "UIA Responsible",
+            "payment": {
+                "title": "Payment",
+                "price": "Price per Certificate",
+                "required": "Required Balance",
+                "balance": "Your Balance"
+            },
+            "status": {
+                "enough": "Sufficient Balance",
+                "notEnough": "Insufficient Balance",
+                "enoughDesc": "You have enough balance to create these certificates",
+                "notEnoughDesc": "You need to load more balance to create these certificates"
+            },
+            "actions": {
+                "back": "Back",
+                "submit": "Create Certificates",
+                "submitting": "Creating...",
+                "createdSuccess": "Certificates created successfully!",
+                "errorPrefix": "Error:",
+                "createFailed": "Certificate creation failed",
+                "unexpectedError": "An unexpected error occurred"
+            }
+        }
+    }
+}

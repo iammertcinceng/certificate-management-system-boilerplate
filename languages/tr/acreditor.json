@@ -1,0 +1,177 @@
+{
+    "acreditor": {
+        "dashboard": {
+            "title": "Partner Paneli",
+            "subtitle": "Üst kurum onayları ve işbirliklerini yönetin.",
+            "stats": {
+                "pendingUiaApprovals": "Bekleyen Üst Kurum Onayı",
+                "activeCollaborations": "Aktif İşbirliği",
+                "totalCertificates": "Toplam Sertifika"
+            },
+            "recentApprovals": {
+                "title": "Son Onay Talepleri",
+                "viewAll": "Tümünü Gör",
+                "loading": "Yükleniyor...",
+                "noRecords": "Kayıt bulunamadı.",
+                "uiaResponsible": "Siz (UIA Sorumlusu)",
+                "uiaExists": "UIA Var",
+                "noUia": "UIA Yok"
+            }
+        },
+        "approvals": {
+            "title": "Onay Talepleri",
+            "subtitle": "Partner olarak onayınızı bekleyen sertifikaları yönetin.",
+            "searchPlaceholder": "Sertifika, kurum veya ID ara...",
+            "onlyResponsible": "UIA Sorumlusu Olduklarım",
+            "filter": {
+                "all": "Tümü",
+                "pending": "Bekleyenler",
+                "approved": "Onaylandı",
+                "rejected": "Reddedildi"
+            },
+            "table": {
+                "certificateId": "Sertifika ID",
+                "training": "Eğitim",
+                "institution": "Kurum",
+                "date": "Tarih",
+                "uia": "UIA",
+                "actions": "İşlemler"
+            },
+            "actions": {
+                "approve": "Onayla",
+                "reject": "Reddet",
+                "viewDetails": "Detayları Gör",
+                "downloadPetition": "Dilekçe indir"
+            },
+            "uia": {
+                "responsible": "UIA Sorumlusu",
+                "exists": "UIA Var",
+                "none": "UIA Yok"
+            },
+            "inspect": {
+                "title": "Sertifika Detayları",
+                "tabs": {
+                    "details": "Sertifika Bilgileri",
+                    "students": "Öğrenci Listesi & UIA Kodları",
+                    "excel": "Excel ile Toplu Yükleme"
+                },
+                "fields": {
+                    "certificateId": "Sertifika ID",
+                    "issueDate": "Veriliş Tarihi",
+                    "template": "Şablon",
+                    "studentCount": "Öğrenci Sayısı"
+                },
+                "students": {
+                    "note": "💡 Not: Her öğrenci için UIA onay kodunu girin ve kaydedin.",
+                    "cols": {
+                        "student": "Öğrenci",
+                        "tc": "TC",
+                        "birthDate": "Doğum Tarihi",
+                        "approvalCode": "UIA Kodu"
+                    },
+                    "placeholder": {
+                        "approvalCode": "Örn: ABCD-1234"
+                    },
+                    "actions": {
+                        "saveCodes": "UIA Kodlarını Kaydet"
+                    }
+                },
+                "excel": {
+                    "title": "Excel ile Toplu UIA Kodu Yükleme",
+                    "step1": {
+                        "title": "Excel Dosyasını İndirin",
+                        "desc": "Mevcut öğrenci verileri ile birlikte"
+                    },
+                    "step2": {
+                        "title": "UIA_CODE Sütununu Doldurun",
+                        "desc": "Diğer sütunları değiştirmeyin!"
+                    },
+                    "step3": {
+                        "title": "Doldurulmuş Excel'i Yükleyin"
+                    },
+                    "actions": {
+                        "download": "Excel İndir",
+                        "upload": "Excel'i Yükle ve UIA Kodlarını Kaydet"
+                    }
+                }
+            },
+            "petition": {
+                "headerDefault": "Partner Kurum",
+                "paragraph": "Aşağıda adları yazılı olan {count} adet kursiyer eğitimlerini tamamlayıp aşağıda yer alan çizelgede yer alan sınav notlarını alarak başarılı olmuşlardır. Başarılı olan kursiyerlerin sertifikalarının hazırlanarak e-Devlet'e düşürülmesi için gereğin yapılmasını arz ederim.",
+                "table": {
+                    "no": "No",
+                    "student": "Kursiyer",
+                    "tc": "TC",
+                    "birth": "D.Tarihi",
+                    "end": "Bitiş Tarihi",
+                    "hours": "Saat",
+                    "training": "Eğitim",
+                    "exam": "Sınav Sonucu"
+                }
+            },
+            "noRecords": "Kayıt bulunamadı",
+            "messages": {
+                "approvalCodesSaved": "UIA kodları kaydedildi!",
+                "approvalCodesSaveError": "UIA kodları kaydedilemedi!",
+                "excelDownloadError": "Excel indirilemedi!",
+                "approvalCodesUploaded": "UIA kodları Excel'den yüklendi!",
+                "excelUploadError": "Excel yüklenemedi!",
+                "excelUploadErrorUnknown": "Excel yüklenirken hata oluştu!",
+                "certificateApproved": "Sertifika onaylandı!",
+                "certificateRejected": "Sertifika reddedildi!"
+            }
+        },
+        "institutions": {
+            "title": "Kurumlar",
+            "subtitle": "Partner olduğunuz kurumları görüntüleyin.",
+            "searchPlaceholder": "Kurum veya ID ara...",
+            "table": {
+                "name": "Kurum Adı",
+                "status": "Durum",
+                "since": "Başlangıç",
+                "actions": "İşlemler"
+            },
+            "status": {
+                "pending": "Beklemede",
+                "approved": "Aktif",
+                "rejected": "Reddedildi"
+            },
+            "actions": {
+                "approve": "Onayla",
+                "reject": "Reddet",
+                "end": "Partnerliği Sonlandır",
+                "delete": "Sil",
+                "viewDetails": "Detayları Gör"
+            },
+            "confirm": {
+                "approve": "Bu kurumu onaylamak istediğinize emin misiniz?",
+                "reject": "Bu kurumu reddetmek istediğinize emin misiniz?",
+                "end": "Partnerliği sonlandırmak istediğinize emin misiniz?",
+                "delete": "Reddedilen işbirliğini silmek istediğinize emin misiniz?"
+            },
+            "sort": {
+                "label": "Sırala:",
+                "id": "ID (varsayılan)",
+                "dateDesc": "Tarih (yeniden eskiye)",
+                "nameAz": "Ad (A→Z)"
+            },
+            "noRecords": "Kayıt bulunamadı",
+            "modal": {
+                "title": "Kurum Detayları",
+                "institutionId": "Kurum ID"
+            }
+        },
+        "profile": {
+            "title": "Profil",
+            "edit": "Düzenle",
+            "save": "Kaydet",
+            "messages": {
+                "updateSuccess": "Profil başarıyla güncellendi!",
+                "updateError": "Profil güncellenirken bir hata oluştu."
+            }
+        },
+        "settings": {
+            "title": "Ayarlar"
+        }
+    }
+}

@@ -1,0 +1,1492 @@
+{
+  "notFound": {
+    "title": "Sayfa bulunamadı",
+    "description": "Aradığınız sayfa taşınmış, silinmiş veya geçici olarak kullanılamıyor olabilir.",
+    "actions": {
+      "home": "Ana sayfaya dön",
+      "back": "Geri"
+    }
+  },
+  "error": {
+    "title": "Bir hata oluştu",
+    "unexpected": "Beklenmeyen bir hata ile karşılaştık. Lütfen tekrar deneyin.",
+    "digest": "Hata kodu",
+    "retry": "Tekrar dene",
+    "backToHome": "Ana sayfaya dön"
+  },
+  "_TODO_i18n_Optimizasyon": {
+    "_yorum": "Bu dosya 1500+ satırı geçtiğinde modüler yapıya geçilmeli",
+    "_yaklasim": "Hibrit Modüler Yapı (Yaklaşım 3)",
+    "_yapi": {
+      "common": "Ortak çeviriler (butonlar, hatalar, durumlar)",
+      "public": "Ana sayfa, doğrulama, hakkımızda, hizmetler",
+      "institution": "certificates, students, trainings, partners",
+      "acreditor": "approvals, institutions",
+      "admin": "Admin route'ları (İngilizce kalacak - ÇEVRİLMEYECEK)"
+    },
+    "_migration": "Mevcut tek dosyayı ayırmak için migration script kullanılacak",
+    "_not": "Admin route'ları (/admin/*) İngilizce kalmalı ve çevrilmemeli"
+  },
+  "nav": {
+    "home": "Ana Sayfa",
+    "verify": "Sertifika Doğrula",
+    "about": "Hakkımızda",
+    "services": "Hizmetler",
+    "collaborations": "İşbirliklerimiz",
+    "contact": "İletişim",
+    "pricing": "Fiyatlandırma",
+    "help": "Yardım ve Destek",
+    "login": "Giriş Yap",
+    "logout": "Çıkış Yap",
+    "register": "Başlayın",
+    "dashboard": "Panel",
+    "certificates": "Sertifikalar",
+    "students": "Öğrenciler",
+    "partners": "Partnerler",
+    "profile": "Profil",
+    "settings": "Ayarlar",
+    "approvals": "Onaylar",
+    "institutions": "Kurumlar"
+  },
+  "create": {
+    "template": {
+      "title": "Şablon Seçimi",
+      "subtitle": "Sertifika şablonunu seçin ve önizleyin.",
+      "miniPreview": "Şablon Önizlemesi",
+      "fullPreview": "Tam Önizleme",
+      "modal": {
+        "titleSuffix": "Şablonu Önizleme",
+        "close": "Kapat",
+        "footerNote": "Bu bir önizlemedir. Gerçek sertifikalar öğrenci ve eğitim bilgilerinizle oluşturulacaktır."
+      },
+      "next": "İleri"
+    },
+    "training": {
+      "title": "Eğitim Seçimi",
+      "subtitle": "Sertifika verilecek eğitimi seçin.",
+      "loading": "Yükleniyor...",
+      "pending": "Onayda",
+      "noItems": "Henüz eğitim bulunamadı.",
+      "back": "Geri",
+      "next": "İleri"
+    },
+    "students": {
+      "title": "Öğrenci Ekleme",
+      "subtitle": "Sertifika alacak öğrencileri ekleyin.",
+      "listTitle": "Kurum Öğrenci Listesi",
+      "searchPlaceholder": "Öğrenci ara...",
+      "loading": "Yükleniyor...",
+      "notFound": "Öğrenci bulunamadı.",
+      "back": "Geri",
+      "next": "İleri"
+    },
+    "partners": {
+      "title": "Partner Seçimi",
+      "subtitle": "Partner(ler)i belirleyin ve Üst Kurum onayı seçin.",
+      "uiaTitle": "Üst Kurum Onayı",
+      "no": "Hayır",
+      "yes": "Evet",
+      "uiaHint": "Evet seçilirse bir partneri Üst Kurum sorumlusu olarak seçmelisiniz.",
+      "uiaResponsible": "Üst Kurum sorumlusu",
+      "select": "Seç",
+      "selected": "Seçili",
+      "loading": "Yükleniyor...",
+      "noPartners": "Partner bulunamadı.",
+      "external": "Harici Partnerler",
+      "externalCannotBeUia": "Harici partner üst kurum sorumlusu olamaz.",
+      "back": "Geri",
+      "next": "İleri"
+    },
+    "review": {
+      "title": "Özet ve Onay",
+      "subtitle": "Seçimlerinizi kontrol edin ve sertifikayı onaya gönderin.",
+      "certificatePreview": "Sertifika Önizleme",
+      "details": "Sertifika Detayları",
+      "template": "Şablon:",
+      "training": "Eğitim:",
+      "accreditorCount": "Akreditör Sayısı:",
+      "trainingHours": "Eğitim Süresi:",
+      "hours": "Saat",
+      "uia": "Üst Kurum Onayı:",
+      "yes": "Evet",
+      "no": "Hayır",
+      "studentCount": "Öğrenci Sayısı:",
+      "createdAt": "Oluşturulma Tarihi:",
+      "accreditors": "Akreditörler",
+      "uiaResponsible": "Akreditör",
+      "payment": {
+        "title": "Ödeme Bilgileri",
+        "price": "Sertifika Fiyatı:",
+        "required": "Gereken Tutar:",
+        "balance": "Mevcut Bakiye:"
+      },
+      "status": {
+        "enough": "Bakiye Yeterli",
+        "notEnough": "Yetersiz Bakiye",
+        "enoughDesc": "Provizyon ayrılacak ve onayda kesilecektir.",
+        "notEnoughDesc": "Bakiye yükleyin veya öğrenci sayısını azaltın."
+      },
+      "actions": {
+        "back": "Geri",
+        "submit": "Onaya Gönder",
+        "submitting": "Gönderiliyor...",
+        "createdSuccess": "Sertifika başarıyla oluşturuldu! Kurum onayına gönderildi.",
+        "errorPrefix": "Hata:",
+        "createFailed": "Sertifika oluşturulamadı",
+        "unexpectedError": "Bir hata oluştu. Lütfen tekrar deneyin."
+      }
+    }
+  },
+  "landing": {
+    "title": "Yeni Nesil Sertifika Yönetimi",
+    "subtitle": "Dünya çapında kurumlar tarafından güvenilen güvenli, hızlı ve güvenilir sertifika doğrulama sistemi.",
+    "ctaVerify": "Sertifika Doğrula",
+    "ctaLogin": "Ücretsiz Başlayın",
+    "featuresTitle": "Neden Certificate Authorisation?",
+    "featuresSubtitle": "Geleceğin sertifika yönetimini yenilikçi platformumuzla deneyimleyin",
+    "ctaSection": {
+      "title": "Hazır mısınız?",
+      "subtitle": "Mert CIN Certificate Authorisation kullanan binlerce kuruma katılın ve doğrulama sürecinizi kolaylaştırın.",
+      "primary": "Ücretsiz Denemeyi Başlat",
+      "secondary": "Satış ile İletişime Geç"
+    },
+    "heroStats": {
+      "certificates": "50.000+",
+      "certificatesLabel": "Doğrulanmış Sertifika",
+      "institutions": "200+",
+      "institutionsLabel": "Partner Kurum",
+      "countries": "15+",
+      "countriesLabel": "Hizmet Verilen Ülke"
+    },
+    "trustBadge": "Önde gelen eğitim kurumları tarafından güveniliyor"
+  },
+  "header": {
+    "roles": {
+      "institution": "Kurum",
+      "acreditor": "Akreditör",
+      "guest": "Misafir"
+    }
+  },
+  "footer": {
+    "brand": {
+      "alt": "MERTCIN Certificate Authorisation"
+    },
+    "tagline": "Güvenli Sertifika Doğrulama Platformu",
+    "columns": {
+      "product": {
+        "title": "Ürün",
+        "items": {
+          "verify": "Sertifika Doğrulama",
+          "howItWorks": "Nasıl Çalışır",
+          "features": "Platform Özellikleri",
+          "collaborations": "Kurumsal İlişkiler"
+        }
+      },
+      "company": {
+        "title": "Şirket",
+        "items": {
+          "about": "Hakkımızda",
+          "careers": "Kariyer",
+          "blog": "Blog",
+          "contact": "İletişim"
+        }
+      },
+      "support": {
+        "title": "Destek",
+        "items": {
+          "help": "Yardım Merkezi",
+          "privacy": "Gizlilik Politikası",
+          "terms": "Kullanım Şartları",
+          "kvkk": "KVKK Aydınlatma Metni"
+        }
+      }
+    },
+    "copyright": "Tüm hakları saklıdır."
+  },
+  "verify": {
+    "title": "Sertifika Doğrulama",
+    "subtitle": "Sertifika doğrulamak için anahtarınızı veya sertifika numarasını girin.",
+    "placeholder": "Sertifika ID veya TCKN",
+    "submit": "Ara",
+    "hint": "Sonuçlar maskeli TCKN ile listelenecektir.",
+    "results": "Sonuçlar",
+    "mockStudent": "Örnek Öğrenci",
+    "downloadPdf": "PDF indir",
+    "error": {
+      "required": "Lütfen değer girin",
+      "invalidTckn": "Geçersiz TCKN"
+    }
+  },
+  "about": {
+    "title": "Hakkımızda",
+    "content": "Mert CIN Certificate Authorisation, eğitim kurumları ve sertifika veren organizasyonlar için geliştirilmiş yeni nesil bir dijital sertifika yönetim ve doğrulama platformudur. Misyonumuz, sertifika doğrulama süreçlerini hızlandırmak, güvenli hale getirmek ve küresel erişilebilirliği artırmaktır.",
+    "subtitle": "Misyonumuz ve vizyonumuz hakkında daha fazla bilgi edinin",
+    "mission": {
+      "title": "Misyonumuz",
+      "content": "Dünya çapında kurumları ve bireyleri güçlendiren güvenli, şeffaf ve verimli bir dijital sertifika yönetim platformu sağlamak."
+    },
+    "vision": {
+      "title": "Vizyonumuz",
+      "content": "Dünya çapında milyonlarca kullanıcı ve kurum tarafından güvenilen, sertifika doğrulama ve yönetimi için küresel standart olmak."
+    },
+    "stats": {
+      "title": "Etkimiz"
+    }
+  },
+  "services": {
+    "title": "Hizmetlerimiz",
+    "subtitle": "Kurumunuz için sunduğumuz profesyonel çözümler",
+    "certificateManagement": {
+      "title": "Sertifika Yönetimi",
+      "description": "Dijital sertifikalarınızı merkezi bir platformda oluşturun, yönetin ve dağıtın"
+    },
+    "verification": {
+      "title": "Hızlı Doğrulama",
+      "description": "TCKN veya sertifika numarası ile saniyeler içinde sertifika doğrulama"
+    },
+    "partnerNetwork": {
+      "title": "Partner Ağı",
+      "description": "Akreditör kurumlarla işbirliği yaparak sertifikalarınıza güvenilirlik katın"
+    },
+    "reporting": {
+      "title": "Raporlama ve Analitik",
+      "description": "Detaylı istatistikler ve raporlarla kurumunuzun performansını takip edin"
+    },
+    "security": {
+      "title": "Güvenlik ve Uyumluluk",
+      "description": "Banka düzeyinde güvenlik protokolleri ve GDPR uyumlu veri yönetimi"
+    },
+    "support": {
+      "title": "7/24 Destek",
+      "description": "Teknik destek ekibimiz size yardımcı olmak için her zaman hazır"
+    },
+    "cta": {
+      "title": "Başlamaya Hazır mısınız?",
+      "subtitle": "Platformumuzu kullanan binlerce kuruma katılın",
+      "getStarted": "Başlayın",
+      "contactUs": "Bize Ulaşın"
+    }
+  },
+  "collaborations": {
+    "title": "İşbirliklerimiz",
+    "subtitle": "Tüm kayıtlı kurum ve partnerler.",
+    "search": {
+      "placeholder": "Kurum, partner veya Eğitim ara...",
+      "filter": "Filtrele",
+      "filterType": "Tür",
+      "all": "Tümü",
+      "institutionsOnly": "Sadece Kurumlar",
+      "partnersOnly": "Sadece Partnerler",
+      "activeFilters": "Aktif filtreler:",
+      "searchLabel": "Arama:",
+      "clearFilters": "Filtreleri Temizle"
+    },
+    "results": {
+      "loading": "Yükleniyor…",
+      "found": "sonuç bulundu",
+      "noResults": "Sonuç bulunamadı",
+      "noResultsDesc": "Arama kriterlerinize uygun kurum veya partner bulunamadı."
+    },
+    "badges": {
+      "partner": "Partner",
+      "institutions": "Kurumlar",
+      "partners": "Partnerler"
+    }
+  },
+  "login": {
+    "title": "Hesabınıza giriş yapın",
+    "subtitle": "Veya 14 günlük ücretsiz deneme sürümünüzü başlatın",
+    "email": "E-posta adresi",
+    "password": "Şifre",
+    "submit": "Giriş Yap",
+    "forgotPassword": "Şifremi unuttum",
+    "organizationName": "Kurum/Şirket Adı",
+    "confirmPassword": "Şifreyi doğrula",
+    "registerSubmit": "Hesap oluştur",
+    "registerTitle": "Kayıt Ol",
+    "registerSubtitle": "Kurumsal bilgilerinizi doldurun",
+    "taxNumber": "Vergi No",
+    "taxOffice": "Vergi Dairesi",
+    "address": "Adres",
+    "emailHint": "(giriş için kullanılacak)",
+    "role": "Rol",
+    "roles": {
+      "institution": "Kurum",
+      "partner": "Partner",
+      "acreditor": "Acreditor"
+    },
+    "tabs": {
+      "institution": "Kurum",
+      "partner": "Partner",
+      "register": "Kayıt Ol",
+      "logout": "Çıkış"
+    },
+    "validation": {
+      "passwordsDoNotMatch": "Şifreler eşleşmiyor"
+    },
+    "messages": {
+      "registrationSuccess": "Kayıt başarılı! Lütfen giriş yapın.",
+      "registrationFailed": "Kayıt başarısız",
+      "unexpectedError": "Beklenmeyen bir hata oluştu."
+    }
+  },
+  "acreditor": {
+    "dashboard": {
+      "title": "Partner Paneli",
+      "subtitle": "Üst kurum onayları ve işbirliklerini yönetin.",
+      "stats": {
+        "pendingUiaApprovals": "Bekleyen Üst Kurum Onayı",
+        "activeCollaborations": "Aktif İşbirliği",
+        "totalCertificates": "Toplam Sertifika"
+      },
+      "recentApprovals": {
+        "title": "Son Onay Talepleri",
+        "viewAll": "Tümünü Gör",
+        "loading": "Yükleniyor...",
+        "noRecords": "Kayıt bulunamadı.",
+        "uiaResponsible": "Siz (UIA Sorumlusu)",
+        "uiaExists": "UIA Var",
+        "noUia": "UIA Yok"
+      }
+    },
+    "approvals": {
+      "title": "Onay Talepleri",
+      "subtitle": "Partner olarak onayınızı bekleyen sertifikaları yönetin.",
+      "searchPlaceholder": "Sertifika, kurum veya ID ara...",
+      "onlyResponsible": "UIA Sorumlusu Olduklarım",
+      "filter": {
+        "all": "Tümü",
+        "pending": "Bekleyenler",
+        "approved": "Onaylandı",
+        "rejected": "Reddedildi"
+      },
+      "table": {
+        "certificateId": "Sertifika ID",
+        "training": "Eğitim",
+        "institution": "Kurum",
+        "date": "Tarih",
+        "uia": "UIA",
+        "actions": "İşlemler"
+      },
+      "actions": {
+        "approve": "Onayla",
+        "reject": "Reddet",
+        "viewDetails": "Detayları Gör",
+        "downloadPetition": "Dilekçe indir"
+      },
+      "uia": {
+        "responsible": "UIA Sorumlusu",
+        "exists": "UIA Var",
+        "none": "UIA Yok"
+      },
+      "inspect": {
+        "title": "Sertifika Detayları",
+        "tabs": {
+          "details": "Sertifika Bilgileri",
+          "students": "Öğrenci Listesi & UIA Kodları",
+          "excel": "Excel ile Toplu Yükleme"
+        },
+        "fields": {
+          "certificateId": "Sertifika ID",
+          "issueDate": "Veriliş Tarihi",
+          "template": "Şablon",
+          "studentCount": "Öğrenci Sayısı"
+        },
+        "students": {
+          "note": "💡 Not: Her öğrenci için UIA onay kodunu girin ve kaydedin.",
+          "cols": {
+            "student": "Öğrenci",
+            "tc": "TC",
+            "birthDate": "Doğum Tarihi",
+            "uiaCode": "UIA Kodu"
+          },
+          "placeholder": {
+            "uiaCode": "Örn: ABCD-1234"
+          },
+          "actions": {
+            "saveCodes": "UIA Kodlarını Kaydet"
+          }
+        },
+        "excel": {
+          "title": "Excel ile Toplu UIA Kodu Yükleme",
+          "step1": {
+            "title": "Excel Dosyasını İndirin",
+            "desc": "Mevcut öğrenci verileri ile birlikte"
+          },
+          "step2": {
+            "title": "UIA_CODE Sütununu Doldurun",
+            "desc": "Diğer sütunları değiştirmeyin!"
+          },
+          "step3": {
+            "title": "Doldurulmuş Excel'i Yükleyin"
+          },
+          "actions": {
+            "download": "Excel İndir",
+            "upload": "Excel'i Yükle ve UIA Kodlarını Kaydet"
+          }
+        }
+      },
+      "petition": {
+        "headerDefault": "Partner Kurum",
+        "paragraph": "Aşağıda adları yazılı olan {count} adet kursiyer eğitimlerini tamamlayıp aşağıda yer alan çizelgede yer alan sınav notlarını alarak başarılı olmuşlardır. Başarılı olan kursiyerlerin sertifikalarının hazırlanarak e-Devlet'e düşürülmesi için gereğin yapılmasını arz ederim.",
+        "table": {
+          "no": "No",
+          "student": "Kursiyer",
+          "tc": "TC",
+          "birth": "D.Tarihi",
+          "end": "Bitiş Tarihi",
+          "hours": "Saat",
+          "training": "Eğitim",
+          "exam": "Sınav Sonucu"
+        }
+      },
+      "noRecords": "Kayıt bulunamadı",
+      "messages": {
+        "uiaCodesSaved": "UIA kodları kaydedildi!",
+        "uiaCodesSaveError": "UIA kodları kaydedilemedi!",
+        "excelDownloadError": "Excel indirilemedi!",
+        "uiaCodesUploaded": "UIA kodları Excel'den yüklendi!",
+        "excelUploadError": "Excel yüklenemedi!",
+        "excelUploadErrorUnknown": "Excel yüklenirken hata oluştu!",
+        "certificateApproved": "Sertifika onaylandı!",
+        "certificateRejected": "Sertifika reddedildi!"
+      }
+    },
+    "institutions": {
+      "title": "Kurumlar",
+      "subtitle": "Partner olduğunuz kurumları görüntüleyin.",
+      "searchPlaceholder": "Kurum veya ID ara...",
+      "table": {
+        "name": "Kurum Adı",
+        "status": "Durum",
+        "since": "Başlangıç",
+        "actions": "İşlemler"
+      },
+      "status": {
+        "pending": "Beklemede",
+        "approved": "Aktif",
+        "rejected": "Reddedildi"
+      },
+      "actions": {
+        "approve": "Onayla",
+        "reject": "Reddet",
+        "end": "Partnerliği Sonlandır",
+        "delete": "Sil",
+        "viewDetails": "Detayları Gör"
+      },
+      "confirm": {
+        "approve": "Bu kurumu onaylamak istediğinize emin misiniz?",
+        "reject": "Bu kurumu reddetmek istediğinize emin misiniz?",
+        "end": "Partnerliği sonlandırmak istediğinize emin misiniz?",
+        "delete": "Reddedilen işbirliğini silmek istediğinize emin misiniz?"
+      },
+      "noRecords": "Kayıt bulunamadı"
+    },
+    "profile": {
+      "title": "Profil",
+      "edit": "Düzenle",
+      "save": "Kaydet"
+    },
+    "settings": {
+      "title": "Ayarlar"
+    }
+  },
+  "admin": {
+    "login": {
+      "title": "Admin Girişi",
+      "subtitle": "Yönetim paneline erişmek için giriş yapın",
+      "email": "E-posta",
+      "password": "Şifre",
+      "submit": "Giriş Yap",
+      "loggingIn": "Giriş yapılıyor...",
+      "unknownError": "Bilinmeyen hata",
+      "note": "Not: Bu giriş yalnızca admin rolüne sahip kullanıcılar içindir."
+    },
+    "dashboard": {
+      "title": "Genel Bakış",
+      "subtitle": "Sistem istatistikleri ve son işlemler",
+      "stats": {
+        "totalUsers": "Toplam Kullanıcı",
+        "totalCertificates": "Toplam Sertifika",
+        "pendingApprovals": "Bekleyen Onaylar",
+        "totalStudents": "Toplam Öğrenci",
+        "lowBalanceInstitutions": "Düşük Bakiyeli Kurumlar"
+      },
+      "recentActivities": {
+        "title": "Son Aktiviteler",
+        "viewAll": "Tümünü Gör",
+        "filter": "Filtrele",
+        "search": "Ara",
+        "noActivities": "Aktivite bulunamadı",
+        "types": {
+          "all": "Tümü",
+          "certificate": "Sertifika",
+          "training": "Eğitim",
+          "user": "Kullanıcı",
+          "transaction": "İşlem"
+        }
+      }
+    },
+    "users": "Kullanıcılar",
+    "roles": "Roller",
+    "pendingRequests": "Bekleyen Talepler",
+    "messages": {
+      "imageFileRequired": "Lütfen bir resim dosyası seçin",
+      "fileSizeLimit": "Dosya boyutu 5MB'dan küçük olmalıdır",
+      "partnerNameRequired": "Kuruluş adı gerekli",
+      "partnerAdded": "Referans kuruluş eklendi",
+      "partnerAddError": "Eklenemedi: {error}",
+      "partnerAddErrorUnknown": "Eklenemedi: Bilinmeyen hata",
+      "serverError": "Bir sunucu hatası oluştu",
+      "trainingApproved": "Eğitim onaylandı!",
+      "trainingRejected": "Eğitim reddedildi.",
+      "error": "Bir hata oluştu.",
+      "settingsSaved": "Ayarlar kaydedildi.",
+      "settingsSaveError": "Ayarlar kaydedilemedi.",
+      "balanceAdded": "Bakiye başarıyla eklendi.",
+      "partnershipApproved": "Partnership onaylandı!",
+      "partnershipRejected": "Partnership reddedildi.",
+      "certificateApproved": "Sertifika onaylandı!",
+      "certificateRejected": "Sertifika reddedildi.",
+      "paymentSettingsSaved": "Ayarlar başarıyla kaydedildi!"
+    }
+  },
+  "certificate": {
+    "loading": "Sertifika yükleniyor...",
+    "notFound": "Sertifika bulunamadı",
+    "notFoundTitle": "Sertifika Bulunamadı",
+    "invalidNumber": "Geçersiz sertifika numarası",
+    "loadError": "Sertifika yüklenirken bir hata oluştu"
+  },
+  "features": {
+    "fastVerification": {
+      "title": "Işık Hızında Doğrulama",
+      "description": "TCKN veya sertifika numarası ile 2 saniyeden kısa sürede sertifika doğrulayın"
+    },
+    "secureSystem": {
+      "title": "Banka Düzeyinde Güvenlik",
+      "description": "Uçtan uca şifreleme ve blockchain teknolojisi ile maksimum veri koruması"
+    },
+    "instantResult": {
+      "title": "Anlık Dijital Sertifikalar",
+      "description": "İndirilebilir PDF sertifikalar ve QR kodlar ile anında doğrulanmış sonuçlar alın"
+    },
+    "globalAccess": {
+      "title": "7/24 Küresel Erişim",
+      "description": "Bulut tabanlı platformumuz ile sertifikalarınıza her zaman, her yerden erişin"
+    },
+    "multiLanguage": {
+      "title": "Çoklu Dil Desteği",
+      "description": "Yerelleştirilmiş sertifika formatları ile birden fazla dilde kullanılabilir"
+    },
+    "printableCertificates": {
+      "title": "Yazdırılabilir Sertifikalar",
+      "description": "Sertifikalarınızı PDF veya yüksek çözünürlüklü formatta indirip yazdırabilirsiniz"
+    }
+  },
+  "testimonials": {
+    "title": "Binlerce Kişi Tarafından Güveniliyor",
+    "subtitle": "Partnerlerimizin ve kullanıcılarımızın bizim hakkımızda söylediklerini görün",
+    "items": [
+      {
+        "name": "Dr. Ahmet Yılmaz",
+        "role": "Mühendislik Fakültesi Dekanı, Teknik Üniversite",
+        "content": "Mert CIN Certificate Authorisation sertifika doğrulama süreçlerimizi devrim niteliğinde değiştirdi. Süreç artık sorunsuz ve güvenli."
+      },
+      {
+        "name": "Elif Özkan",
+        "role": "İK Direktörü, Küresel Şirket",
+        "content": "Doğrulama süremizi günlerden saniyelere indirdik. API entegrasyonu inanılmaz derecede sorunsuzdu."
+      },
+      {
+        "name": "Prof. Dr. Mehmet Kaya",
+        "role": "Akademik Koordinatör, Uluslararası Enstitü",
+        "content": "Çoklu dil desteği ve küresel erişilebilirlik uluslararası programlarımız için mükemmel."
+      }
+    ]
+  },
+  "verifyResult": {
+    "title": "Doğrulama Sonuçları",
+    "subtitle": "Sertifika doğrulama sonuçlarınız aşağıda listelenmektedir",
+    "newQuery": "Yeni Sorgu",
+    "noQuery": "Sorgu bulunamadı. Lütfen doğrulama aramasını tekrar gerçekleştirin.",
+    "error": {
+      "title": "Doğrulama Başarısız",
+      "queryFailed": "Sorgu başarısız"
+    },
+    "collision": {
+      "title": "Birden Fazla Eşleşme",
+      "description": "Aşağıdaki kişilerden biri ile eşleşti. Lütfen tam ad soyad girerek doğrulayın.",
+      "placeholder": "Ad Soyad (örn: Ahmet Yılmaz)",
+      "verify": "Doğrula"
+    },
+    "success": {
+      "title": "Doğrulama Başarılı",
+      "welcome": "Hoşgeldiniz"
+    },
+    "certificates": {
+      "title": "Sertifikalar",
+      "found": "adet sertifika bulundu",
+      "verified": "Doğrulandı",
+      "view": "Görüntüle",
+      "tip": "İpucu:",
+      "tipDescription": "Belirli bir sertifikaya direkt gitmek için ana anahtarın sonuna sıra numarasını ekleyin.",
+      "tipExample": "Örnek: MC1234070811 → 1. sertifika"
+    },
+    "detail": {
+      "notFound": "Sertifika Bulunamadı",
+      "notFoundDesc": "Bu sertifika mevcut değil veya kaldırılmış olabilir.",
+      "newVerification": "Yeni Doğrulama Yap",
+      "verified": "Sertifika Doğrulandı",
+      "certificateNo": "Sertifika No:",
+      "newVerificationShort": "← Yeni Doğrulama",
+      "validCertificate": "Geçerli Sertifika"
+    },
+    "share": {
+      "title": "Sertifikayı Paylaş",
+      "telegramAria": "Telegram'da paylaş",
+      "xAria": "X'te paylaş",
+      "linkedinAria": "LinkedIn'de paylaş",
+      "facebookAria": "Facebook'ta paylaş",
+      "copy": "Link Kopyala",
+      "copied": "Kopyalandı!",
+      "email": "E-posta",
+      "emailSubject": "Sertifika Paylaşımı"
+    },
+    "sidebar": {
+      "quickInfo": "Sertifika Bilgileri",
+      "student": "Öğrenci",
+      "training": "Eğitim",
+      "duration": "Süre",
+      "hours": "Saat",
+      "date": "Tarih",
+      "institution": "Kurum",
+      "download": {
+        "downloading": "İndiriliyor...",
+        "button": "Sertifika İndir (PDF)"
+      },
+      "badge": {
+        "show": "Başarı Rozeti Göster",
+        "title": "Başarı Rozeti",
+        "desc": "Bu özel rozeti indirebilir ve sosyal medyada paylaşabilirsiniz!"
+      }
+    }
+  },
+  "collaborationDetail": {
+    "notFound": "Kayıt bulunamadı",
+    "notFoundDesc": "Aradığınız kurum/partner bilgisi mevcut değil.",
+    "trainings": "Eğitimler",
+    "noTrainings": "Henüz eğitim yok"
+  },
+  "trainingDetail": {
+    "notFound": "Kayıt bulunamadı",
+    "notFoundDesc": "Aradığınız eğitim bilgisi mevcut değil.",
+    "description": "Açıklama",
+    "noDescription": "Açıklama bulunmuyor.",
+    "totalHours": "Toplam Saat",
+    "level": "Seviye",
+    "language": "Dil",
+    "accreditors": "Akreditörler",
+    "institution": "Kurum"
+  },
+  "common": {
+    "loading": "Yükleniyor...",
+    "error": "Hata",
+    "sortBy": "Sırala",
+    "actions": "İşlemler",
+    "delete": "Sil",
+    "edit": "Düzenle",
+    "save": "Kaydet",
+    "cancel": "Vazgeç",
+    "add": "Ekle",
+    "download": "İndir",
+    "downloadPdf": "PDF İndir",
+    "approve": "Onayla",
+    "reject": "Reddet",
+    "serverError": "Sunucu hatası.",
+    "languageNames": {
+      "tr": "Türkçe",
+      "en": "İngilizce",
+      "de": "Almanca",
+      "fr": "Fransızca"
+    },
+    "countryNames": {
+      "tr": "Türkiye",
+      "us": "Amerika Birleşik Devletleri",
+      "de": "Almanya",
+      "gb": "Birleşik Krallık",
+      "fr": "Fransa"
+    },
+    "status": {
+      "active": "Aktif",
+      "pending": "Beklemede",
+      "approved": "Onaylandı",
+      "rejected": "Reddedildi",
+      "completed": "Tamamlandı"
+    }
+  },
+  "institution": {
+    "dashboard": "Kurum Paneli",
+    "home": {
+      "subtitle": "Kurumunuzun sertifika yönetimi merkezine hoş geldiniz.",
+      "lowBalance": {
+        "title": "Düşük bakiye uyarısı",
+        "desc": "Mevcut bakiyeniz {balance}. Sertifika oluşturma işlemlerinde kesinti yaşamamak için bakiye yükleyin.",
+        "load": "Bakiye Yükle"
+      },
+      "stats": {
+        "totalCertificates": "Toplam Sertifika",
+        "totalStudents": "Toplam Öğrenci",
+        "partners": "Partner Sayısı",
+        "balance": "Mevcut Bakiye",
+        "threshold": "Eşik: {threshold}"
+      },
+      "charts": {
+        "title": "Aktivite Trendi",
+        "subtitle": "Günlük sertifika ve öğrenci ekleme sayıları",
+        "last30Days": "Son 30 gün"
+      },
+      "quickActions": {
+        "title": "Hızlı İşlemler",
+        "createCertificate": "Yeni Sertifika Oluştur",
+        "addStudent": "Öğrenci Ekle",
+        "balance": "Bakiye Yönetimi"
+      },
+      "notifications": {
+        "title": "Bildirimler",
+        "pendingCerts": "Onay Bekleyen Sertifikalar",
+        "pendingDesc": "{count} sertifika onayınızı bekliyor",
+        "noNew": "Yeni bildirim yok"
+      },
+      "balanceWidget": {
+        "current": "Mevcut Bakiye",
+        "load": "Yükle"
+      }
+    },
+    "certificates": {
+      "title": "Sertifika Yönetimi",
+      "subtitle": "Oluşturulan tüm sertifikaları görüntüleyin ve yönetin.",
+      "approvalsLink": "Sertifika Onayları",
+      "trainings": "Eğitimler",
+      "createNew": "Yeni Sertifika Oluştur",
+      "import": {
+        "validationError": "Sunucu doğrulaması sırasında bir hata oluştu.",
+        "paymentRequired": "Ödeme sistemi aktif. Bu akışta sertifika oluşturma işlemi için ödeme adımı gereklidir.",
+        "createSuccess": "{count} sertifika grubu başarıyla oluşturma işlemine gönderildi.",
+        "createError": "Hata: {error}",
+        "unknownError": "Bilinmeyen bir sunucu hatası oluştu.",
+        "networkError": "Sertifikalar oluşturulurken bir ağ hatası oluştu."
+      },
+      "pendingApprovals": {
+        "title": "Onay Bekleyen Sertifikalar",
+        "institutionWaiting": "sertifika kurum onayınızı bekliyor",
+        "partnerWaiting": "sertifika partner onayını bekliyor",
+        "viewApprovals": "Onayları İncele"
+      },
+      "filter": {
+        "all": "Tümü",
+        "approved": "Aktif",
+        "pending": "Onayda",
+        "rejected": "Reddedildi"
+      },
+      "table": {
+        "certificateId": "Sertifika ID",
+        "trainingName": "Eğitim Adı",
+        "partners": "Partner/ler",
+        "date": "Tarih",
+        "studentCount": "Öğrenci Sayısı",
+        "status": "Durum",
+        "students": "Öğrenci",
+        "studentList": "Öğrenci Listesi"
+      },
+      "actions": {
+        "view": "Görüntüle",
+        "downloadBulk": "Toplu İndir (ZIP)",
+        "downloadSingle": "Sertifika İndir"
+      },
+      "dropdowns": {
+        "allTrainings": "Tüm Eğitimler",
+        "allPartners": "Tüm Partnerler"
+      },
+      "sort": {
+        "label": "Sırala:",
+        "idDefault": "ID (varsayılan)",
+        "dateDesc": "Tarih (yeniden eskiye)",
+        "studentsDesc": "Öğrenci sayısı (azalan)"
+      },
+      "uia": {
+        "title": "UIA",
+        "requiredTitle": "Üst kurum onayı gerekli",
+        "notRequiredTitle": "Üst kurum onayı gerekli değil",
+        "filterApproved": "Üst kurum onaylıları göster",
+        "filterUnapproved": "Üst kurum onayı olmayanları göster",
+        "filterOff": "Filtre kapalı",
+        "yes": "Var",
+        "no": "Yok"
+      },
+      "partners": {
+        "more": "Diğer partnerler",
+        "ariaOther": "Diğer partnerler: {list}",
+        "unknown": "Bilinmiyor"
+      },
+      "studentsModal": {
+        "title": "Öğrenci Listesi",
+        "meta": "{publicId} • {trainingName} • {count} Öğrenci",
+        "table": {
+          "index": "#",
+          "fullName": "Ad Soyad",
+          "tckn": "TC Kimlik No",
+          "birthDate": "Doğum Tarihi",
+          "trainingName": "Eğitim Adı",
+          "trainingDate": "Eğitim Tarihi",
+          "actions": "İşlemler"
+        },
+        "loading": "Yükleniyor...",
+        "noStudents": "Öğrenci bulunamadı"
+      },
+      "addTrainingModal": {
+        "trainingNameLabel": "Eğitim Adı",
+        "trainingNamePlaceholder": "Örn: Veri Analizi 101",
+        "descriptionLabel": "Açıklama",
+        "descriptionPlaceholder": "Kısa açıklama",
+        "cancel": "Vazgeç",
+        "submitSoon": "Gönder (yakında)"
+      },
+      "errors": {
+        "cannotDownload": "Sertifikalar indirilemedi",
+        "downloadError": "İndirme sırasında bir hata oluştu",
+        "cannotDownloadSingle": "Sertifika indirilemedi"
+      },
+      "modal": {
+        "addTraining": "Yeni Eğitim Ekle",
+        "pendingNote": "Kaydınız yönetici onayına gönderilecektir. Onaylanana kadar \"onayda\" olarak görünecektir."
+      },
+      "tooltip": {
+        "waitingInstitution": "Kurum onayı bekleniyor",
+        "waitingPartner": "Partner onayı bekleniyor",
+        "waitingAdmin": "Admin onayı bekleniyor",
+        "pendingApproval": "Onay bekleniyor",
+        "rejectedInstitution": "Kurum onayında reddedildi",
+        "rejectedPartner": "Partner onayında reddedildi",
+        "rejectedAdmin": "Admin onayında reddedildi",
+        "rejected": "Reddedildi"
+      },
+      "approvals": {
+        "title": "Sertifika Onayları",
+        "institutionSubtitle": "Kurum onayınızı bekleyen sertifikaları yönetin.",
+        "partnerSubtitle": "Partner olarak onayınızı bekleyen sertifikaları yönetin.",
+        "backToCertificates": "Sertifikalara Dön",
+        "tabs": {
+          "institution": "Kurum İçi Onayları",
+          "partner": "Partner Onayları"
+        },
+        "loading": "Yükleniyor...",
+        "noPending": "Bekleyen onay bulunmuyor.",
+        "table": {
+          "certificateId": "Sertifika ID",
+          "training": "Eğitim",
+          "institution": "Kurum",
+          "date": "Tarih",
+          "uia": "UIA",
+          "actions": "İşlemler"
+        },
+        "uiaTooltip": {
+          "required": "UIA Gerekli",
+          "notRequired": "UIA Gerekli Değil",
+          "yes": "Evet",
+          "no": "Hayır"
+        },
+        "actions": {
+          "inspect": "İncele",
+          "reject": "Reddet",
+          "approve": "Onayla",
+          "confirmReject": "Bu sertifikayı reddetmek istediğinizden emin misiniz?"
+        },
+        "messages": {
+          "approved": "Sertifika onaylandı!",
+          "rejected": "Sertifika reddedildi.",
+          "partnerApproved": "Partner onayı verildi!",
+          "partnerRejected": "Partner onayı reddedildi.",
+          "error": "Hata: {error}",
+          "errorUnknown": "Hata: İşlem başarısız oldu",
+          "connectionError": "Bağlantı hatası. Lütfen tekrar deneyin."
+        },
+        "inspect": {
+          "title": "İnceleme",
+          "close": "Kapat",
+          "tabs": {
+            "details": "Sertifika Detayları",
+            "students": "Öğrenci Listesi"
+          },
+          "details": {
+            "certificateNo": "Sertifika No:",
+            "training": "Eğitim:",
+            "issueDate": "Veriliş Tarihi:",
+            "status": "Durum:",
+            "uia": "UIA:",
+            "uiaRequired": "Gerekli",
+            "uiaNotRequired": "Gerekli Değil",
+            "partners": "Partnerler:",
+            "notFound": "Detay bulunamadı."
+          },
+          "students": {
+            "student": "Öğrenci",
+            "tc": "TC",
+            "email": "E-posta",
+            "phone": "Telefon",
+            "birthDate": "Doğum Tarihi",
+            "notFound": "Öğrenci bulunamadı"
+          }
+        },
+        "status": {
+          "pending": "Onay Bekliyor",
+          "approved": "Onaylandı",
+          "rejected": "Reddedildi"
+        }
+      }
+    },
+    "students": {
+      "title": "Öğrenci Yönetimi",
+      "subtitle": "Kurumunuza kayıtlı {count} öğrenci bulunuyor.",
+      "addNew": "Yeni Öğrenci Ekle",
+      "bulkAdd": "Toplu Öğrenci Ekle",
+      "import": {
+        "title": "Toplu Öğrenci Ekleme",
+        "subtitle": "Tek bir Excel dosyası kullanarak birden fazla öğrenciyi sisteme toplu olarak ekleyin.",
+        "howToFill": "Nasıl Doldurulur?",
+        "infoTitle": "Önemli Notlar",
+        "infoItems": {
+          "eachRow": "Her satır bir öğrenciyi temsil eder",
+          "uniqueTc": "TC Kimlik Numaraları benzersiz olmalıdır",
+          "existingTc": "Sistemde zaten kayıtlı TC numaraları reddedilir",
+          "optionalFields": "EMAIL ve PHONE alanları opsiyoneldir"
+        },
+        "step1": {
+          "button": "Şablonu İndirin",
+          "description": "Öğrenci bilgilerini doğru formatta girmek için Excel şablonunu indirin. Şablon, örnek bir öğrenci içerir."
+        },
+        "step2": {
+          "button": "Dosyanızı Yükleyin"
+        },
+        "step3": {
+          "title": "Doğrulama ve Önizleme",
+          "description": "Verileriniz doğrulandı. Hatalı kayıtları düzeltin veya geçerli öğrencileri oluşturun.",
+          "processing": "Excel dosyası işleniyor ve doğrulanıyor...",
+          "stats": {
+            "total": "Toplam Öğrenci",
+            "valid": "Geçerli",
+            "invalid": "Hatalı"
+          },
+          "hasErrors": "Hatalı kayıtlar var",
+          "validBadge": "Geçerli",
+          "invalidBadge": "Hatalı",
+          "errorsTitle": "Hatalar:",
+          "labels": {
+            "tc": "TC:",
+            "birthDate": "Doğum Tarihi:",
+            "email": "Email:",
+            "phone": "Telefon:"
+          }
+        },
+        "actions": {
+          "create": "{count} Öğrenciyi Oluştur",
+          "creating": "Oluşturuluyor...",
+          "noValid": "Eklenecek Geçerli Öğrenci Yok"
+        },
+        "messages": {
+          "createSuccess": "{count} öğrenci başarıyla oluşturuldu!",
+          "createError": "Hata: {error}",
+          "createErrorUnknown": "Hata: Bilinmeyen bir sunucu hatası oluştu.",
+          "createNetworkError": "Öğrenciler oluşturulurken bir ağ hatası oluştu.",
+          "validationError": "Sunucu doğrulaması sırasında bir hata oluştu."
+        }
+      },
+      "searchPlaceholder": "Öğrenci ara...",
+      "confirmDelete": "Bu öğrenciyi silmek istediğinizden emin misiniz?",
+      "sort": {
+        "id": "ID (varsayılan)",
+        "dateDesc": "Tarih (yeniden eskiye)",
+        "certDesc": "Sertifika sayısı (azalan)",
+        "nameAz": "Ad Soyad (A→Z)"
+      },
+      "table": {
+        "studentId": "Öğrenci ID",
+        "tc": "TC",
+        "fullName": "Ad Soyad",
+        "email": "E-posta",
+        "phone": "Telefon",
+        "birthDate": "Doğum Tarihi",
+        "certificates": "Sertifikaları",
+        "createdAt": "Eklenme Tarihi"
+      },
+      "modal": {
+        "title": "Öğrenci Sertifikaları",
+        "certificateCount": "Sertifika",
+        "certificateId": "Sertifika ID",
+        "trainingName": "Eğitim Adı",
+        "date": "Tarih",
+        "status": "Durum",
+        "noCertificates": "Bu öğrenciye ait sertifika bulunamadı"
+      },
+      "form": {
+        "firstName": "Ad",
+        "lastName": "Soyad",
+        "tcNumber": "TC Kimlik No",
+        "tcPlaceholder": "11 haneli olmalıdır",
+        "birthDate": "Doğum Tarihi",
+        "email": "E-posta",
+        "emailPlaceholder": "E-posta adresi (opsiyonel)",
+        "phone": "Telefon",
+        "phonePlaceholder": "Telefon numarası (opsiyonel)"
+      },
+      "errors": {
+        "cannotAdd": "Öğrenci eklenemedi",
+        "addError": "Öğrenci eklenirken bir hata oluştu",
+        "cannotUpdate": "Öğrenci güncellenemedi",
+        "updateError": "Öğrenci güncellenirken bir hata oluştu",
+        "cannotDelete": "Öğrenci silinemedi",
+        "deleteError": "Öğrenci silinirken bir hata oluştu"
+      }
+    },
+    "partners": {
+      "title": "Partnerler",
+      "subtitle": "Kurumunuzun kayıtlı {count} partneri bulunuyor.",
+      "addNew": "Partner Ekle",
+      "searchPlaceholder": "Partner ara...",
+      "confirmDelete": "Bu partneri kaldırmak istediğinizden emin misiniz?",
+      "confirmDeleteReference": "Bu referans kuruluşu kaldırmak istediğinizden emin misiniz?",
+      "filter": {
+        "all": "Tümü",
+        "pending": "Onayda",
+        "approved": "Aktif",
+        "rejected": "Reddedildi"
+      },
+      "status": {
+        "pending": "Onayda",
+        "approved": "Aktif",
+        "rejected": "Reddedildi"
+      },
+      "table": {
+        "partnerId": "Partner ID",
+        "partnerName": "Partner Adı",
+        "status": "Durum",
+        "addedDate": "Eklenme Tarihi",
+        "actions": "İşlemler",
+        "remove": "Kaldır"
+      },
+      "references": {
+        "title": "Referans Kuruluşlar",
+        "subtitle": "Hesabı olmayan, sertifikalarda isim ve logo ile kullanılabilen kuruluşlar",
+        "referenceId": "Referans ID",
+        "partnerName": "Partner Adı",
+        "logo": "Logo",
+        "addedDate": "Eklenme Tarihi",
+        "loading": "Referanslar yükleniyor..."
+      },
+      "addModal": {
+        "title": "Partner Ekle",
+        "searchLabel": "Partner Public ID ile Ara",
+        "searchPlaceholder": "ACR-123456 veya INS-123456",
+        "searching": "Aranıyor...",
+        "or": "veya",
+        "selectFromList": "Referans Kuruluş Listesinden Seçin",
+        "loadingReferences": "Referanslar yükleniyor...",
+        "noReferences": "Listelenecek referans kuruluş bulunamadı.",
+        "selected": "seçilen",
+        "selfError": "SİZ - Kendi kurumunuzu ekleyemezsiniz.",
+        "toBeAdded": "Eklenecek Partner",
+        "alreadyAdded": "Partner Zaten Ekli",
+        "alreadyAddedDesc": "Bu partner zaten listenizde mevcut.",
+        "notFound": "Bu Public ID ile bir partner bulunamadı.",
+        "cancel": "Vazgeç",
+        "add": "Ekle",
+        "statusTooltip": {
+          "pending": "Admin onayı bekleniyor",
+          "approved": "Onaylandı",
+          "rejected": "Reddedildi"
+        },
+        "role": {
+          "accreditor": "Akreditör",
+          "institution": "Kurum",
+          "reference": "Referans"
+        }
+      },
+      "errors": {
+        "cannotAdd": "Partner eklenemedi",
+        "addError": "Partner eklenirken bir hata oluştu",
+        "cannotDelete": "Referans kuruluş kaldırılamadı",
+        "deleteError": "Referans kuruluş kaldırılırken bir hata oluştu",
+        "cannotRemove": "Partner kaldırılamadı",
+        "removeError": "Partner kaldırılırken bir hata oluştu",
+        "errorPrefix": "Hata: {error}"
+      }
+    },
+    "balance": {
+      "title": "Bakiye",
+      "subtitle": "Bakiyenizi ve hareketlerinizi görüntüleyin",
+      "loadBalance": "Bakiye Yükle",
+      "summary": {
+        "currentBalance": "Mevcut Bakiye",
+        "pending": "Bekleyen",
+        "totalTransactions": "{count} kayıt"
+      },
+      "search": "İşlem ara...",
+      "sortLabel": "Sırala:",
+      "filter": {
+        "allTypes": "Tüm Türler",
+        "credit": "Bakiye Yükleme",
+        "debit": "Harcama",
+        "refund": "İade"
+      },
+      "sort": {
+        "dateDesc": "Tarih (yeniden eskiye)",
+        "dateAsc": "Tarih (eskiden yeniye)",
+        "amountDesc": "Tutar (azalan)",
+        "amountAsc": "Tutar (artan)"
+      },
+      "table": {
+        "date": "Tarih",
+        "type": "Tür",
+        "description": "Açıklama",
+        "amount": "Tutar"
+      },
+      "loading": "Yükleniyor...",
+      "noTransactions": "İşlem bulunamadı",
+      "purchaseModal": {
+        "title": "Bakiye Yükle",
+        "description": "Yüklemek istediğiniz sertifika sayısını seçin veya yazın",
+        "inputLabel": "Veya sertifika sayısı yazın",
+        "inputPlaceholder": "Sertifika sayısı",
+        "calculation": {
+          "certificateCount": "Sertifika Sayısı:",
+          "count": "{count} adet",
+          "unitPrice": "Birim Fiyat:",
+          "pricePerCert": "{price} TL / Sertifika",
+          "totalAmount": "Toplam Tutar:"
+        },
+        "cancel": "İptal",
+        "submit": "Bakiye Yükle",
+        "submitting": "Yükleniyor..."
+      },
+      "messages": {
+        "invalidAmount": "Geçerli bir miktar giriniz",
+        "success": "Bakiye başarıyla yüklendi!",
+        "error": "Bir hata oluştu."
+      },
+      "types": {
+        "credit": "Bakiye Yükleme",
+        "debit": "Harcama",
+        "refund": "İade"
+      },
+      "creditPrice": "Kredi Fiyatı",
+      "amount": "Miktar",
+      "totalCost": "Toplam Tutar",
+      "purchase": "Satın Al",
+      "errors": {
+        "invalidAmount": "Geçerli bir miktar giriniz",
+        "purchaseError": "Satın alma işlemi başarısız oldu"
+      }
+    },
+    "profile": {
+      "title": "Profil",
+      "subtitle": "Kurum bilgilerinizi yönetin",
+      "edit": "Düzenle",
+      "save": "Kaydet",
+      "cancel": "İptal",
+      "loading": "Yükleniyor...",
+      "messages": {
+        "updateSuccess": "Profil başarıyla güncellendi!",
+        "updateError": "Profil güncellenirken hata oluştu."
+      }
+    },
+    "settings": {
+      "title": "AYARLAR",
+      "subtitle": "Sertifika şablonları için renk ve tasarım ayarları",
+      "certificateColors": "Sertifika Renkleri",
+      "primaryColor": "Ana Renk",
+      "secondaryColor": "İkincil Renk",
+      "defaultTemplate": "Varsayılan Sertifika Şablonu",
+      "templateNote": "Sertifika oluştururken bu şablon varsayılan olarak seçili gelecektir.",
+      "preview": "Önizleme",
+      "colors": "Renk Ayarları",
+      "general": "Genel Ayarlar",
+      "messages": {
+        "saveSuccess": "Ayarlar kaydedildi!",
+        "saveError": "Ayarlar kaydedilemedi",
+        "saveErrorUnknown": "Ayarlar kaydedilirken bir hata oluştu"
+      }
+    }
+  },
+  "contact": {
+    "title": "İletişim",
+    "subtitle": "Ekibimizle iletişime geçin. Size yardımcı olmak için buradayız.",
+    "info": {
+      "title": "İletişim Bilgileri",
+      "email": "E-posta",
+      "phone": "Telefon",
+      "phoneValue": "Yakında eklenecek",
+      "address": "Adres",
+      "addressValue": "Duyurulacak",
+      "businessHours": "Çalışma Saatleri",
+      "businessHoursValue": "Pazartesi - Cuma: 09:00 - 18:00"
+    },
+    "form": {
+      "title": "Bize mesaj gönderin",
+      "name": "Ad Soyad",
+      "namePlaceholder": "Ahmet Yılmaz",
+      "email": "E-posta Adresi",
+      "emailPlaceholder": "ahmet@example.com",
+      "subject": "Konu",
+      "subjectPlaceholder": "Size nasıl yardımcı olabiliriz?",
+      "message": "Mesaj",
+      "messagePlaceholder": "Talebiniz hakkında bize daha fazla bilgi verin...",
+      "submit": "Mesaj Gönder",
+      "sending": "Gönderiliyor...",
+      "successMessage": "Teşekkürler! Mesajınız başarıyla gönderildi. En kısa sürede size dönüş yapacağız.",
+      "errorMessage": "Üzgünüz, bir şeyler ters gitti. Lütfen tekrar deneyin veya bize doğrudan e-posta gönderin."
+    }
+  },
+  "help": {
+    "title": "Yardım Merkezi",
+    "subtitle": "Sıkça sorulan soruların cevaplarını bulun",
+    "faqTitle": "Sıkça Sorulan Sorular",
+    "quickLinks": {
+      "verify": {
+        "title": "Sertifika Doğrula",
+        "description": "Herhangi bir sertifikayı hızlıca doğrulayın"
+      },
+      "contact": {
+        "title": "Destek ile İletişim",
+        "description": "Ekibimizle iletişime geçin"
+      },
+      "howItWorks": {
+        "title": "Nasıl Çalışır",
+        "description": "Sürecimiz hakkında bilgi edinin"
+      }
+    },
+    "faqs": {
+      "0": {
+        "question": "Sertifikayı nasıl doğrularım?",
+        "answer": "Doğrulama sayfamızda sertifika numarasını veya TC kimlik numarasını girerek sertifikayı doğrulayabilirsiniz. Sistem anında sertifika detaylarını ve geçerlilik durumunu gösterecektir."
+      },
+      "1": {
+        "question": "Sertifika düzenleme ne kadar sürer?",
+        "answer": "Tüm gerekli onaylar alındıktan sonra sertifika düzenleme genellikle anlıktır. Onay süreci, kurumunuzun ayarlarına ve partner gereksinimlerine bağlı olarak değişebilir."
+      },
+      "2": {
+        "question": "Sertifikaları toplu olarak indirebilir miyim?",
+        "answer": "Evet, kurumlar sertifika yönetim panelinde bulunan toplu indirme özelliğini kullanarak birden fazla sertifikayı aynı anda indirebilir."
+      },
+      "3": {
+        "question": "Hangi güvenlik önlemleri alınmıştır?",
+        "answer": "Banka düzeyinde şifreleme, sertifika doğrulama için blockchain teknolojisi kullanıyoruz ve GDPR ve KVKK dahil uluslararası veri koruma standartlarına uyuyoruz."
+      },
+      "4": {
+        "question": "Partner kurum nasıl olabilirim?",
+        "answer": "Kayıt sayfamızdan kurum olarak kaydolabilirsiniz. Doğrulama sonrasında tüm sertifika yönetim özelliklerine erişiminiz olacaktır."
+      },
+      "5": {
+        "question": "Hangi ödeme yöntemlerini kabul ediyorsunuz?",
+        "answer": "Kredi kartı, banka havalesi ve kurumsal faturalama dahil çeşitli ödeme yöntemlerini kabul ediyoruz. Kurumsal ödeme seçenekleri için bizimle iletişime geçin."
+      }
+    },
+    "contactCta": {
+      "title": "Hala sorularınız mı var?",
+      "subtitle": "Destek ekibimiz size yardımcı olmaya hazır",
+      "button": "Bize Ulaşın"
+    }
+  },
+  "privacy": {
+    "title": "Gizlilik Politikası",
+    "lastUpdated": "Son Güncelleme",
+    "sections": {
+      "intro": {
+        "title": "Giriş",
+        "content": "Bu Gizlilik Politikası, Mert CIN Certificate Authorisation'ın kişisel bilgilerinizi nasıl topladığını, kullandığını ve koruduğunu açıklar. Gizliliğinizi sağlamaya ve verilerinizi korumaya kararlıyız."
+      },
+      "dataCollection": {
+        "title": "Topladığımız Veriler",
+        "content": "Aşağıdaki türde bilgileri topluyoruz:",
+        "items": {
+          "0": "Kişisel kimlik bilgileri (ad, e-posta, telefon numarası)",
+          "1": "Sertifika ve eğitim ile ilgili veriler",
+          "2": "Kullanım verileri ve analizler",
+          "3": "Teknik bilgiler (IP adresi, tarayıcı türü, cihaz bilgisi)"
+        }
+      },
+      "dataUsage": {
+        "title": "Verilerinizi Nasıl Kullanırız",
+        "content": "Verileriniz hizmetlerimizi sağlamak ve geliştirmek, sertifikaları işlemek, sizinle iletişim kurmak ve platform güvenliğini sağlamak için kullanılır. Kişisel bilgilerinizi asla üçüncü taraflara satmayız."
+      },
+      "dataSecurity": {
+        "title": "Veri Güvenliği",
+        "content": "Bilgilerinizi yetkisiz erişim, değiştirme veya ifşadan korumak için şifreleme, güvenli sunucular ve düzenli güvenlik denetimleri dahil sektör standardı güvenlik önlemleri uyguluyoruz."
+      },
+      "userRights": {
+        "title": "Haklarınız",
+        "content": "Kişisel verilerinize erişme, düzeltme, silme veya dışa aktarma hakkına sahipsiniz. Belirli veri işleme faaliyetlerine de itiraz edebilirsiniz. Bu hakları kullanmak için bizimle iletişime geçin."
+      },
+      "contact": {
+        "title": "Bize Ulaşın",
+        "content": "Bu Gizlilik Politikası hakkında sorularınız varsa, lütfen bizimle iletişime geçin:"
+      }
+    }
+  },
+  "terms": {
+    "title": "Kullanım Şartları",
+    "lastUpdated": "Son Güncelleme",
+    "sections": {
+      "acceptance": {
+        "title": "Şartların Kabulü",
+        "content": "Bu platformu kullanarak, bu Kullanım Şartlarını kabul etmiş ve bunlara bağlı kalmayı kabul etmiş olursunuz. Bu şartları kabul etmiyorsanız, lütfen hizmetlerimizi kullanmayın."
+      },
+      "services": {
+        "title": "Hizmetlerin Açıklaması",
+        "content": "Mert CIN Certificate Authorisation, sertifika düzenleme, doğrulama ve yönetimi için dijital bir platform sağlar. Hizmetleri herhangi bir zamanda değiştirme veya durdurma hakkını saklı tutarız."
+      },
+      "userResponsibilities": {
+        "title": "Kullanıcı Sorumlulukları",
+        "content": "Kullanıcılar şunlardan sorumludur:",
+        "items": {
+          "0": "Hesap kimlik bilgilerinin gizliliğini korumak",
+          "1": "Sağlanan bilgilerin doğruluğunu sağlamak",
+          "2": "Tüm geçerli yasa ve düzenlemelere uymak"
+        }
+      },
+      "intellectualProperty": {
+        "title": "Fikri Mülkiyet",
+        "content": "Bu platformdaki tüm içerik, ticari markalar ve fikri mülkiyet, Mert CIN Certificate Authorisation veya lisans verenlerine aittir. Yetkisiz kullanım yasaktır."
+      },
+      "limitation": {
+        "title": "Sorumluluk Sınırlaması",
+        "content": "Doğru ve güvenilir hizmetler sağlamaya çalışıyoruz, ancak kesintisiz veya hatasız çalışmayı garanti edemeyiz. Sorumluluğumuz yasaların izin verdiği azami ölçüde sınırlıdır."
+      },
+      "contact": {
+        "title": "İletişim Bilgileri",
+        "content": "Bu Kullanım Şartları hakkında sorularınız için lütfen bizimle iletişime geçin:"
+      }
+    }
+  },
+  "kvkk": {
+    "title": "KVKK Aydınlatma Metni",
+    "lastUpdated": "Son Güncelleme",
+    "sections": {
+      "intro": {
+        "title": "Giriş",
+        "content": "Bu metin, kişisel verilerinizi 6698 sayılı Kişisel Verilerin Korunması Kanunu (KVKK) ve diğer geçerli veri koruma yasalarına uygun olarak nasıl işlediğimizi açıklar."
+      },
+      "dataController": {
+        "title": "Veri Sorumlusu",
+        "content": "Mert CIN Certificate Authorisation, kişisel verilerinizden sorumlu veri sorumlusudur. Gizliliğinizi korumaya ve veri koruma düzenlemelerine uyumu sağlamaya kararlıyız."
+      },
+      "personalData": {
+        "title": "İşlediğimiz Kişisel Veriler",
+        "content": "Aşağıdaki kişisel veri kategorilerini işliyoruz:",
+        "items": {
+          "0": "Kimlik verileri (ad, soyad, TC kimlik numarası)",
+          "1": "İletişim verileri (e-posta adresi, telefon numarası, adres)",
+          "2": "Sertifika ve eğitim kayıtları",
+          "3": "Teknik veriler (IP adresi, giriş verileri, kullanım bilgileri)"
+        }
+      },
+      "processingPurpose": {
+        "title": "İşleme Amacı",
+        "content": "Kişisel verileriniz sertifika düzenleme ve doğrulama, hizmet sağlama, yasal uyum ve platform iyileştirme amacıyla işlenir. Verileri yalnızca uygun yasal dayanakla meşru amaçlar için işleriz."
+      },
+      "dataSubjectRights": {
+        "title": "Veri Sahibi Olarak Haklarınız",
+        "content": "KVKK kapsamında aşağıdaki haklara sahipsiniz:",
+        "items": {
+          "0": "Kişisel verilerinize erişim hakkı",
+          "1": "Yanlış verilerin düzeltilmesi hakkı",
+          "2": "Verilerin silinmesini isteme hakkı (unutulma hakkı)",
+          "3": "İşlemenin kısıtlanması hakkı",
+          "4": "Veri taşınabilirliği hakkı"
+        }
+      },
+      "contact": {
+        "title": "İletişim",
+        "content": "Haklarınızı kullanmak veya veri işleme ile ilgili sorularınız için lütfen bizimle iletişime geçin:"
+      }
+    }
+  },
+  "howItWorks": {
+    "title": "Nasıl Çalışır",
+    "subtitle": "Eğitim kurumları için sertifika yönetimini nasıl kolaylaştırdığımızı keşfedin",
+    "processTitle": "Basit 4 Adımlı Süreç",
+    "processSubtitle": "Kayıttan raporlamaya, ihtiyacınız olan her şey tek platformda",
+    "steps": {
+      "registration": {
+        "title": "Kurum Kaydı",
+        "description": "Dakikalar içinde kurumsal hesabınızı oluşturun. Organizasyon bilgilerinizi sağlayın ve sertifika vermeye başlamak için ekibimiz tarafından doğrulanın."
+      },
+      "createCertificate": {
+        "title": "Sertifika Oluşturma",
+        "description": "Sezgisel arayüzümüzü kullanarak dijital sertifikalar tasarlayın ve verin. Öğrenci verilerini toplu yükleyin, şablonları özelleştirin ve anında sertifika oluşturun."
+      },
+      "verification": {
+        "title": "Anında Doğrulama",
+        "description": "Alıcılar ve işverenler TCKN veya sertifika numarası kullanarak saniyelerde sertifikaları doğrulayabilir. Tüm doğrulamalar güvenlik için kaydedilir ve takip edilir."
+      },
+      "reporting": {
+        "title": "Analitik ve Raporlama",
+        "description": "Sertifika verme, doğrulama talepleri ve öğrenci verileri hakkında detaylı raporlara erişin. Raporları dışa aktarın ve kurumunuzun performansını takip edin."
+      }
+    },
+    "whyChooseUs": "Neden Platformumuzu Seçmelisiniz?",
+    "whyChooseUsSubtitle": "Güvenlik ve verimlilik göz önünde bulundurularak özellikle eğitim kurumları için geliştirildi",
+    "features": {
+      "fast": {
+        "title": "Yıldırım Hızında",
+        "description": "Toplu yükleme özelliğimizle dakikalar içinde binlerce sertifika verin"
+      },
+      "secure": {
+        "title": "Banka Düzeyinde Güvenlik",
+        "description": "Verileriniz kurumsal düzeyde şifreleme ve güvenlik protokolleri ile korunur"
+      },
+      "cloud": {
+        "title": "Bulut Tabanlı",
+        "description": "Bulut altyapımız sayesinde sertifikalarınıza her yerden, her zaman erişin"
+      },
+      "collaboration": {
+        "title": "Partner Ağı",
+        "description": "Sertifikalarınıza güvenilirlik katmak için akreditör kurumlarla işbirliği yapın"
+      }
+    },
+    "stats": {
+      "institutions": "Güvenilen Kurum",
+      "certificates": "Doğrulanmış Sertifika",
+      "countries": "Hizmet Verilen Ülke"
+    },
+    "cta": {
+      "title": "Başlamaya Hazır mısınız?",
+      "subtitle": "Platformumuzu kullanan yüzlerce kuruma katılın",
+      "getStarted": "Ücretsiz Deneyin",
+      "contactUs": "Satış Ekibiyle İletişime Geçin"
+    }
+  },
+  "payment": {
+    "summary": {
+      "certificates": "Sertifika Sayısı",
+      "pieces": "adet",
+      "total": "Toplam Tutar"
+    },
+    "buttons": {
+      "cancel": "Vazgeç",
+      "pay": "Ödeme Yap",
+      "processing": "İşleniyor..."
+    },
+    "security": {
+      "note": "Kart bilgileriniz güvenli bir şekilde şifrelenir. Stripe tarafından korunur."
+    },
+    "error": {
+      "cardError": "Kart bilgilerinde bir hata var.",
+      "unexpected": "Beklenmeyen bir hata oluştu. Lütfen tekrar deneyin."
+    },
+    "status": {
+      "processing": "Ödemeniz işleniyor...",
+      "succeeded": "Ödeme başarılı!",
+      "failed": "Ödeme başarısız."
+    }
+  }
+}

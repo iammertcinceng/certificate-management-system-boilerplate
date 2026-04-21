@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /institution/
+Disallow: /acreditor/
+Disallow: /api/
+
+Allow: /
+Sitemap: https://mertcin.com/sitemap.xml

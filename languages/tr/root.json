@@ -1,0 +1,723 @@
+{
+    "notFound": {
+        "title": "Sayfa bulunamadı",
+        "description": "Aradığınız sayfa taşınmış, silinmiş veya geçici olarak kullanılamıyor olabilir.",
+        "actions": {
+            "home": "Ana sayfaya dön",
+            "back": "Geri"
+        }
+    },
+    "error": {
+        "title": "Bir hata oluştu",
+        "unexpected": "Beklenmeyen bir hata ile karşılaştık. Lütfen tekrar deneyin.",
+        "digest": "Hata kodu",
+        "retry": "Tekrar dene",
+        "backToHome": "Ana sayfaya dön"
+    },
+    "nav": {
+        "home": "Ana Sayfa",
+        "verify": "Sertifika Doğrula",
+        "about": "Hakkımızda",
+        "services": "Hizmetler",
+        "collaborations": "İşbirliklerimiz",
+        "contact": "İletişim",
+        "pricing": "Fiyatlandırma",
+        "help": "Yardım ve Destek",
+        "login": "Giriş Yap",
+        "logout": "Çıkış Yap",
+        "register": "Başlayın",
+        "dashboard": "Panel",
+        "certificates": "Sertifikalar",
+        "students": "Öğrenciler",
+        "partners": "Partnerler",
+        "profile": "Profil",
+        "settings": "Ayarlar",
+        "approvals": "Onaylar",
+        "institutions": "Kurumlar"
+    },
+    "header": {
+        "roles": {
+            "institution": "Kurum",
+            "acreditor": "Akreditör",
+            "guest": "Misafir"
+        }
+    },
+    "footer": {
+        "brand": {
+            "alt": "MERTCIN Certificate Authorisation"
+        },
+        "tagline": "Güvenli Sertifika Doğrulama Platformu",
+        "columns": {
+            "product": {
+                "title": "Ürün",
+                "items": {
+                    "verify": "Sertifika Doğrulama",
+                    "howItWorks": "Nasıl Çalışır",
+                    "features": "Platform Özellikleri",
+                    "collaborations": "Kurumsal İlişkiler"
+                }
+            },
+            "company": {
+                "title": "Şirket",
+                "items": {
+                    "about": "Hakkımızda",
+                    "careers": "Kariyer",
+                    "blog": "Blog",
+                    "contact": "İletişim"
+                }
+            },
+            "support": {
+                "title": "Destek",
+                "items": {
+                    "help": "Yardım Merkezi",
+                    "privacy": "Gizlilik Politikası",
+                    "terms": "Kullanım Şartları",
+                    "kvkk": "KVKK Aydınlatma Metni"
+                }
+            }
+        },
+        "copyright": "Tüm hakları saklıdır."
+    },
+    "landing": {
+        "title": "Yeni Nesil Sertifika Yönetimi",
+        "subtitle": "Dünya çapında kurumlar tarafından güvenilen güvenli, hızlı ve güvenilir sertifika doğrulama sistemi.",
+        "ctaVerify": "Sertifika Doğrula",
+        "ctaLogin": "Ücretsiz Başlayın",
+        "featuresTitle": "Neden Certificate Authorisation?",
+        "featuresSubtitle": "Geleceğin sertifika yönetimini yenilikçi platformumuzla deneyimleyin",
+        "ctaSection": {
+            "title": "Hazır mısınız?",
+            "subtitle": "Mert CIN Certificate Authorisation kullanan binlerce kuruma katılın ve doğrulama sürecinizi kolaylaştırın.",
+            "primary": "Ücretsiz Denemeyi Başlat",
+            "secondary": "Satış ile İletişime Geç"
+        },
+        "heroStats": {
+            "certificates": "50.000+",
+            "certificatesLabel": "Doğrulanmış Sertifika",
+            "institutions": "200+",
+            "institutionsLabel": "Partner Kurum",
+            "countries": "15+",
+            "countriesLabel": "Hizmet Verilen Ülke"
+        },
+        "trustBadge": "Önde gelen eğitim kurumları tarafından güveniliyor"
+    },
+    "features": {
+        "fastVerification": {
+            "title": "Işık Hızında Doğrulama",
+            "description": "Sertifika doğrulama kodunuz ile 2 saniyeden kısa sürede sertifika doğrulayın"
+        },
+        "secureSystem": {
+            "title": "Banka Düzeyinde Güvenlik",
+            "description": "Uçtan uca şifreleme ve blockchain teknolojisi ile maksimum veri koruması"
+        },
+        "instantResult": {
+            "title": "Anlık Dijital Sertifikalar",
+            "description": "İndirilebilir PDF sertifikalar ve QR kodlar ile anında doğrulanmış sonuçlar alın"
+        },
+        "globalAccess": {
+            "title": "7/24 Küresel Erişim",
+            "description": "Bulut tabanlı platformumuz ile sertifikalarınıza her zaman, her yerden erişin"
+        },
+        "multiLanguage": {
+            "title": "Çoklu Dil Desteği",
+            "description": "Yerelleştirilmiş sertifika formatları ile birden fazla dilde kullanılabilir"
+        },
+        "printableCertificates": {
+            "title": "Yazdırılabilir Sertifikalar",
+            "description": "Sertifikalarınızı PDF veya yüksek çözünürlüklü formatta indirip yazdırabilirsiniz"
+        }
+    },
+    "testimonials": {
+        "title": "Binlerce Kişi Tarafından Güveniliyor",
+        "subtitle": "Partnerlerimizin ve kullanıcılarımızın bizim hakkımızda söylediklerini görün",
+        "items": [
+            {
+                "name": "Dr. Ahmet Yılmaz",
+                "role": "Mühendislik Fakültesi Dekanı, Teknik Üniversite",
+                "content": "Mert CIN Certificate Authorisation sertifika doğrulama süreçlerimizi devrim niteliğinde değiştirdi. Süreç artık sorunsuz ve güvenli."
+            },
+            {
+                "name": "Elif Özkan",
+                "role": "İK Direktörü, Küresel Şirket",
+                "content": "Doğrulama süremizi günlerden saniyelere indirdik. API entegrasyonu inanılmaz derecede sorunsuzdu."
+            },
+            {
+                "name": "Prof. Dr. Mehmet Kaya",
+                "role": "Akademik Koordinatör, Uluslararası Enstitü",
+                "content": "Çoklu dil desteği ve küresel erişilebilirlik uluslararası programlarımız için mükemmel."
+            }
+        ]
+    },
+    "verify": {
+        "title": "Sertifika Doğrulama",
+        "subtitle": "Sertifikanızda bulunan benzersiz doğrulama kodunu girin.",
+        "placeholder": "Doğrulama kodu (örn: MC1234070812)",
+        "submit": "Ara",
+        "hint": "Doğrulama kodu, sertifikanızın üzerinde yer almaktadır.",
+        "results": "Sonuçlar",
+        "mockStudent": "Örnek Öğrenci",
+        "downloadPdf": "PDF indir",
+        "downloading": "İndiriliyor...",
+        "error": {
+            "required": "Lütfen değer girin",
+            "invalidTckn": "Geçersiz NATIONAL_ID"
+        }
+    },
+    "verifyResult": {
+        "title": "Doğrulama Sonuçları",
+        "subtitle": "Sertifika doğrulama sonuçlarınız aşağıda listelenmektedir",
+        "newQuery": "Yeni Sorgu",
+        "noQuery": "Sorgu bulunamadı. Lütfen doğrulama aramasını tekrar gerçekleştirin.",
+        "error": {
+            "title": "Doğrulama Başarısız",
+            "noCertificateTitle": "Sertifika Bulunamadı",
+            "queryFailed": "Sorgu başarısız",
+            "invalidCode": "Geçersiz doğrulama kodu. Lütfen kodunuzu kontrol edip tekrar deneyin.",
+            "noStudentFound": "Bu koda sahip bir öğrenci bulunamadı. Lütfen kodunuzu kontrol edin.",
+            "noCertificates": "Bu öğrenci için kayıtlı sertifika bulunmuyor.",
+            "notFound": "Kayıt bulunamadı.",
+            "serverError": "Sunucu şu an yanıt vermiyor. Lütfen daha sonra tekrar deneyin.",
+            "networkError": "Bağlantı hatası. İnternet bağlantınızı kontrol edin."
+        },
+        "collision": {
+            "title": "Birden Fazla Eşleşme",
+            "description": "Aşağıdaki kişilerden biri ile eşleşti. Lütfen tam ad soyad girerek doğrulayın.",
+            "placeholder": "Ad Soyad (örn: Ahmet Yılmaz)",
+            "verify": "Doğrula"
+        },
+        "success": {
+            "title": "Doğrulama Başarılı",
+            "welcome": "Hoşgeldiniz"
+        },
+        "certificates": {
+            "title": "Sertifikalar",
+            "found": "adet sertifika bulundu",
+            "verified": "Doğrulandı",
+            "verifiedInfo": "Bu sertifika Mert CIN Certificate Authorisation tarafından doğrulanmıştır.",
+            "view": "Görüntüle",
+            "tip": "İpucu:",
+            "tipDescription": "Belirli bir sertifikaya direkt gitmek için ana anahtarın sonuna sıra numarasını ekleyin.",
+            "tipExample": "Örnek: MC1234070811 → 1. sertifika"
+        },
+        "detail": {
+            "notFound": "Sertifika Bulunamadı",
+            "notFoundDesc": "Bu sertifika mevcut değil veya kaldırılmış olabilir.",
+            "newVerification": "Yeni Doğrulama Yap",
+            "verified": "Sertifika Doğrulandı",
+            "certificateNo": "Sertifika No:",
+            "newVerificationShort": "← Yeni Doğrulama",
+            "validCertificate": "Geçerli Sertifika"
+        },
+        "share": {
+            "title": "Sertifikayı Paylaş",
+            "telegramAria": "Telegram'da paylaş",
+            "xAria": "X'te paylaş",
+            "linkedinAria": "LinkedIn'de paylaş",
+            "facebookAria": "Facebook'ta paylaş",
+            "copy": "Link Kopyala",
+            "copied": "Kopyalandı!",
+            "email": "E-posta",
+            "emailSubject": "Sertifika Paylaşımı"
+        },
+        "sidebar": {
+            "quickInfo": "Sertifika Bilgileri",
+            "student": "Öğrenci",
+            "training": "Eğitim",
+            "duration": "Süre",
+            "hours": "Saat",
+            "date": "Tarih",
+            "institution": "Kurum",
+            "download": {
+                "downloading": "İndiriliyor...",
+                "button": "Sertifika İndir (PDF)"
+            },
+            "badge": {
+                "show": "Başarı Rozeti Göster",
+                "title": "Başarı Rozeti",
+                "desc": "Bu özel rozeti indirebilir ve sosyal medyada paylaşabilirsiniz!"
+            }
+        }
+    },
+    "certificate": {
+        "loading": "Sertifika yükleniyor...",
+        "notFound": "Sertifika bulunamadı",
+        "notFoundTitle": "Sertifika Bulunamadı",
+        "invalidNumber": "Geçersiz sertifika numarası",
+        "loadError": "Sertifika yüklenirken bir hata oluştu",
+        "certificateNo": "Sertifika No",
+        "certificateId": "Kullanıcı Doğrulama kodu",
+        "exportError": "Sertifika PDF olarak indirilemedi. Lütfen tekrar deneyin.",
+        "previewInfo": "Önizleme Bilgisi",
+        "previewDescription": "Sertifika ekranda küçültülmüş olarak gösterilmektedir. İndirdiğinizde yatay A4 formatında (297mm x 210mm) tam boyutlu olacaktır."
+    },
+    "about": {
+        "title": "Hakkımızda",
+        "content": "Mert CIN Certificate Authorisation, eğitim kurumları ve sertifika veren organizasyonlar için geliştirilmiş yeni nesil bir dijital sertifika yönetim ve doğrulama platformudur. Misyonumuz, sertifika doğrulama süreçlerini hızlandırmak, güvenli hale getirmek ve küresel erişilebilirliği artırmaktır.",
+        "subtitle": "Misyonumuz ve vizyonumuz hakkında daha fazla bilgi edinin",
+        "mission": {
+            "title": "Misyonumuz",
+            "content": "Dünya çapında kurumları ve bireyleri güçlendiren güvenli, şeffaf ve verimli bir dijital sertifika yönetim platformu sağlamak."
+        },
+        "vision": {
+            "title": "Vizyonumuz",
+            "content": "Dünya çapında milyonlarca kullanıcı ve kurum tarafından güvenilen, sertifika doğrulama ve yönetimi için küresel standart olmak."
+        },
+        "stats": {
+            "title": "Etkimiz"
+        }
+    },
+    "services": {
+        "title": "Hizmetlerimiz",
+        "subtitle": "Kurumunuz için sunduğumuz profesyonel çözümler",
+        "certificateManagement": {
+            "title": "Sertifika Yönetimi",
+            "description": "Dijital sertifikalarınızı merkezi bir platformda oluşturun, yönetin ve dağıtın"
+        },
+        "verification": {
+            "title": "Hızlı Doğrulama",
+            "description": "Sertifika doğrulama kodu ile saniyeler içinde sertifika doğrulama"
+        },
+        "partnerNetwork": {
+            "title": "Partner Ağı",
+            "description": "Akreditör kurumlarla işbirliği yaparak sertifikalarınıza güvenilirlik katın"
+        },
+        "reporting": {
+            "title": "Raporlama ve Analitik",
+            "description": "Detaylı istatistikler ve raporlarla kurumunuzun performansını takip edin"
+        },
+        "security": {
+            "title": "Güvenlik ve Uyumluluk",
+            "description": "Banka düzeyinde güvenlik protokolleri ve GDPR uyumlu veri yönetimi"
+        },
+        "support": {
+            "title": "7/24 Destek",
+            "description": "Teknik destek ekibimiz size yardımcı olmak için her zaman hazır"
+        },
+        "cta": {
+            "title": "Başlamaya Hazır mısınız?",
+            "subtitle": "Platformumuzu kullanan binlerce kuruma katılın",
+            "getStarted": "Başlayın",
+            "contactUs": "Bize Ulaşın"
+        }
+    },
+    "collaborations": {
+        "title": "İşbirliklerimiz",
+        "subtitle": "Tüm kayıtlı kurum ve partnerler.",
+        "search": {
+            "placeholder": "Kurum, partner veya Eğitim ara...",
+            "filter": "Filtrele",
+            "filterType": "Tür",
+            "all": "Tümü",
+            "institutionsOnly": "Sadece Kurumlar",
+            "partnersOnly": "Sadece Partnerler",
+            "activeFilters": "Aktif filtreler:",
+            "searchLabel": "Arama:",
+            "clearFilters": "Filtreleri Temizle"
+        },
+        "results": {
+            "loading": "Yükleniyor…",
+            "found": "sonuç bulundu",
+            "noResults": "Sonuç bulunamadı",
+            "noResultsDesc": "Arama kriterlerinize uygun kurum veya partner bulunamadı."
+        },
+        "badges": {
+            "partner": "Partner",
+            "institutions": "Kurumlar",
+            "partners": "Partnerler"
+        }
+    },
+    "collaborationDetail": {
+        "notFound": "Kayıt bulunamadı",
+        "notFoundDesc": "Aradığınız kurum/partner bilgisi mevcut değil.",
+        "trainings": "Eğitimler",
+        "noTrainings": "Henüz eğitim yok"
+    },
+    "trainingDetail": {
+        "notFound": "Kayıt bulunamadı",
+        "notFoundDesc": "Aradığınız eğitim bilgisi mevcut değil.",
+        "description": "Açıklama",
+        "noDescription": "Açıklama bulunmuyor.",
+        "totalHours": "Toplam Saat",
+        "level": "Seviye",
+        "language": "Dil",
+        "accreditors": "Akreditörler",
+        "institution": "Kurum"
+    },
+    "login": {
+        "title": "Hesabınıza giriş yapın",
+        "email": "E-posta adresi",
+        "password": "Şifre",
+        "submit": "Giriş Yap",
+        "forgotPassword": "Şifremi unuttum",
+        "organizationName": "Kurum/Şirket Adı",
+        "confirmPassword": "Şifreyi doğrula",
+        "registerSubmit": "Hesap oluştur",
+        "registerTitle": "Kayıt Ol",
+        "registerSubtitle": "Kurumsal bilgilerinizi doldurun",
+        "taxNumber": "Vergi No",
+        "taxOffice": "Vergi Dairesi",
+        "address": "Adres",
+        "emailHint": "(giriş için kullanılacak)",
+        "role": "Hesap Türü",
+        "organizationInfo": "Kurum Bilgileri",
+        "accountInfo": "Hesap Bilgileri",
+        "alreadyHaveAccount": "Zaten hesabınız var mı?",
+        "loginHere": "Giriş yapın",
+        "registering": "Kayıt yapılıyor...",
+        "noAccount": "Hesabınız yok mu?",
+        "registerHere": "Kayıt olun",
+        "loggingIn": "Giriş yapılıyor...",
+        "roles": {
+            "institution": "Kurum",
+            "partner": "Partner",
+            "acreditor": "Akreditör"
+        },
+        "tabs": {
+            "institution": "Kurum",
+            "partner": "Partner",
+            "register": "Kayıt Ol",
+            "logout": "Çıkış"
+        },
+        "validation": {
+            "passwordsDoNotMatch": "Şifreler eşleşmiyor",
+            "passwordTooShort": "Şifre en az 6 karakter olmalıdır"
+        },
+        "messages": {
+            "registrationSuccess": "Kayıt başarılı! Lütfen giriş yapın.",
+            "registrationFailed": "Kayıt başarısız",
+            "unexpectedError": "Beklenmeyen bir hata oluştu."
+        }
+    },
+    "contact": {
+        "title": "İletişim",
+        "subtitle": "Ekibimizle iletişime geçin. Size yardımcı olmak için buradayız.",
+        "info": {
+            "title": "İletişim Bilgileri",
+            "email": "E-posta",
+            "phone": "Telefon",
+            "phoneValue": "Yakında eklenecek",
+            "address": "Adres",
+            "addressValue": "Duyurulacak",
+            "businessHours": "Çalışma Saatleri",
+            "businessHoursValue": "Pazartesi - Cuma: 09:00 - 18:00"
+        },
+        "form": {
+            "title": "Bize mesaj gönderin",
+            "name": "Ad Soyad",
+            "namePlaceholder": "Ahmet Yılmaz",
+            "email": "E-posta Adresi",
+            "emailPlaceholder": "ahmet@example.com",
+            "subject": "Konu",
+            "subjectPlaceholder": "Size nasıl yardımcı olabiliriz?",
+            "message": "Mesaj",
+            "messagePlaceholder": "Talebiniz hakkında bize daha fazla bilgi verin...",
+            "submit": "Mesaj Gönder",
+            "sending": "Gönderiliyor...",
+            "successMessage": "Teşekkürler! Mesajınız başarıyla gönderildi. En kısa sürede size dönüş yapacağız.",
+            "errorMessage": "Üzgünüz, bir şeyler ters gitti. Lütfen tekrar deneyin veya bize doğrudan e-posta gönderin."
+        }
+    },
+    "help": {
+        "title": "Yardım Merkezi",
+        "subtitle": "Sıkça sorulan soruların cevaplarını bulun",
+        "faqTitle": "Sıkça Sorulan Sorular",
+        "quickLinks": {
+            "verify": {
+                "title": "Sertifika Doğrula",
+                "description": "Herhangi bir sertifikayı hızlıca doğrulayın"
+            },
+            "contact": {
+                "title": "Destek ile İletişim",
+                "description": "Ekibimizle iletişime geçin"
+            },
+            "howItWorks": {
+                "title": "Nasıl Çalışır",
+                "description": "Sürecimiz hakkında bilgi edinin"
+            }
+        },
+        "faqs": {
+            "0": {
+                "question": "Sertifikayı nasıl doğrularım?",
+                "answer": "Doğrulama sayfamızda sertifika numarasını veya TC kimlik numarasını girerek sertifikayı doğrulayabilirsiniz. Sistem anında sertifika detaylarını ve geçerlilik durumunu gösterecektir."
+            },
+            "1": {
+                "question": "Sertifika düzenleme ne kadar sürer?",
+                "answer": "Tüm gerekli onaylar alındıktan sonra sertifika düzenleme genellikle anlıktır. Onay süreci, kurumunuzun ayarlarına ve partner gereksinimlerine bağlı olarak değişebilir."
+            },
+            "2": {
+                "question": "Sertifikaları toplu olarak indirebilir miyim?",
+                "answer": "Evet, kurumlar sertifika yönetim panelinde bulunan toplu indirme özelliğini kullanarak birden fazla sertifikayı aynı anda indirebilir."
+            },
+            "3": {
+                "question": "Hangi güvenlik önlemleri alınmıştır?",
+                "answer": "Banka düzeyinde şifreleme, sertifika doğrulama için blockchain teknolojisi kullanıyoruz ve GDPR ve KVKK dahil uluslararası veri koruma standartlarına uyuyoruz."
+            },
+            "4": {
+                "question": "Partner kurum nasıl olabilirim?",
+                "answer": "Kayıt sayfamızdan kurum olarak kaydolabilirsiniz. Doğrulama sonrasında tüm sertifika yönetim özelliklerine erişiminiz olacaktır."
+            },
+            "5": {
+                "question": "Hangi ödeme yöntemlerini kabul ediyorsunuz?",
+                "answer": "Kredi kartı, banka havalesi ve kurumsal faturalama dahil çeşitli ödeme yöntemlerini kabul ediyoruz. Kurumsal ödeme seçenekleri için bizimle iletişime geçin."
+            }
+        },
+        "contactCta": {
+            "title": "Hala sorularınız mı var?",
+            "subtitle": "Destek ekibimiz size yardımcı olmaya hazır",
+            "button": "Bize Ulaşın"
+        }
+    },
+    "howItWorks": {
+        "title": "Nasıl Çalışır",
+        "subtitle": "Eğitim kurumları için sertifika yönetimini nasıl kolaylaştırdığımızı keşfedin",
+        "processTitle": "Basit 4 Adımlı Süreç",
+        "processSubtitle": "Kayıttan raporlamaya, ihtiyacınız olan her şey tek platformda",
+        "steps": {
+            "registration": {
+                "title": "Kurum Kaydı",
+                "description": "Dakikalar içinde kurumsal hesabınızı oluşturun. Organizasyon bilgilerinizi sağlayın ve sertifika vermeye başlamak için ekibimiz tarafından doğrulanın."
+            },
+            "createCertificate": {
+                "title": "Sertifika Oluşturma",
+                "description": "Sezgisel arayüzümüzü kullanarak dijital sertifikalar tasarlayın ve verin. Öğrenci verilerini toplu yükleyin, şablonları özelleştirin ve anında sertifika oluşturun."
+            },
+            "verification": {
+                "title": "Anında Doğrulama",
+                "description": "Alıcılar ve işverenler NATIONAL_ID veya sertifika numarası kullanarak saniyelerde sertifikaları doğrulayabilir. Tüm doğrulamalar güvenlik için kaydedilir ve takip edilir."
+            },
+            "reporting": {
+                "title": "Analitik ve Raporlama",
+                "description": "Sertifika verme, doğrulama talepleri ve öğrenci verileri hakkında detaylı raporlara erişin. Raporları dışa aktarın ve kurumunuzun performansını takip edin."
+            }
+        },
+        "whyChooseUs": "Neden Platformumuzu Seçmelisiniz?",
+        "whyChooseUsSubtitle": "Güvenlik ve verimlilik göz önünde bulundurularak özellikle eğitim kurumları için geliştirildi",
+        "features": {
+            "fast": {
+                "title": "Yıldırım Hızında",
+                "description": "Toplu yükleme özelliğimizle dakikalar içinde binlerce sertifika verin"
+            },
+            "secure": {
+                "title": "Banka Düzeyinde Güvenlik",
+                "description": "Verileriniz kurumsal düzeyde şifreleme ve güvenlik protokolleri ile korunur"
+            },
+            "cloud": {
+                "title": "Bulut Tabanlı",
+                "description": "Bulut altyapımız sayesinde sertifikalarınıza her yerden, her zaman erişin"
+            },
+            "collaboration": {
+                "title": "Partner Ağı",
+                "description": "Sertifikalarınıza güvenilirlik katmak için akreditör kurumlarla işbirliği yapın"
+            }
+        },
+        "stats": {
+            "institutions": "Güvenilen Kurum",
+            "certificates": "Doğrulanmış Sertifika",
+            "countries": "Hizmet Verilen Ülke"
+        },
+        "cta": {
+            "title": "Başlamaya Hazır mısınız?",
+            "subtitle": "Platformumuzu kullanan yüzlerce kuruma katılın",
+            "getStarted": "Ücretsiz Deneyin",
+            "contactUs": "Satış Ekibiyle İletişime Geçin"
+        }
+    },
+    "privacy": {
+        "title": "Gizlilik Politikası",
+        "lastUpdated": "Son Güncelleme",
+        "sections": {
+            "intro": {
+                "title": "Giriş",
+                "content": "Bu Gizlilik Politikası, Mert CIN Certificate Authorisation'ın kişisel bilgilerinizi nasıl topladığını, kullandığını ve koruduğunu açıklar. Gizliliğinizi sağlamaya ve verilerinizi korumaya kararlıyız."
+            },
+            "dataCollection": {
+                "title": "Topladığımız Veriler",
+                "content": "Aşağıdaki türde bilgileri topluyoruz:",
+                "items": {
+                    "0": "Kişisel kimlik bilgileri (ad, e-posta, telefon numarası)",
+                    "1": "Sertifika ve eğitim ile ilgili veriler",
+                    "2": "Kullanım verileri ve analizler",
+                    "3": "Teknik bilgiler (IP adresi, tarayıcı türü, cihaz bilgisi)"
+                }
+            },
+            "dataUsage": {
+                "title": "Verilerinizi Nasıl Kullanırız",
+                "content": "Verileriniz hizmetlerimizi sağlamak ve geliştirmek, sertifikaları işlemek, sizinle iletişim kurmak ve platform güvenliğini sağlamak için kullanılır. Kişisel bilgilerinizi asla üçüncü taraflara satmayız."
+            },
+            "dataSecurity": {
+                "title": "Veri Güvenliği",
+                "content": "Bilgilerinizi yetkisiz erişim, değiştirme veya ifşadan korumak için şifreleme, güvenli sunucular ve düzenli güvenlik denetimleri dahil sektör standardı güvenlik önlemleri uyguluyoruz."
+            },
+            "userRights": {
+                "title": "Haklarınız",
+                "content": "Kişisel verilerinize erişme, düzeltme, silme veya dışa aktarma hakkına sahipsiniz. Belirli veri işleme faaliyetlerine de itiraz edebilirsiniz. Bu hakları kullanmak için bizimle iletişime geçin."
+            },
+            "contact": {
+                "title": "Bize Ulaşın",
+                "content": "Bu Gizlilik Politikası hakkında sorularınız varsa, lütfen bizimle iletişime geçin:"
+            }
+        }
+    },
+    "terms": {
+        "title": "Kullanım Şartları",
+        "lastUpdated": "Son Güncelleme",
+        "sections": {
+            "acceptance": {
+                "title": "Şartların Kabulü",
+                "content": "Bu platformu kullanarak, bu Kullanım Şartlarını kabul etmiş ve bunlara bağlı kalmayı kabul etmiş olursunuz. Bu şartları kabul etmiyorsanız, lütfen hizmetlerimizi kullanmayın."
+            },
+            "services": {
+                "title": "Hizmetlerin Açıklaması",
+                "content": "Mert CIN Certificate Authorisation, sertifika düzenleme, doğrulama ve yönetimi için dijital bir platform sağlar. Hizmetleri herhangi bir zamanda değiştirme veya durdurma hakkını saklı tutarız."
+            },
+            "userResponsibilities": {
+                "title": "Kullanıcı Sorumlulukları",
+                "content": "Kullanıcılar şunlardan sorumludur:",
+                "items": {
+                    "0": "Hesap kimlik bilgilerinin gizliliğini korumak",
+                    "1": "Sağlanan bilgilerin doğruluğunu sağlamak",
+                    "2": "Tüm geçerli yasa ve düzenlemelere uymak"
+                }
+            },
+            "intellectualProperty": {
+                "title": "Fikri Mülkiyet",
+                "content": "Bu platformdaki tüm içerik, ticari markalar ve fikri mülkiyet, Mert CIN Certificate Authorisation veya lisans verenlerine aittir. Yetkisiz kullanım yasaktır."
+            },
+            "limitation": {
+                "title": "Sorumluluk Sınırlaması",
+                "content": "Doğru ve güvenilir hizmetler sağlamaya çalışıyoruz, ancak kesintisiz veya hatasız çalışmayı garanti edemeyiz. Sorumluluğumuz yasaların izin verdiği azami ölçüde sınırlıdır."
+            },
+            "contact": {
+                "title": "İletişim Bilgileri",
+                "content": "Bu Kullanım Şartları hakkında sorularınız için lütfen bizimle iletişime geçin:"
+            }
+        }
+    },
+    "kvkk": {
+        "title": "KVKK Aydınlatma Metni",
+        "lastUpdated": "Son Güncelleme",
+        "sections": {
+            "intro": {
+                "title": "Giriş",
+                "content": "Bu metin, kişisel verilerinizi 6698 sayılı Kişisel Verilerin Korunması Kanunu (KVKK) ve diğer geçerli veri koruma yasalarına uygun olarak nasıl işlediğimizi açıklar."
+            },
+            "dataController": {
+                "title": "Veri Sorumlusu",
+                "content": "Mert CIN Certificate Authorisation, kişisel verilerinizden sorumlu veri sorumlusudur. Gizliliğinizi korumaya ve veri koruma düzenlemelerine uyumu sağlamaya kararlıyız."
+            },
+            "personalData": {
+                "title": "İşlediğimiz Kişisel Veriler",
+                "content": "Aşağıdaki kişisel veri kategorilerini işliyoruz:",
+                "items": {
+                    "0": "Kimlik verileri (ad, soyad, TC kimlik numarası)",
+                    "1": "İletişim verileri (e-posta adresi, telefon numarası, adres)",
+                    "2": "Sertifika ve eğitim kayıtları",
+                    "3": "Teknik veriler (IP adresi, giriş verileri, kullanım bilgileri)"
+                }
+            },
+            "processingPurpose": {
+                "title": "İşleme Amacı",
+                "content": "Kişisel verileriniz sertifika düzenleme ve doğrulama, hizmet sağlama, yasal uyum ve platform iyileştirme amacıyla işlenir. Verileri yalnızca uygun yasal dayanakla meşru amaçlar için işleriz."
+            },
+            "dataSubjectRights": {
+                "title": "Veri Sahibi Olarak Haklarınız",
+                "content": "KVKK kapsamında aşağıdaki haklara sahipsiniz:",
+                "items": {
+                    "0": "Kişisel verilerinize erişim hakkı",
+                    "1": "Yanlış verilerin düzeltilmesi hakkı",
+                    "2": "Verilerin silinmesini isteme hakkı (unutulma hakkı)",
+                    "3": "İşlemenin kısıtlanması hakkı",
+                    "4": "Veri taşınabilirliği hakkı"
+                }
+            },
+            "contact": {
+                "title": "İletişim",
+                "content": "Haklarınızı kullanmak veya veri işleme ile ilgili sorularınız için lütfen bizimle iletişime geçin:"
+            }
+        }
+    },
+    "admin": {
+        "login": {
+            "title": "Admin Girişi",
+            "subtitle": "Yönetim paneline erişmek için giriş yapın",
+            "email": "E-posta",
+            "password": "Şifre",
+            "submit": "Giriş Yap",
+            "loggingIn": "Giriş yapılıyor...",
+            "unknownError": "Bilinmeyen hata",
+            "note": "Not: Bu giriş yalnızca admin rolüne sahip kullanıcılar içindir."
+        },
+        "dashboard": {
+            "title": "Genel Bakış",
+            "subtitle": "Sistem istatistikleri ve son işlemler",
+            "stats": {
+                "totalUsers": "Toplam Kullanıcı",
+                "totalCertificates": "Toplam Sertifika",
+                "pendingApprovals": "Bekleyen Onaylar",
+                "totalStudents": "Toplam Öğrenci",
+                "lowBalanceInstitutions": "Düşük Bakiyeli Kurumlar"
+            },
+            "recentActivities": {
+                "title": "Son Aktiviteler",
+                "viewAll": "Tümünü Gör",
+                "filter": "Filtrele",
+                "search": "Ara",
+                "noActivities": "Aktivite bulunamadı",
+                "types": {
+                    "all": "Tümü",
+                    "certificate": "Sertifika",
+                    "training": "Eğitim",
+                    "user": "Kullanıcı",
+                    "transaction": "İşlem"
+                }
+            }
+        },
+        "users": "Kullanıcılar",
+        "roles": "Roller",
+        "pendingRequests": "Bekleyen Talepler",
+        "messages": {
+            "imageFileRequired": "Lütfen bir resim dosyası seçin",
+            "fileSizeLimit": "Dosya boyutu 5MB'dan küçük olmalıdır",
+            "partnerNameRequired": "Kuruluş adı gerekli",
+            "partnerAdded": "Referans kuruluş eklendi",
+            "partnerAddError": "Eklenemedi: {error}",
+            "partnerAddErrorUnknown": "Eklenemedi: Bilinmeyen hata",
+            "serverError": "Bir sunucu hatası oluştu",
+            "trainingApproved": "Eğitim onaylandı!",
+            "trainingRejected": "Eğitim reddedildi.",
+            "error": "Bir hata oluştu.",
+            "settingsSaved": "Ayarlar kaydedildi.",
+            "settingsSaveError": "Ayarlar kaydedilemedi.",
+            "balanceAdded": "Bakiye başarıyla eklendi.",
+            "partnershipApproved": "Partnership onaylandı!",
+            "partnershipRejected": "Partnership reddedildi.",
+            "certificateApproved": "Sertifika onaylandı!",
+            "certificateRejected": "Sertifika reddedildi.",
+            "paymentSettingsSaved": "Ayarlar başarıyla kaydedildi!"
+        }
+    },
+    "payment": {
+        "summary": {
+            "certificates": "Sertifika Sayısı",
+            "pieces": "adet",
+            "total": "Toplam Tutar"
+        },
+        "buttons": {
+            "cancel": "Vazgeç",
+            "pay": "Ödeme Yap",
+            "processing": "İşleniyor..."
+        },
+        "security": {
+            "note": "Kart bilgileriniz güvenli bir şekilde şifrelenir. Stripe tarafından korunur."
+        },
+        "error": {
+            "cardError": "Kart bilgilerinde bir hata var.",
+            "unexpected": "Beklenmeyen bir hata oluştu. Lütfen tekrar deneyin."
+        },
+        "status": {
+            "processing": "Ödemeniz işleniyor...",
+            "succeeded": "Ödeme başarılı!",
+            "failed": "Ödeme başarısız."
+        }
+    }
+}

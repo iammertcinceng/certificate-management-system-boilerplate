@@ -1,0 +1,1029 @@
+{
+    "institution": {
+        "dashboard": "Kurum Paneli",
+        "home": {
+            "subtitle": "Kurumunuzun sertifika yönetimi merkezine hoş geldiniz.",
+            "lowBalance": {
+                "title": "Düşük bakiye uyarısı",
+                "desc": "Mevcut bakiyeniz {balance}. Sertifika oluşturma işlemlerinde kesinti yaşamamak için bakiye yükleyin.",
+                "load": "Bakiye Yükle"
+            },
+            "stats": {
+                "totalCertificates": "Toplam Sertifika",
+                "totalStudents": "Toplam Öğrenci",
+                "partners": "Partner Sayısı",
+                "balance": "Mevcut Bakiye",
+                "threshold": "Eşik: {threshold}"
+            },
+            "charts": {
+                "title": "Aktivite Trendi",
+                "subtitle": "Günlük sertifika ve öğrenci ekleme sayıları",
+                "last30Days": "Son 30 gün"
+            },
+            "activities": {
+                "title": "Son İşlemler",
+                "viewAll": "Tümünü gör",
+                "allTitle": "Tüm İşlemler",
+                "certificateStatus": "Sertifika {id} {status}",
+                "created": "oluşturuldu",
+                "updated": "güncellendi",
+                "studentAdded": "Yeni öğrenci eklendi: {name}",
+                "trainingCreated": "Yeni eğitim oluşturuldu: {name}"
+            },
+            "quickActions": {
+                "title": "Hızlı İşlemler",
+                "createCertificate": "Yeni Sertifika Oluştur",
+                "addStudent": "Öğrenci Ekle",
+                "balance": "Bakiye Yönetimi"
+            },
+            "notifications": {
+                "title": "Bildirimler",
+                "pendingCerts": "Onay Bekleyen Sertifikalar",
+                "pendingDesc": "{count} sertifika onayınızı bekliyor",
+                "noNew": "Yeni bildirim yok"
+            },
+            "balanceWidget": {
+                "current": "Mevcut Bakiye",
+                "load": "Yükle"
+            }
+        },
+        "certificates": {
+            "title": "Sertifika Yönetimi",
+            "subtitle": "Oluşturulan tüm sertifikaları görüntüleyin ve yönetin.",
+            "approvalsLink": "Sertifika Onayları",
+            "trainings": "Eğitimler",
+            "createNew": "Yeni Sertifika Oluştur",
+            "createNewDescription": "Yeni sertifika oluşturmak için aşağıdaki adımları takip edin.",
+            "backToManagement": "Sertifika Yönetimine Geri Dön",
+            "bulkAdd": "Toplu Olarak Ekle",
+            "templates": {
+                "classic": {
+                    "name": "Klasik",
+                    "description": "Geleneksel ve resmi görünüm. Kurumsal kullanım için ideal."
+                },
+                "modern": {
+                    "name": "Modern",
+                    "description": "Minimal ve çağdaş tasarım. Temiz ve profesyonel."
+                },
+                "creative": {
+                    "name": "Yaratıcı",
+                    "description": "Renkli ve dinamik tasarım. Dikkat çekici ve özgün."
+                },
+                "elegant": {
+                    "name": "Elegant",
+                    "description": "Zarif dalga desenleri ve altın aksan renkli sofistike tasarım."
+                },
+                "professional": {
+                    "name": "Profesyonel",
+                    "description": "Çizgili çerçeve ve minimal yapıda kurumsal tasarım."
+                },
+                "executive": {
+                    "name": "Yönetici",
+                    "description": "Altın/kahverengi dekoratif çerçeve, formal akademik stil."
+                },
+                "minimal": {
+                    "name": "Minimal",
+                    "description": "Temiz tasarım, altın çizgiler, çift imza alanı."
+                }
+            },
+            "create": {
+                "template": {
+                    "title": "Şablon Seçimi",
+                    "subtitle": "Sertifika şablonunu seçin ve önizleyin.",
+                    "miniPreview": "Şablon Önizlemesi",
+                    "fullPreview": "Tam Önizleme",
+                    "modal": {
+                        "titleSuffix": "Şablonu Önizleme",
+                        "close": "Kapat",
+                        "footerNote": "Bu bir önizlemedir. Gerçek sertifikalar öğrenci ve eğitim bilgilerinizle oluşturulacaktır."
+                    }
+                },
+                "training": {
+                    "title": "Eğitim Seçimi",
+                    "subtitle": "Sertifika verilecek eğitimi seçin.",
+                    "loading": "Yükleniyor...",
+                    "pending": "Onayda",
+                    "noItems": "Henüz eğitim bulunamadı."
+                },
+                "students": {
+                    "title": "Öğrenci Ekleme",
+                    "subtitle": "Sertifika alacak öğrencileri ekleyin.",
+                    "listTitle": "Kurum Öğrenci Listesi",
+                    "searchPlaceholder": "Öğrenci ara...",
+                    "loading": "Yükleniyor...",
+                    "notFound": "Öğrenci bulunamadı."
+                },
+                "partners": {
+                    "title": "Partner Seçimi",
+                    "subtitle": "Partner(ler)i belirleyin ve Üst Kurum onayı seçin.",
+                    "uiaTitle": "Üst Kurum Onayı",
+                    "uiaHint": "Evet seçilirse bir partneri Üst Kurum sorumlusu olarak seçmelisiniz.",
+                    "uiaResponsible": "Üst Kurum sorumlusu",
+                    "select": "Seç",
+                    "selected": "Seçili",
+                    "expired": "Süresi Doldu",
+                    "loading": "Yükleniyor...",
+                    "noPartners": "Partner bulunamadı.",
+                    "external": "Harici Partnerler",
+                    "externalCannotBeUia": "Harici partner üst kurum sorumlusu olamaz."
+                },
+                "review": {
+                    "title": "Özet ve Onay",
+                    "reviseTitle": "Sertifika Revizyonu",
+                    "subtitle": "Seçimlerinizi kontrol edin ve sertifikayı onaya gönderin.",
+                    "reviseSubtitle": "Reddedilen sertifikayı düzenliyorsunuz. Aşağıdaki adımları kontrol edip güncelleyebilirsiniz.",
+                    "reviseBoxTitle": "Sertifika Revizyonu",
+                    "reviseBoxDescription": "Reddedilen sertifikayı düzenliyorsunuz. Aşağıdaki adımlardan istediğinizi değiştirebilirsiniz.",
+                    "certificatePreview": "Sertifika Önizleme",
+                    "details": "Sertifika Detayları",
+                    "template": "Şablon:",
+                    "training": "Eğitim:",
+                    "accreditorCount": "Akreditör Sayısı:",
+                    "trainingHours": "Eğitim Süresi:",
+                    "hours": "Saat",
+                    "uia": "Üst Kurum Onayı:",
+                    "studentCount": "Öğrenci Sayısı:",
+                    "createdAt": "Oluşturulma Tarihi:",
+                    "accreditors": "Akreditörler",
+                    "uiaResponsible": "Akreditör",
+                    "dateSelection": {
+                        "title": "Sertifika Tarihi",
+                        "today": "Bugün",
+                        "range": "Tarih Aralığı",
+                        "rangeLabel": "Başlangıç - Bitiş",
+                        "displayDate": "Sertifikada görünecek tarih:",
+                        "startDate": "Başlangıç Tarihi",
+                        "endDate": "Bitiş Tarihi",
+                        "optional": "Opsiyonel",
+                        "displayNote": "Sertifika tarihi olarak görünür"
+                    },
+                    "creditInfo": {
+                        "title": "Kullanılacak Kredi",
+                        "calc": "{count} öğrenci × {credit} kredi",
+                        "unit": "kredi"
+                    },
+                    "payment": {
+                        "title": "Ödeme Bilgileri",
+                        "price": "Sertifika Fiyatı:",
+                        "required": "Gereken Tutar:",
+                        "balance": "Mevcut Bakiye:"
+                    },
+                    "status": {
+                        "enough": "Bakiye Yeterli",
+                        "notEnough": "Yetersiz Bakiye",
+                        "enoughDesc": "Provizyon ayrılacak ve onayda kesilecektir.",
+                        "notEnoughDesc": "Bakiye yükleyin veya öğrenci sayısını azaltın."
+                    },
+                    "actions": {
+                        "submit": "Onaya Gönder",
+                        "submitting": "Gönderiliyor...",
+                        "createdSuccess": "Sertifika başarıyla oluşturuldu! Kurum onayına gönderildi.",
+                        "createFailed": "Sertifika oluşturulamadı",
+                        "unexpectedError": "Bir hata oluştu. Lütfen tekrar deneyin.",
+                        "reviseAndApprove": "Revize Et ve Onayla",
+                        "revisedSuccess": "Sertifika başarıyla revize edildi ve onaya gönderildi!",
+                        "editTemplate": "Şablon Düzenle",
+                        "editTraining": "Eğitim Düzenle",
+                        "editStudents": "Öğrenci Düzenle",
+                        "editPartners": "Partner Düzenle"
+                    }
+                },
+                "reviseModeBanner": "Revize Modu: Reddedilen sertifikayı düzenliyorsunuz"
+            },
+            "import": {
+                "title": "Toplu Sertifika Oluşturma",
+                "subtitle": "Tek bir Excel dosyası kullanarak, farklı özelliklere sahip sertifikaları öğrencileriniz için toplu olarak oluşturun.",
+                "howTo": "Nasıl Doldurulur?",
+                "processing": "Excel dosyası işleniyor ve doğrulanıyor...",
+                "validationError": "Sunucu doğrulaması sırasında bir hata oluştu.",
+                "paymentRequired": "Ödeme sistemi aktif. Bu akışta sertifika oluşturma işlemi için ödeme adımı gereklidir.",
+                "createSuccess": "{count} sertifika grubu başarıyla oluşturuldu!",
+                "createError": "Hata: {error}",
+                "unknownError": "Beklenmedik bir hata oluştu. Lütfen bilgileri kontrol edip tekrar deneyiniz.",
+                "networkError": "Sunucuya ulaşılamadı. Bağlantınızı kontrol edip tekrar deneyiniz.",
+                "fieldGuides": {
+                    "nationalId": {
+                        "description": "Öğrenci TC Kimlik Numarası (11 haneli, zorunlu). Sistemde kayıtlı olan TC numarasıyla eşleşir."
+                    },
+                    "trainingId": {
+                        "description": "Eğitim kimlik numarası (TRN-XXXXXX formatında)"
+                    },
+                    "templateKey": {
+                        "description": "Sertifika şablon anahtarı"
+                    },
+                    "dateIssued": {
+                        "description": "Sertifika veriliş tarihi (YYYY-MM-DD formatında)"
+                    },
+                    "partnerIds": {
+                        "description": "Partner kurum ID'leri (virgülle ayrılmış, ACR- veya RFR- ile başlamalı)"
+                    },
+                    "uiaRequired": {
+                        "description": "Üst Kurum Onayı gerekli mi? (0 veya 1)"
+                    },
+                    "uiaResponsibleId": {
+                        "description": "UIA sorumlusu (sadece ACR- ile başlamalı, UIA_REQUIRED=1 ise gerekli)"
+                    },
+                    "approvalCode": {
+                        "description": "UIA kodu",
+                        "specialNote": "ÖNEMLİ: Bu sütunu BOŞ BIRAKIN! UIA kodu, partner tarafından onay ekranında girilir. Excel'de dolu olmamalıdır."
+                    }
+                },
+                "guide": {
+                    "modalTitle": "Excel Dosyası Doldurma Talimatları",
+                    "autoGroupTitle": "Otomatik Gruplama",
+                    "autoGroupDesc": "Aynı eğitim, şablon, tarih ve partner bilgilerine sahip satırlar otomatik olarak tek bir sertifika grubuna dönüştürülür.",
+                    "duplicateFileWarningTitle": "Dosya Adı Tekrarı",
+                    "duplicateFileWarningDesc": "Daha önce yüklenmiş bir dosya ile aynı isimde dosya yüklendiğinde, sistem bu dosyayı tekrar işlemez. Dosyanızda değişiklik yaptıysanız, lütfen dosya adını değiştirerek (örn: sertifikalar_v2.xlsx) tekrar yükleyin. Her yüklenen dosyanın farklı bir ada sahip olması gerekmektedir."
+                },
+                "downloadTemplate": {
+                    "sheetName": "Sertifikalar",
+                    "button": "Şablonu İndirin",
+                    "downloadButton": "Excel Şablonu İndir (.xlsx)",
+                    "description": "Verilerinizi doğru formatta girmek için Excel şablonunu indirin. Her satır bir öğrenciye verilecek bir sertifikayı temsil eder."
+                },
+                "uploader": {
+                    "title": "Dosyanızı Yükleyin",
+                    "description": "Doldurduğunuz Excel dosyasını seçin. Dosyanızdaki veriler anında işlenecektir.",
+                    "button": "Dosya Seç"
+                },
+                "step3": {
+                    "title": "Doğrulama ve Önizleme",
+                    "desc": "Excel dosyası başarıyla işlendi. Aşağıda oluşturulacak sertifika gruplarını inceleyebilirsiniz.",
+                    "totalStudents": "Toplam Öğrenci",
+                    "totalGroups": "Sertifika Grubu",
+                    "hasErrors": "Hatalı gruplar var",
+                    "group": {
+                        "title": "Grup #{index}: {count} Öğrenci",
+                        "trainingId": "Eğitim:",
+                        "template": "Şablon:",
+                        "date": "Tarih:",
+                        "uiaRequired": "UIA Gerekli:",
+                        "partners": "Partnerler:",
+                        "uiaResponsible": "UIA Sorumlusu:",
+                        "students": "Öğrenciler:",
+                        "unspecified": "Belirtilmemiş",
+                        "today": "Bugün",
+                        "yes": "Evet",
+                        "no": "Hayır",
+                        "valid": "Geçerli",
+                        "invalid": "Hatalı",
+                        "groupErrors": "Grup Hataları:",
+                        "invalidStudents": "{count} geçersiz öğrenci:"
+                    }
+                },
+                "step4": {
+                    "title": "Onay ve Sertifika Oluşturma",
+                    "desc": "Tüm {groups} grup doğrulandı ve {students} öğrenci için sertifika oluşturmaya hazır.",
+                    "creating": "Oluşturuluyor...",
+                    "noValid": "Geçerli Grup Yok",
+                    "createN": "{count} Sertifika Grubunu Oluştur"
+                }
+            },
+            "pendingApprovals": {
+                "title": "Onay Bekleyen Sertifikalar",
+                "institutionWaiting": "sertifika kurum onayınızı bekliyor",
+                "partnerWaiting": "sertifika partner onayını bekliyor",
+                "viewApprovals": "Onayları İncele"
+            },
+            "filter": {
+                "all": "Tümü",
+                "approved": "Aktif",
+                "pending": "Onayda",
+                "rejected": "Reddedildi"
+            },
+            "table": {
+                "certificateId": "Sertifika ID",
+                "trainingName": "Eğitim Adı",
+                "partners": "Partner/ler",
+                "date": "Tarih",
+                "studentCount": "Öğrenci Sayısı",
+                "status": "Durum",
+                "students": "Öğrenci",
+                "studentList": "Öğrenci Listesi"
+            },
+            "actions": {
+                "view": "Görüntüle",
+                "downloadBulk": "Toplu İndir (ZIP)",
+                "downloadingBulk": "İndiriliyor...",
+                "downloadSingle": "Sertifika İndir",
+                "sendEmail": "Mail Gönder"
+            },
+            "loading": {
+                "downloadingBulk": "PDF'ler Hazırlanıyor",
+                "downloadingBulkDesc": "Tüm sertifikalar ZIP olarak indiriliyor. Bu işlem birkaç dakika sürebilir, lütfen bekleyin..."
+            },
+            "email": {
+                "success": "E-posta başarıyla gönderildi.",
+                "error": "E-posta gönderilirken bir hata oluştu.",
+                "noEmail": "Öğrencinin e-posta adresi yok"
+            },
+            "dropdowns": {
+                "allTrainings": "Tüm Eğitimler",
+                "allPartners": "Tüm Partnerler"
+            },
+            "sort": {
+                "label": "Sırala:",
+                "idDefault": "ID (varsayılan)",
+                "dateDesc": "Tarih (yeniden eskiye)",
+                "studentsDesc": "Öğrenci sayısı (azalan)"
+            },
+            "uia": {
+                "title": "Üst Kurum Onayı",
+                "requiredTitle": "Üst kurum onayı gerekli",
+                "notRequiredTitle": "Üst kurum onayı gerekli değil",
+                "filterApproved": "Üst kurum onaylıları göster",
+                "filterUnapproved": "Üst kurum onayı olmayanları göster",
+                "filterOff": "Filtre kapalı"
+            },
+            "partners": {
+                "more": "Diğer partnerler",
+                "ariaOther": "Diğer partnerler: {list}",
+                "unknown": "Bilinmiyor"
+            },
+            "studentsModal": {
+                "title": "Öğrenci Listesi",
+                "meta": "{publicId} • {trainingName} • {count} Öğrenci",
+                "table": {
+                    "index": "#",
+                    "fullName": "Ad Soyad",
+                    "nationalId": "TC Kimlik No",
+                    "birthDate": "Doğum Tarihi",
+                    "trainingName": "Eğitim Adı",
+                    "trainingDate": "Eğitim Tarihi",
+                    "actions": "İşlemler"
+                },
+                "loading": "Yükleniyor...",
+                "noStudents": "Öğrenci bulunamadı"
+            },
+            "addTrainingModal": {
+                "trainingNameLabel": "Eğitim Adı",
+                "trainingNamePlaceholder": "Örn: Veri Analizi 101",
+                "descriptionLabel": "Açıklama",
+                "descriptionPlaceholder": "Kısa açıklama",
+                "cancel": "Vazgeç",
+                "submitSoon": "Gönder (yakında)"
+            },
+            "errors": {
+                "cannotDownload": "Sertifikalar indirilemedi",
+                "downloadError": "İndirme sırasında bir hata oluştu",
+                "cannotDownloadSingle": "Sertifika indirilemedi"
+            },
+            "modal": {
+                "addTraining": "Yeni Eğitim Ekle",
+                "pendingNote": "Kaydınız yönetici onayına gönderilecektir. Onaylanana kadar \"onayda\" olarak görünecektir."
+            },
+            "tooltip": {
+                "waitingInstitution": "Kurum onayı bekleniyor",
+                "waitingPartner": "Partner onayı bekleniyor",
+                "waitingAdmin": "Admin onayı bekleniyor",
+                "pendingApproval": "Onay bekleniyor",
+                "rejectedInstitution": "Kurum onayında reddedildi",
+                "rejectedPartner": "Partner onayında reddedildi",
+                "rejectedAdmin": "Admin onayında reddedildi",
+                "rejected": "Reddedildi"
+            },
+            "approvals": {
+                "title": "Sertifika Onayları",
+                "institutionSubtitle": "Kurum onayınızı bekleyen sertifikaları yönetin.",
+                "partnerSubtitle": "Partner olarak onayınızı bekleyen sertifikaları yönetin.",
+                "backToCertificates": "Sertifikalara Dön",
+                "tabs": {
+                    "institution": "Kurum İçi Onayları",
+                    "partner": "Partner Onayları",
+                    "history": "Onay Geçmişi"
+                },
+                "historySubtitle": "Onaylanmış ve reddedilmiş sertifikaları görüntüleyin.",
+                "loading": "Yükleniyor...",
+                "noPending": "Bekleyen onay bulunmuyor.",
+                "noHistory": "Henüz onay geçmişi bulunmuyor.",
+                "table": {
+                    "certificateId": "Sertifika ID",
+                    "training": "Eğitim",
+                    "institution": "Kurum",
+                    "date": "Tarih",
+                    "status": "Durum",
+                    "actions": "İşlemler"
+                },
+                "uiaTooltip": {
+                    "required": "UIA Gerekli",
+                    "notRequired": "UIA Gerekli Değil"
+                },
+                "actions": {
+                    "inspect": "İncele",
+                    "reject": "Reddet",
+                    "approve": "Onayla",
+                    "resubmit": "Tekrar Onaya Gönder",
+                    "confirmReject": "Bu sertifikayı reddetmek istediğinizden emin misiniz?",
+                    "confirmApproveCredit": "Bu sertifikayı onaylamak için {count} kredi düşülecektir. Devam etmek istiyor musunuz?",
+                    "confirmResubmit": "Bu sertifikayı tekrar onaya göndermek istediğinizden emin misiniz?",
+                    "revise": "Revize Et",
+                    "confirmRevise": "Bu sertifikayı revize etmek istediğinize emin misiniz? Mevcut sertifika bilgileriyle düzenleme moduna geçeceksiniz."
+                },
+                "messages": {
+                    "approved": "Sertifika onaylandı! {count} kredi düşüldü.",
+                    "rejected": "Sertifika reddedildi.",
+                    "resubmitted": "Sertifika tekrar onaya gönderildi!",
+                    "partnerApproved": "Partner onayı verildi!",
+                    "partnerRejected": "Partner onayı reddedildi.",
+                    "insufficientCredits": "Yetersiz kredi! Bu işlem için {required} kredi gerekiyor. Mevcut: {balance} kredi",
+                    "error": "Hata: {error}",
+                    "errorUnknown": "Hata: İşlem başarısız oldu",
+                    "connectionError": "Bağlantı hatası. Lütfen tekrar deneyin.",
+                    "noRecords": "Kayıt bulunamadı",
+                    "serverError": "Sunucu hatası.",
+                    "unexpectedError": "Beklenmeyen bir hata oluştu.",
+                    "loginError": "E-posta veya şifre hatalı. Lütfen bilgilerinizi kontrol edin."
+                },
+                "inspect": {
+                    "title": "İnceleme",
+                    "tabs": {
+                        "details": "Sertifika Detayları",
+                        "students": "Öğrenci Listesi"
+                    },
+                    "details": {
+                        "certificateNo": "Sertifika No:",
+                        "training": "Eğitim:",
+                        "issueDate": "Veriliş Tarihi:",
+                        "status": "Durum:",
+                        "uiaRequired": "Gerekli",
+                        "uiaNotRequired": "Gerekli Değil",
+                        "partners": "Partnerler:",
+                        "notFound": "Detay bulunamadı."
+                    },
+                    "students": {
+                        "student": "Öğrenci",
+                        "tc": "TC",
+                        "email": "E-posta",
+                        "phone": "Telefon",
+                        "birthDate": "Doğum Tarihi",
+                        "notFound": "Öğrenci bulunamadı"
+                    }
+                },
+                "status": {
+                    "pending": "Onay Bekliyor",
+                    "approved": "Onaylandı",
+                    "rejected": "Reddedildi"
+                }
+            }
+        },
+        "students": {
+            "title": "Öğrenci Yönetimi",
+            "subtitle": "Kurumunuza kayıtlı {count} öğrenci bulunuyor.",
+            "addNew": "Yeni Öğrenci Ekle",
+            "bulkAdd": "Toplu Öğrenci Ekle",
+            "import": {
+                "title": "Toplu Öğrenci Ekleme",
+                "subtitle": "Tek bir Excel dosyası kullanarak birden fazla öğrenciyi sisteme toplu olarak ekleyin.",
+                "howToFill": "Nasıl Doldurulur?",
+                "infoTitle": "Önemli Notlar",
+                "infoItems": {
+                    "eachRow": "Her satır bir öğrenciyi temsil eder",
+                    "uniqueTc": "TC Kimlik Numaraları benzersiz olmalıdır",
+                    "existingTc": "Sistemde zaten kayıtlı TC numaraları reddedilir",
+                    "optionalFields": "EMAIL ve PHONE alanları opsiyoneldir"
+                },
+                "fieldGuides": {
+                    "nationalId": {
+                        "description": "TC Kimlik Numarası (11 haneli)"
+                    },
+                    "firstName": {
+                        "description": "Öğrenci adı"
+                    },
+                    "lastName": {
+                        "description": "Öğrenci soyadı"
+                    },
+                    "birthDate": {
+                        "description": "Doğum tarihi (YYYY-MM-DD formatında)"
+                    },
+                    "secondaryLastName": {
+                        "description": "İkincil soyad (kızlık soyadı vb.) - opsiyonel. Varsa sertifikada gösterilebilir.",
+                        "specialNote": "Bu alan isteğe bağlıdır. Eğer öğrencinin eski, yeni veya kızlık soyadı varsa bu alana yazın."
+                    },
+                    "email": {
+                        "description": "E-posta adresi (opsiyonel)"
+                    },
+                    "phone": {
+                        "description": "Telefon numarası (opsiyonel)"
+                    }
+                },
+                "step1": {
+                    "downloadButton": "Excel Şablonu İndir (.xlsx)",
+                    "button": "Şablonu İndirin",
+                    "description": "Öğrenci bilgilerini doğru formatta girmek için Excel şablonunu indirin. Şablon, örnek bir öğrenci içerir."
+                },
+                "step2": {
+                    "title": "Dosyanızı Yükleyin",
+                    "description": "Doldurduğunuz Excel dosyasını seçin. Dosyanızdaki veriler anında işlenecektir.",
+                    "button": "Dosya Seç"
+                },
+                "step3": {
+                    "title": "Doğrulama ve Önizleme",
+                    "description": "Verileriniz doğrulandı. Hatalı kayıtları düzeltin veya geçerli öğrencileri oluşturun.",
+                    "processing": "Excel dosyası işleniyor ve doğrulanıyor...",
+                    "stats": {
+                        "total": "Toplam Öğrenci",
+                        "valid": "Geçerli",
+                        "invalid": "Hatalı"
+                    },
+                    "hasErrors": "Hatalı kayıtlar var",
+                    "validBadge": "Geçerli",
+                    "invalidBadge": "Hatalı",
+                    "errorsTitle": "Hatalar:",
+                    "labels": {
+                        "tc": "TC:",
+                        "birthDate": "Doğum Tarihi:",
+                        "email": "Email:",
+                        "phone": "Telefon:"
+                    }
+                },
+                "actions": {
+                    "create": "{count} Öğrenciyi Oluştur",
+                    "creating": "Oluşturuluyor...",
+                    "noValid": "Eklenecek Geçerli Öğrenci Yok"
+                },
+                "messages": {
+                    "createSuccess": "{count} öğrenci başarıyla oluşturuldu!",
+                    "createError": "Hata: {error}",
+                    "createErrorUnknown": "Hata: Bilinmeyen bir sunucu hatası oluştu.",
+                    "createNetworkError": "Öğrenciler oluşturulurken bir ağ hatası oluştu.",
+                    "validationError": "Sunucu doğrulaması sırasında bir hata oluştu."
+                }
+            },
+            "searchPlaceholder": "Öğrenci ara...",
+            "confirmDelete": "Bu öğrenciyi silmek istediğinizden emin misiniz?",
+            "sort": {
+                "id": "ID (varsayılan)",
+                "dateDesc": "Tarih (yeniden eskiye)",
+                "certDesc": "Sertifika sayısı (azalan)",
+                "nameAz": "Ad Soyad (A→Z)"
+            },
+            "table": {
+                "studentId": "Öğrenci ID",
+                "tc": "TC",
+                "fullName": "Ad Soyad",
+                "email": "E-posta",
+                "phone": "Telefon",
+                "birthDate": "Doğum Tarihi",
+                "certificates": "Sertifikaları",
+                "createdAt": "Eklenme Tarihi"
+            },
+            "modal": {
+                "title": "Öğrenci Sertifikaları",
+                "certificateCount": "Sertifika",
+                "certificateId": "Sertifika ID",
+                "trainingName": "Eğitim Adı",
+                "date": "Tarih",
+                "status": "Durum",
+                "noCertificates": "Bu öğrenciye ait sertifika bulunamadı"
+            },
+            "form": {
+                "firstName": "Ad",
+                "lastName": "Soyad",
+                "otherLastName": "İkincil Soyad",
+                "otherLastNamePlaceholder": "Örn: Evlilik öncesi/sonrası soyad",
+                "addOtherLastName": "+ İkincil Soyad Ekle",
+                "showOnCertificate": "Görünür",
+                "surnameHint": "Tikli olan soyad(lar) sertifikada ve sistemde gösterilir. Her iki soyadıyla da arama yapılabilir.",
+                "nationalId": "TC Kimlik No",
+                "tcPlaceholder": "11 haneli olmalıdır",
+                "birthDate": "Doğum Tarihi",
+                "email": "E-posta",
+                "emailPlaceholder": "E-posta adresi (opsiyonel)",
+                "phone": "Telefon",
+                "phonePlaceholder": "Telefon numarası (opsiyonel)"
+            },
+            "otherLastName": "İkincil soyad",
+            "errors": {
+                "cannotAdd": "Öğrenci eklenemedi",
+                "addError": "Öğrenci eklenirken bir hata oluştu",
+                "cannotUpdate": "Öğrenci güncellenemedi",
+                "updateError": "Öğrenci güncellenirken bir hata oluştu",
+                "cannotDelete": "Öğrenci silinemedi",
+                "deleteError": "Öğrenci silinirken bir hata oluştu",
+                "tcExists": "Bu TC numarası zaten kayıtlı",
+                "emailExists": "Bu e-posta adresi zaten kayıtlı",
+                "phoneExists": "Bu telefon numarası zaten kayıtlı"
+            },
+            "selection": {
+                "selectIds": "ID Seç",
+                "idsCopied": "{count} öğrenci ID kopyalandı!"
+            }
+        },
+        "trainings": {
+            "title": "Eğitim Yönetimi",
+            "subtitle": "Eğitim programları oluşturun ve yönetin.",
+            "addNew": "Yeni Eğitim Ekle",
+            "searchPlaceholder": "Eğitimleri ada veya açıklamaya göre ara...",
+            "confirmDelete": "Bu eğitimi silmek istediğinizden emin misiniz?",
+            "levelPrefix": "Seviye",
+            "filter": {
+                "all": "Tümü",
+                "pending": "Onayda",
+                "approved": "Onaylandı",
+                "rejected": "Reddedildi"
+            },
+            "status": {
+                "pending": "Onayda",
+                "approved": "Onaylandı",
+                "rejected": "Reddedildi"
+            },
+            "table": {
+                "trainingId": "Eğitim ID",
+                "name": "Eğitim Adı",
+                "description": "Açıklama",
+                "level": "Seviye",
+                "language": "Dil",
+                "totalHours": "Toplam Saat",
+                "status": "Durum",
+                "createdAt": "Oluşturma Tarihi"
+            },
+            "form": {
+                "name": "Eğitim Adı",
+                "namePlaceholder": "Örn: İleri Proje Yönetimi",
+                "description": "Açıklama",
+                "descriptionPlaceholder": "Eğitimin içeriğini ve hedeflerini açıklayın.",
+                "level": "Seviye",
+                "level_a": "Başlangıç",
+                "level_b": "Orta",
+                "level_c": "İleri",
+                "language": "Dil",
+                "languageTr": "Türkçe",
+                "languageEn": "İngilizce",
+                "languageDe": "Almanca",
+                "languageFr": "Fransızca",
+                "totalHours": "Toplam Saat",
+                "totalHoursPlaceholder": "Örn: 40",
+                "startDate": "Başlangıç Tarihi",
+                "endDate": "Bitiş Tarihi"
+            },
+            "errors": {
+                "cannotAdd": "Eğitim eklenemedi.",
+                "addError": "Eğitim eklenirken bir hata oluştu.",
+                "cannotDelete": "Eğitim silinemedi.",
+                "deleteError": "Eğitim silinirken bir hata oluştu.",
+                "cannotUpdate": "Eğitim güncellenemedi.",
+                "updateError": "Eğitim güncellenirken bir hata oluştu."
+            }
+        },
+        "partners": {
+            "title": "Partnerler",
+            "subtitle": "Kurumunuzun kayıtlı {count} partneri bulunuyor.",
+            "addNew": "Partner Ekle",
+            "searchPlaceholder": "Partner ara...",
+            "confirmDelete": "Bu partneri kaldırmak istediğinizden emin misiniz?",
+            "confirmDeleteReference": "Bu referans kuruluşu kaldırmak istediğinizden emin misiniz?",
+            "filter": {
+                "all": "Tümü",
+                "pending": "Onayda",
+                "approved": "Aktif",
+                "rejected": "Reddedildi"
+            },
+            "status": {
+                "pending": "Onayda",
+                "approved": "Aktif",
+                "rejected": "Reddedildi"
+            },
+            "table": {
+                "partnerId": "Partner ID",
+                "partnerName": "Partner Adı",
+                "status": "Durum",
+                "addedDate": "Eklenme Tarihi",
+                "actions": "İşlemler",
+                "remove": "Kaldır",
+                "renew": "Akreditasyonu Yenile"
+            },
+            "references": {
+                "title": "Harici Partnerlikler",
+                "subtitle": "Kurumunuzun harici partnerlerle (ICF, CPD vb.) ilişkileri",
+                "referenceId": "Partner ID",
+                "partnerName": "Partner Adı",
+                "logo": "Logo",
+                "addedDate": "Durum",
+                "accreditationEnd": "Akreditasyon Bitiş",
+                "loading": "Partnerlikler yükleniyor..."
+            },
+            "addModal": {
+                "title": "Partner Ekle",
+                "searchLabel": "Partner Public ID ile Ara",
+                "searchPlaceholder": "ACR-123456 veya INS-123456",
+                "searching": "Aranıyor...",
+                "or": "veya",
+                "selectFromList": "Referans Kuruluş Listesinden Seçin",
+                "loadingReferences": "Referanslar yükleniyor...",
+                "noReferences": "Listelenecek referans kuruluş bulunamadı.",
+                "selected": "seçilen",
+                "selfError": "SİZ - Kendi kurumunuzu ekleyemezsiniz.",
+                "toBeAdded": "Eklenecek Partner",
+                "alreadyAdded": "Partner Zaten Ekli",
+                "alreadyAddedDesc": "Bu partner zaten listenizde mevcut.",
+                "notFound": "Bu Public ID ile bir partner bulunamadı.",
+                "cancel": "Vazgeç",
+                "add": "Ekle",
+                "statusTooltip": {
+                    "pending": "Admin onayı bekleniyor",
+                    "approved": "Onaylandı",
+                    "rejected": "Reddedildi"
+                },
+                "role": {
+                    "accreditor": "Akreditör",
+                    "institution": "Kurum",
+                    "reference": "Referans"
+                },
+                "accreditationRequired": "Akreditasyon Süresi Gerekli",
+                "accreditationDesc": "Bu partner için akreditasyon sürenizi seçin. Bu süre dolduğunda sertifikalarda bu partner kullanılamaz.",
+                "selectDuration": "Süre Seçin",
+                "duration6months": "6 Ay",
+                "duration1year": "1 Yıl",
+                "duration2years": "2 Yıl"
+            },
+            "renewModal": {
+                "title": "Akreditasyonu Yenile",
+                "description": "için yeni akreditasyon süresi seçin.",
+                "adminApprovalNote": "Yenileme talebi admin onayına gönderilecektir. Onaylandıktan sonra yeni süre aktif olacaktır.",
+                "submit": "Yenileme Talebi Gönder"
+            },
+            "success": {
+                "addedPending": "Partner ekleme talebi admin onayına gönderildi.",
+                "renewed": "Akreditasyon yenileme talebi admin onayına gönderildi.",
+                "approved": "Partnerlik isteği onaylandı!",
+                "rejected": "Partnerlik isteği reddedildi."
+            },
+            "incoming": {
+                "title": "Gelen Partnerlik İstekleri",
+                "subtitle": "Sizi partner olarak ekleyen kurumlar",
+                "approve": "Onayla",
+                "reject": "Reddet",
+                "alreadyApproved": "Onaylandı"
+            },
+            "confirmReject": "Bu partnerlik isteğini reddetmek istediğinize emin misiniz?",
+            "errors": {
+                "cannotAdd": "Partner eklenemedi",
+                "addError": "Partner eklenirken bir hata oluştu",
+                "cannotDelete": "Referans kuruluş kaldırılamadı",
+                "deleteError": "Referans kuruluş kaldırılırken bir hata oluştu",
+                "cannotRemove": "Partner kaldırılamadı",
+                "removeError": "Partner kaldırılırken bir hata oluştu",
+                "renewFailed": "Akreditasyon yenilenemedi",
+                "renewError": "Akreditasyon yenilenirken bir hata oluştu",
+                "errorPrefix": "Hata: {error}",
+                "approveFailed": "Onay işlemi başarısız oldu",
+                "rejectFailed": "Ret işlemi başarısız oldu"
+            }
+        },
+        "balance": {
+            "title": "Kredi Yönetimi",
+            "subtitle": "Kredi bakiyenizi yönetin ve işlem geçmişinizi görüntüleyin.",
+            "loadBalance": "Kredi Yükle",
+            "summary": {
+                "currentBalance": "Mevcut Kredi",
+                "credits": "kredi",
+                "totalTransactions": "Toplam İşlem ({count})"
+            },
+            "search": "İşlem ara...",
+            "sortLabel": "Sırala:",
+            "filter": {
+                "allTypes": "Tüm Tipler",
+                "credit": "Yükleme",
+                "debit": "Harcama",
+                "refund": "İade"
+            },
+            "sort": {
+                "dateDesc": "Yeni → Eski",
+                "dateAsc": "Eski → Yeni",
+                "amountDesc": "Yüksek → Düşük",
+                "amountAsc": "Düşük → Yüksek"
+            },
+            "table": {
+                "date": "Tarih",
+                "type": "Tip",
+                "description": "Açıklama",
+                "amount": "Miktar",
+                "noTransactions": "Henüz işlem kaydı bulunmuyor."
+            },
+            "modal": {
+                "title": "Kredi Yükle",
+                "selectPackage": "Yüklemek istediğiniz kredi paketini seçin.",
+                "noPackages": "Kredi paketi bulunamadı. Lütfen yönetici ile iletişime geçin.",
+                "creditsLabel": "kredi",
+                "pricePerCredit": "/kredi",
+                "bulkMessage": "3000+ kredi mi gerekiyor?",
+                "bulkCta": "Kurumsal fiyatlandırma için bizimle iletişime geçin.",
+                "selectedPackage": "Seçilen Paket:",
+                "cancel": "İptal",
+                "proceedToPayment": "Ödemeye Geç",
+                "backToSelection": "Paket seçimine dön"
+            },
+            "payment": {
+                "processing": "Ödeme İşleniyor...",
+                "pleaseWait": "Lütfen bekleyin.",
+                "success": "Ödeme Başarılı!",
+                "creditsAdded": "{credits} kredi bakiyenize eklendi.",
+                "failed": "Ödeme Başarısız",
+                "retry": "Tekrar Dene"
+            },
+            "stripe": {
+                "pending": "Bekliyor",
+                "failed": "Başarısız",
+                "cancelled": "İptal",
+                "waiting": "bekliyor"
+            },
+            "errors": {
+                "selectPackage": "Lütfen bir kredi paketi seçin.",
+                "paymentFailed": "Ödeme başlatılamadı. Lütfen tekrar deneyin.",
+                "genericError": "Bir hata oluştu. Lütfen tekrar deneyin.",
+                "invalidAmount": "Geçerli bir miktar giriniz",
+                "purchaseError": "Satın alma işlemi başarısız oldu"
+            }
+        },
+        "profile": {
+            "title": "Profil",
+            "subtitle": "Kurum bilgilerinizi yönetin",
+            "edit": "Düzenle",
+            "save": "Kaydet",
+            "cancel": "İptal",
+            "loading": "Yükleniyor...",
+            "badge": {
+                "institution": "Kurum",
+                "partner": "Partner"
+            },
+            "loginCredentials": {
+                "title": "Giriş Bilgileri",
+                "description": "Bu email adresi sisteme giriş yapmak için kullanılır. İletişim email'iniz ile farklıdır.",
+                "label": "Giriş Email",
+                "note": "Giriş email'i değiştirilemez. Değişiklik için destek ile iletişime geçin."
+            },
+            "details": {
+                "institutionTitle": "Kurum Bilgileri",
+                "partnerTitle": "Partner Bilgileri",
+                "nameInstitution": "Kurum Adı",
+                "namePartner": "Partner Adı",
+                "vatNumber": "Vergi No",
+                "taxOffice": "Vergi Dairesi",
+                "contactEmail": "İletişim E-posta",
+                "contactEmailPlaceholder": "help@kurum.com",
+                "contactEmailNote": "Müşterilerinizin sizinle iletişime geçebileceği email adresi",
+                "phone": "Telefon",
+                "website": "Web Sitesi",
+                "address": "Adres",
+                "addressPlaceholder": "Adres bilgisi..."
+            },
+            "about": {
+                "title": "Hakkımızda",
+                "placeholder": "Kurum/Partner hakkında bilgi..."
+            },
+            "missionVision": {
+                "title": "Misyon & Vizyon",
+                "mission": "Misyon",
+                "missionPlaceholder": "Misyon...",
+                "vision": "Vizyon",
+                "visionPlaceholder": "Vizyon..."
+            },
+            "socialMedia": {
+                "title": "Sosyal Medya"
+            },
+            "signature": {
+                "title": "Sertifika İmzası",
+                "description": "Sertifikalarda görünecek kurumsal imzanızı yükleyin. İmza şeffaf arka planlı olmalıdır.",
+                "imageLabel": "İmza Görseli",
+                "uploadText": "İmza Yükle",
+                "removeText": "İmzayı Kaldır",
+                "nameLabel": "İmza Sahibi Adı",
+                "namePlaceholder": "Örn: Ahmet Yılmaz",
+                "nameNote": "Sertifikada imzanın altında görünecek isim",
+                "titleLabel": "Unvan/Pozisyon",
+                "titlePlaceholder": "Örn: Genel Müdür",
+                "titleNote": "İsmin altında görünecek unvan",
+                "previewLabel": "Sertifikada Görünüm",
+                "previewNoSignature": "İmza yüklenmedi",
+                "requirements": {
+                    "title": "İmza Gereksinimleri",
+                    "text": "PNG formatı (şeffaf arka plan için zorunlu) • Maks. 100KB • Maks. 400x200 piksel"
+                },
+                "errors": {
+                    "formatError": "İmza dosyası PNG formatında olmalıdır (şeffaf arka plan için).",
+                    "sizeError": "İmza dosyası maksimum 100KB olmalıdır.",
+                    "dimensionsError": "İmza boyutu maksimum 400x200 piksel olmalıdır.",
+                    "invalidImage": "Geçersiz resim dosyası."
+                }
+            },
+            "advantages": {
+                "title": "Avantajlarımız",
+                "placeholder": "Yeni avantaj ekle...",
+                "add": "Ekle",
+                "remove": "Kaldır"
+            },
+            "logo": {
+                "uploadTitle": "Logo yükle/değiştir",
+                "hint": "PNG/JPG önerilir. Maks. ~2MB.",
+                "remove": "Kaldır"
+            },
+            "partnerToggle": "Partner olarak da faaliyet göster",
+            "messages": {
+                "updateSuccess": "Profil başarıyla güncellendi!",
+                "updateError": "Profil güncellenirken hata oluştu."
+            }
+        },
+        "settings": {
+            "title": "AYARLAR",
+            "subtitle": "Sertifika şablonları için renk ve tasarım ayarları",
+            "certificateColors": "Sertifika Renkleri",
+            "primaryColor": "Ana Renk",
+            "secondaryColor": "İkincil Renk",
+            "defaultTemplate": "Varsayılan Sertifika Şablonu",
+            "templateNote": "Sertifika oluştururken bu şablon varsayılan olarak seçili gelecektir.",
+            "preview": "Önizleme",
+            "colors": "Renk Ayarları",
+            "general": "Genel Ayarlar",
+            "messages": {
+                "saveSuccess": "Ayarlar kaydedildi!",
+                "saveError": "Ayarlar kaydedilemedi",
+                "saveErrorUnknown": "Ayarlar kaydedilirken bir hata oluştu"
+            }
+        }
+    },
+    "create": {
+        "template": {
+            "title": "Şablon Seçimi",
+            "subtitle": "Sertifika şablonunu seçin ve önizleyin.",
+            "miniPreview": "Şablon Önizlemesi",
+            "fullPreview": "Tam Önizleme",
+            "modal": {
+                "titleSuffix": "Şablonu Önizleme",
+                "close": "Kapat",
+                "footerNote": "Bu bir önizlemedir. Gerçek sertifikalar öğrenci ve eğitim bilgilerinizle oluşturulacaktır."
+            },
+            "next": "İleri",
+            "reviseModeBanner": "Revize Modu: Reddedilen sertifikayı düzenliyorsunuz"
+        },
+        "training": {
+            "title": "Eğitim Seçimi",
+            "subtitle": "Sertifika verilecek eğitimi seçin.",
+            "loading": "Yükleniyor...",
+            "pending": "Onayda",
+            "noItems": "Henüz eğitim bulunamadı.",
+            "back": "Geri",
+            "next": "İleri"
+        },
+        "students": {
+            "title": "Öğrenci Ekleme",
+            "subtitle": "Sertifika alacak öğrencileri ekleyin.",
+            "listTitle": "Kurum Öğrenci Listesi",
+            "searchPlaceholder": "Öğrenci ara...",
+            "loading": "Yükleniyor...",
+            "notFound": "Öğrenci bulunamadı.",
+            "back": "Geri",
+            "next": "İleri"
+        },
+        "partners": {
+            "title": "Partner Seçimi",
+            "subtitle": "Partner(ler)i belirleyin ve Üst Kurum onayı seçin.",
+            "uiaTitle": "Üst Kurum Onayı",
+            "uiaHint": "Evet seçilirse bir partneri Üst Kurum sorumlusu olarak seçmelisiniz.",
+            "uiaResponsible": "Üst Kurum sorumlusu",
+            "select": "Seç",
+            "selected": "Seçili",
+            "loading": "Yükleniyor...",
+            "noPartners": "Partner bulunamadı.",
+            "external": "Harici Partnerler",
+            "externalCannotBeUia": "Harici partner üst kurum sorumlusu olamaz.",
+            "back": "Geri",
+            "next": "İleri"
+        },
+        "review": {
+            "title": "Özet ve Onay",
+            "subtitle": "Seçimlerinizi kontrol edin ve sertifikayı onaya gönderin.",
+            "certificatePreview": "Sertifika Önizleme",
+            "details": "Sertifika Detayları",
+            "template": "Şablon:",
+            "training": "Eğitim:",
+            "accreditorCount": "Akreditör Sayısı:",
+            "trainingHours": "Eğitim Süresi:",
+            "hours": "Saat",
+            "studentCount": "Öğrenci Sayısı:",
+            "createdAt": "Oluşturulma Tarihi:",
+            "accreditors": "Akreditörler",
+            "uiaResponsible": "Akreditör",
+            "payment": {
+                "title": "Ödeme Bilgileri",
+                "price": "Sertifika Fiyatı:",
+                "required": "Gereken Tutar:",
+                "balance": "Mevcut Bakiye:"
+            },
+            "status": {
+                "enough": "Bakiye Yeterli",
+                "notEnough": "Yetersiz Bakiye",
+                "enoughDesc": "Provizyon ayrılacak ve onayda kesilecektir.",
+                "notEnoughDesc": "Bakiye yükleyin veya öğrenci sayısını azaltın."
+            },
+            "actions": {
+                "back": "Geri",
+                "submit": "Onaya Gönder",
+                "submitting": "Gönderiliyor...",
+                "createdSuccess": "Sertifika başarıyla oluşturuldu! Kurum onayına gönderildi.",
+                "errorPrefix": "Hata:",
+                "createFailed": "Sertifika oluşturulamadı",
+                "unexpectedError": "Bir hata oluştu. Lütfen tekrar deneyin."
+            }
+        }
+    }
+}

@@ -1,0 +1,9 @@
+export default function PartnerLayout({children}:{children: React.ReactNode}){
+  return (
+    <main>
+      <div className="mx-auto max-w-6xl px-4 py-8">
+        {children}
+      </div>
+    </main>
+  );
+}

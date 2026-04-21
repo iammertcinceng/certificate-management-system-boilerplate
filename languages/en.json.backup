@@ -1,0 +1,1383 @@
+{
+  "notFound": {
+    "title": "Page Not Found",
+    "description": "The page you are looking for does not exist or has been moved.",
+    "actions": {
+      "home": "Home",
+      "back": "Back"
+    }
+  },
+  "error": {
+    "title": "An Error Occurred",
+    "unexpected": "We encountered an unexpected error. Please try again.",
+    "digest": "Error code",
+    "retry": "Retry",
+    "backToHome": "Go back to home"
+  },
+  "_TODO_i18n_Optimization": {
+    "_comment": "When this file exceeds 1500+ lines, consider splitting into modular structure",
+    "_approach": "Hybrid Modular Structure (Approach 3)",
+    "_structure": {
+      "common": "Shared translations (buttons, errors, status)",
+      "public": "Landing, verify, about, services",
+      "institution": "certificates, students, trainings, partners",
+      "acreditor": "approvals, institutions",
+      "admin": "Admin routes (Keep in English - DO NOT translate)"
+    },
+    "_migration": "Use migration script to split current monolithic file",
+    "_note": "Admin routes (/admin/*) should remain in English and not be translated"
+  },
+  "nav": {
+    "home": "Home",
+    "verify": "Verify Certificate",
+    "about": "About Us",
+    "services": "Services",
+    "contact": "Contact",
+    "pricing": "Pricing",
+    "help": "Help & Support",
+    "login": "Sign In",
+    "register": "Get Started",
+    "collaborations": "Collaborations",
+    "logout": "Logout",
+    "dashboard": "Dashboard",
+    "certificates": "Certificates",
+    "students": "Students",
+    "partners": "Partners",
+    "profile": "Profile",
+    "settings": "Settings",
+    "approvals": "Approvals",
+    "institutions": "Institutions"
+  },
+  "landing": {
+    "title": "New-Gen Certificate Management",
+    "subtitle": "Secure, fast, and reliable certificate verification system trusted by institutions worldwide.",
+    "ctaVerify": "Verify Certificate",
+    "ctaLogin": "Get Started Free",
+    "featuresTitle": "Why Choose Certificate Authorisation?",
+    "featuresSubtitle": "Experience the future of certificate management with our cutting-edge platform",
+    "ctaSection": {
+      "title": "Ready to Get Started?",
+      "subtitle": "Join thousands of institutions already using CertManager to streamline their certificate verification process.",
+      "primary": "Start Free Trial",
+      "secondary": "Contact Sales"
+    },
+    "heroStats": {
+      "certificates": "50,000+",
+      "certificatesLabel": "Certificates Verified",
+      "institutions": "200+",
+      "institutionsLabel": "Partner Institutions",
+      "countries": "15+",
+      "countriesLabel": "Countries Served"
+    },
+    "trustBadge": "Trusted by leading educational institutions"
+  },
+  "header": {
+    "roles": {
+      "institution": "Institution",
+      "partner": "Partner",
+      "guest": "Guest",
+      "acreditor": "Acreditor"
+    }
+  },
+  "footer": {
+    "brand": {
+      "alt": "MERTCIN Certificate Authorisation"
+    },
+    "tagline": "Next-generation certificate management platform trusted worldwide.",
+    "columns": {
+      "product": {
+        "title": "Product",
+        "items": {
+          "verify": "Certificate Verification",
+          "howItWorks": "How It Works",
+          "features": "Platform Features",
+          "collaborations": "Corporate Relations"
+        }
+      },
+      "company": {
+        "title": "Company",
+        "items": {
+          "about": "About Us",
+          "careers": "Careers",
+          "blog": "Blog",
+          "contact": "Contact"
+        }
+      },
+      "support": {
+        "title": "Support",
+        "items": {
+          "help": "Help Center",
+          "privacy": "Privacy Policy",
+          "terms": "Terms of Use",
+          "kvkk": "GDPR Notice"
+        }
+      }
+    },
+    "copyright": "All rights reserved."
+  },
+  "verify": {
+    "title": "Certificate Verification",
+    "placeholder": "Certificate ID or National ID",
+    "submit": "Search",
+    "hint": "Results will show masked national ID.",
+    "results": "Results",
+    "mockStudent": "Sample Student",
+    "downloadPdf": "Download PDF",
+    "error": {
+      "required": "Please enter a value",
+      "invalidTckn": "Invalid National ID"
+    }
+  },
+  "about": {
+    "title": "About",
+    "content": "This page will be updated soon.",
+    "subtitle": "Learn more about our mission and vision",
+    "mission": {
+      "title": "Our Mission",
+      "content": "To provide a secure, transparent, and efficient platform for digital certificate management that empowers institutions and individuals worldwide."
+    },
+    "vision": {
+      "title": "Our Vision",
+      "content": "To become the global standard for certificate verification and management, trusted by millions of users and institutions across the world."
+    },
+    "stats": {
+      "title": "Our Impact"
+    }
+  },
+  "login": {
+    "title": "Sign in to your account",
+    "subtitle": "Or start your 14-day free trial",
+    "email": "Email address",
+    "password": "Password",
+    "submit": "Sign in",
+    "forgotPassword": "Forgot password?",
+    "organizationName": "Organization name",
+    "confirmPassword": "Confirm password",
+    "registerSubmit": "Create account",
+    "role": "Role",
+    "roles": {
+      "institution": "Institution",
+      "partner": "Partner",
+      "acreditor": "Acreditor"
+    },
+    "tabs": {
+      "institution": "Institution",
+      "partner": "Partner",
+      "register": "Register",
+      "logout": "Logout"
+    },
+    "registerTitle": "Create an account",
+    "registerSubtitle": "Start your free trial now",
+    "taxNumber": "Tax Number",
+    "taxOffice": "Tax Office",
+    "address": "Address",
+    "emailHint": "e.g. example@example.com",
+    "validation": {
+      "passwordsDoNotMatch": "Passwords do not match"
+    },
+    "messages": {
+      "registrationSuccess": "Registration successful.",
+      "registrationFailed": "Registration failed.",
+      "unexpectedError": "An unexpected error occurred."
+    }
+  },
+  "institution": {
+    "dashboard": "Institution Dashboard",
+    "home": {
+      "subtitle": "Welcome to your institution's certificate management center.",
+      "lowBalance": {
+        "title": "Low Balance Warning",
+        "desc": "Your current balance is {balance}. Load balance to avoid interruptions in certificate creation.",
+        "load": "Load Balance"
+      },
+      "stats": {
+        "totalCertificates": "Total Certificates",
+        "totalStudents": "Total Students",
+        "partners": "Partners",
+        "balance": "Balance",
+        "threshold": "Warn when below {threshold} TL"
+      },
+      "charts": {
+        "title": "Certificate and Student Statistics",
+        "subtitle": "Certificate creation and student addition activities for the last 30 days.",
+        "last30Days": "Last 30 Days"
+      },
+      "quickActions": {
+        "title": "Quick Access",
+        "createCertificate": "Create New Certificate",
+        "addStudent": "Add Student",
+        "balance": "Load Balance"
+      },
+      "notifications": {
+        "title": "Notifications",
+        "pendingCerts": "You have {count} certificates waiting for approval.",
+        "pendingDesc": "Keep track of pending approvals to avoid delays.",
+        "noNew": "No new notifications."
+      },
+      "balanceWidget": {
+        "current": "Current Balance",
+        "load": "Load Balance"
+      }
+    },
+    "certificates": {
+      "title": "Certificate Management",
+      "subtitle": "View and manage all created certificates.",
+      "approvalsLink": "Certificate Approvals",
+      "trainings": "All Trainings",
+      "createNew": "Create New Certificate",
+      "import": {
+        "validationError": "A server validation error occurred.",
+        "paymentRequired": "Payment system is active. Payment step is required for certificate creation in this flow.",
+        "createSuccess": "{count} certificate groups successfully submitted for creation.",
+        "createError": "Error: {error}",
+        "unknownError": "Unknown server error occurred.",
+        "networkError": "A network error occurred while creating certificates."
+      },
+      "pendingApprovals": {
+        "title": "Pending Approvals",
+        "institutionWaiting": "{count} waiting for institution approval",
+        "partnerWaiting": "{count} waiting for partner approval",
+        "viewApprovals": "View Approvals"
+      },
+      "filter": {
+        "all": "All",
+        "approved": "Approved",
+        "pending": "Pending",
+        "rejected": "Rejected"
+      },
+      "table": {
+        "certificateId": "Certificate ID",
+        "trainingName": "Training",
+        "partners": "Partners",
+        "date": "Date",
+        "studentCount": "Students",
+        "status": "Status",
+        "students": "Students",
+        "studentList": "Student List"
+      },
+      "actions": {
+        "view": "View",
+        "downloadBulk": "Download Bulk",
+        "downloadSingle": "Download Single"
+      },
+      "dropdowns": {
+        "allTrainings": "All Trainings",
+        "allPartners": "All Partners"
+      },
+      "sort": {
+        "label": "Sort",
+        "idDefault": "ID (default)",
+        "dateDesc": "Newest Date",
+        "studentsDesc": "Highest Student Count"
+      },
+      "uia": {
+        "title": "Upper Institution Approval",
+        "requiredTitle": "Requires approval",
+        "notRequiredTitle": "Does not require approval",
+        "filterApproved": "UIA Approved",
+        "filterUnapproved": "UIA Pending",
+        "filterOff": "UIA Filter Off",
+        "yes": "Yes",
+        "no": "No"
+      },
+      "partners": {
+        "more": "+{count} more partners",
+        "ariaOther": "other partners",
+        "unknown": "Unknown partner"
+      },
+      "studentsModal": {
+        "title": "Student List",
+        "meta": "{count} students in total",
+        "table": {
+          "index": "#",
+          "fullName": "Full Name",
+          "tckn": "National ID",
+          "birthDate": "Birth Date",
+          "trainingName": "Training",
+          "trainingDate": "Training Date",
+          "actions": "Actions"
+        },
+        "loading": "Loading students...",
+        "noStudents": "No students found."
+      },
+      "addTrainingModal": {
+        "trainingNameLabel": "Training Name",
+        "trainingNamePlaceholder": "e.g. Front-End Development",
+        "descriptionLabel": "Description",
+        "descriptionPlaceholder": "Brief training description",
+        "cancel": "Cancel",
+        "submitSoon": "Will be available soon"
+      },
+      "errors": {
+        "cannotDownload": "Certificates could not be downloaded.",
+        "downloadError": "An error occurred while downloading.",
+        "cannotDownloadSingle": "Certificate could not be downloaded."
+      },
+      "modal": {
+        "addTraining": "Add new training",
+        "pendingNote": "Certificates pending approval are listed here."
+      },
+      "tooltip": {
+        "waitingInstitution": "Waiting for institution approval",
+        "waitingPartner": "Waiting for partner approval",
+        "waitingAdmin": "Waiting for admin approval",
+        "pendingApproval": "Approval pending",
+        "rejectedInstitution": "Rejected by institution",
+        "rejectedPartner": "Rejected by partner",
+        "rejectedAdmin": "Rejected by admin",
+        "rejected": "Rejected"
+      },
+      "approvals": {
+        "title": "Certificate Approval Requests",
+        "institutionSubtitle": "Certificates awaiting your institution’s approval",
+        "partnerSubtitle": "Certificates awaiting partner approval",
+        "backToCertificates": "Back to certificates",
+        "tabs": {
+          "institution": "Institution",
+          "partner": "Partner"
+        },
+        "loading": "Loading approval requests...",
+        "noPending": "No pending approval requests.",
+        "table": {
+          "certificateId": "Certificate ID",
+          "training": "Training",
+          "institution": "Institution",
+          "date": "Date",
+          "uia": "UIA",
+          "actions": "Actions"
+        },
+        "uiaTooltip": {
+          "required": "UIA approval required",
+          "notRequired": "UIA approval not required",
+          "yes": "Yes",
+          "no": "No"
+        },
+        "actions": {
+          "inspect": "Inspect",
+          "reject": "Reject",
+          "approve": "Approve",
+          "confirmReject": "Confirm rejection?"
+        },
+        "messages": {
+          "approved": "Certificate approved.",
+          "rejected": "Certificate rejected.",
+          "partnerApproved": "Partner approval completed.",
+          "partnerRejected": "Partner rejected the certificate.",
+          "error": "Approval could not be processed.",
+          "errorUnknown": "An unknown error occurred.",
+          "connectionError": "Connection error. Please try again."
+        },
+        "inspect": {
+          "title": "Approval Details",
+          "close": "Close",
+          "tabs": {
+            "details": "Details",
+            "students": "Students"
+          },
+          "details": {
+            "certificateNo": "Certificate No",
+            "training": "Training",
+            "issueDate": "Issue Date",
+            "status": "Status",
+            "uia": "UIA",
+            "uiaRequired": "UIA required",
+            "uiaNotRequired": "UIA not required",
+            "partners": "Partners",
+            "notFound": "Approval details not found."
+          },
+          "students": {
+            "student": "Student",
+            "tc": "National ID",
+            "email": "Email",
+            "phone": "Phone",
+            "birthDate": "Birth Date",
+            "notFound": "Student list not found."
+          }
+        },
+        "status": {
+          "pending": "Pending",
+          "approved": "Approved",
+          "rejected": "Rejected"
+        }
+      }
+    },
+    "students": {
+      "title": "Student Management",
+      "subtitle": "Manage student records and certificates.",
+      "addNew": "Add New Student",
+      "bulkAdd": "Bulk Upload",
+      "import": {
+        "title": "Bulk Student Import",
+        "subtitle": "Upload student information from an Excel file.",
+        "howToFill": "How should I fill in the Excel?",
+        "infoTitle": "Information",
+        "infoItems": {
+          "eachRow": "Each row must contain only one student.",
+          "uniqueTc": "National ID numbers must be unique.",
+          "existingTc": "Existing National IDs will be updated.",
+          "optionalFields": "Email and phone fields are optional."
+        },
+        "step1": {
+          "button": "Download Excel Template",
+          "description": "Download and fill in the template."
+        },
+        "step2": {
+          "button": "Upload Excel File"
+        },
+        "step3": {
+          "title": "Validate and Create",
+          "description": "We will validate the uploaded file.",
+          "processing": "Validating file...",
+          "stats": {
+            "total": "Total rows",
+            "valid": "Valid entries",
+            "invalid": "Invalid entries"
+          },
+          "hasErrors": "The file contains errors.",
+          "validBadge": "Valid",
+          "invalidBadge": "Invalid",
+          "errorsTitle": "Error Details",
+          "labels": {
+            "tc": "National ID",
+            "birthDate": "Birth Date",
+            "email": "Email",
+            "phone": "Phone"
+          }
+        },
+        "actions": {
+          "create": "Create Students",
+          "creating": "Creating...",
+          "noValid": "No valid student data."
+        },
+        "messages": {
+          "createSuccess": "Students were created successfully.",
+          "createError": "Students could not be created.",
+          "createErrorUnknown": "An unknown error occurred.",
+          "createNetworkError": "Network error. Please try again.",
+          "validationError": "There are validation errors in the file."
+        }
+      },
+      "searchPlaceholder": "Search students by name, national ID or email...",
+      "confirmDelete": "Are you sure you want to delete this student?",
+      "sort": {
+        "id": "By ID",
+        "dateDesc": "Newest",
+        "certDesc": "Most certificates",
+        "nameAz": "Name (A-Z)"
+      },
+      "table": {
+        "studentId": "Student ID",
+        "tc": "National ID",
+        "fullName": "Full Name",
+        "email": "Email",
+        "phone": "Phone",
+        "birthDate": "Birth Date",
+        "certificates": "Certificates",
+        "createdAt": "Created At"
+      },
+      "modal": {
+        "title": "Student Certificates",
+        "certificateCount": "Certificate Count",
+        "certificateId": "Certificate ID",
+        "trainingName": "Training Name",
+        "date": "Date",
+        "status": "Status",
+        "noCertificates": "No certificates found."
+      },
+      "form": {
+        "firstName": "First Name",
+        "lastName": "Last Name",
+        "tcNumber": "National ID Number",
+        "tcPlaceholder": "11-digit national ID",
+        "birthDate": "Birth Date",
+        "email": "Email",
+        "emailPlaceholder": "student@example.com",
+        "phone": "Phone",
+        "phonePlaceholder": "+90 555 555 55 55"
+      },
+      "errors": {
+        "cannotAdd": "Student could not be added.",
+        "addError": "An error occurred while adding the student.",
+        "cannotUpdate": "Student could not be updated.",
+        "updateError": "An error occurred while updating the student.",
+        "cannotDelete": "Student could not be deleted.",
+        "deleteError": "An error occurred while deleting the student.",
+        "cannotDownload": "Certificates could not be downloaded.",
+        "downloadError": "An error occurred while downloading certificates."
+      }
+    },
+    "trainings": {
+      "title": "Training Management",
+      "subtitle": "Create and manage training programs.",
+      "addNew": "Add New Training",
+      "searchPlaceholder": "Search trainings by name or description...",
+      "confirmDelete": "Are you sure you want to delete this training?",
+      "levelPrefix": "Level",
+      "filter": {
+        "all": "All",
+        "pending": "Pending",
+        "approved": "Approved",
+        "rejected": "Rejected"
+      },
+      "status": {
+        "pending": "Pending",
+        "approved": "Approved",
+        "rejected": "Rejected"
+      },
+      "table": {
+        "trainingId": "Training ID",
+        "name": "Training Name",
+        "description": "Description",
+        "level": "Level",
+        "language": "Language",
+        "languages": "Languages",
+        "mode": "Mode",
+        "country": "Country",
+        "totalHours": "Total Hours",
+        "status": "Status",
+        "createdAt": "Created At"
+      },
+      "form": {
+        "name": "Training Name",
+        "namePlaceholder": "e.g. Advanced Project Management",
+        "description": "Description",
+        "descriptionPlaceholder": "Explain the content and objectives of the training.",
+        "level": "Level",
+        "level1": "Beginner",
+        "level2": "Intermediate",
+        "level3": "Advanced",
+        "language": "Language",
+        "languages": "Languages",
+        "languagesRequired": "Please select at least one language",
+        "mode": "Mode",
+        "modes": {
+          "hybrid": "Hybrid",
+          "online": "Online",
+          "onsite": "Onsite"
+        },
+        "country": "Country",
+        "languageTr": "Turkish",
+        "languageEn": "English",
+        "languageDe": "German",
+        "languageFr": "French",
+        "totalHours": "Total Hours",
+        "totalHoursPlaceholder": "e.g. 40"
+      },
+      "errors": {
+        "cannotAdd": "Training could not be added.",
+        "addError": "An error occurred while adding the training.",
+        "cannotDelete": "Training could not be deleted.",
+        "deleteError": "An error occurred while deleting the training.",
+        "cannotUpdate": "Training could not be updated.",
+        "updateError": "An error occurred while updating the training."
+      }
+    },
+    "balance": {
+      "title": "Balance Management",
+      "subtitle": "Track your institution balance and transactions.",
+      "current": "Current Balance",
+      "load": "Load Balance",
+      "history": "Balance History",
+      "filters": {
+        "all": "All",
+        "credit": "Credits",
+        "debit": "Debits",
+        "refund": "Refunds"
+      },
+      "sort": {
+        "dateDesc": "Newest",
+        "dateAsc": "Oldest",
+        "amountDesc": "Largest Amount",
+        "amountAsc": "Smallest Amount"
+      },
+      "table": {
+        "date": "Date",
+        "type": "Type",
+        "description": "Description",
+        "amount": "Amount"
+      },
+      "loading": "Loading transactions...",
+      "noTransactions": "No transactions found.",
+      "purchaseModal": {
+        "title": "Load Balance",
+        "description": "Load balance to create certificates without interruption.",
+        "inputLabel": "Amount",
+        "inputPlaceholder": "e.g. 500",
+        "calculation": {
+          "certificateCount": "Certificate Count",
+          "count": "{count} pcs",
+          "unitPrice": "Price per certificate",
+          "pricePerCert": "{price} TL per certificate",
+          "totalAmount": "Total Amount"
+        },
+        "cancel": "Cancel",
+        "submit": "Submit",
+        "submitting": "Submitting..."
+      },
+      "messages": {
+        "invalidAmount": "Invalid amount.",
+        "success": "Balance loaded successfully.",
+        "error": "Error loading balance."
+      },
+      "types": {
+        "credit": "Credit",
+        "debit": "Debit",
+        "refund": "Refund"
+      },
+      "creditPrice": "Credit Price",
+      "amount": "Amount",
+      "totalCost": "Total Cost",
+      "purchase": "Purchase",
+      "errors": {
+        "invalidAmount": "Invalid amount.",
+        "purchaseError": "Purchase failed."
+      }
+    },
+    "profile": {
+      "title": "  Profile",
+      "subtitle": "Edit your profile information",
+      "edit": "Edit",
+      "save": "Save",
+      "cancel": "Cancel",
+      "loading": "Loading...",
+      "messages": {
+        "updateSuccess": "Profile updated successfully.",
+        "updateError": "Error updating profile."
+      }
+    },
+    "settings": {
+      "title": "Settings",
+      "subtitle": "Customize your institution's settings",
+      "certificateColors": "Certificate Colors",
+      "primaryColor": "Primary Color",
+      "secondaryColor": "Secondary Color",
+      "defaultTemplate": "Default Template",
+      "templateNote": "Note: This will be the default template for all certificates issued by your institution.",
+      "preview": "Preview",
+      "colors": "Colors",
+      "general": "General",
+      "messages": {
+        "saveSuccess": "Settings saved successfully",
+        "saveError": "Error saving settings",
+        "saveErrorUnknown": "Unknown error saving settings"
+      }
+    }
+  },
+  "partner": {
+    "dashboard": "Partner Dashboard"
+  },
+  "admin": {
+    "dashboard": "Admin Panel",
+    "users": "Users",
+    "roles": "Roles",
+    "pendingRequests": "Pending Requests",
+    "login": {
+      "title": "Admin Login",
+      "subtitle": "Sign in to access the admin panel",
+      "email": "Email",
+      "password": "Password",
+      "submit": "Sign In",
+      "loggingIn": "Signing in...",
+      "unknownError": "Unknown error",
+      "note": "Note: This login is only for users with admin role."
+    },
+    "messages": {
+      "imageFileRequired": "",
+      "fileSizeLimit": "",
+      "partnerNameRequired": "",
+      "partnerAdded": "",
+      "partnerAddError": "",
+      "partnerAddErrorUnknown": "",
+      "serverError": "",
+      "trainingApproved": "",
+      "trainingRejected": "",
+      "error": "",
+      "settingsSaved": "",
+      "settingsSaveError": "",
+      "balanceAdded": "",
+      "partnershipApproved": "",
+      "partnershipRejected": "",
+      "certificateApproved": "",
+      "certificateRejected": "",
+      "paymentSettingsSaved": ""
+    }
+  },
+  "certificate": {
+    "loading": "Loading certificate...",
+    "notFound": "Certificate not found",
+    "notFoundTitle": "Certificate Not Found",
+    "invalidNumber": "Invalid certificate number",
+    "loadError": "An error occurred while loading the certificate"
+  },
+  "features": {
+    "fastVerification": {
+      "title": "Lightning Fast Verification",
+      "description": "Verify certificates in under 2 seconds with National ID or certificate number"
+    },
+    "secureSystem": {
+      "title": "Bank-Level Security",
+      "description": "End-to-end encryption and blockchain technology ensure maximum data protection"
+    },
+    "instantResult": {
+      "title": "Instant Digital Certificates",
+      "description": "Get verified results instantly with downloadable PDF certificates and QR codes"
+    },
+    "globalAccess": {
+      "title": "24/7 Global Access",
+      "description": "Access your certificates anytime, anywhere with our cloud-based platform"
+    },
+    "multiLanguage": {
+      "title": "Multi-Language Support",
+      "description": "Available in multiple languages with localized certificate formats"
+    },
+    "printableCertificates": {
+      "title": "Printable Certificates",
+      "description": "Download and print your certificates in PDF or high-resolution format"
+    }
+  },
+  "testimonials": {
+    "title": "Trusted by Thousands",
+    "subtitle": "See what our partners and users say about us",
+    "items": [
+      {
+        "name": "Dr. Sarah Johnson",
+        "role": "Dean of Engineering, Tech University",
+        "content": "CertManager has revolutionized how we handle certificate verification. The process is now seamless and secure."
+      },
+      {
+        "name": "Michael Chen",
+        "role": "HR Director, Global Corp",
+        "content": "We've reduced verification time from days to seconds. The API integration was incredibly smooth."
+      },
+      {
+        "name": "Prof. Elena Rodriguez",
+        "role": "Academic Coordinator, International Institute",
+        "content": "The multi-language support and global accessibility make this perfect for our international programs."
+      }
+    ]
+  },
+  "create": {
+    "template": {
+      "title": "Template Selection",
+      "subtitle": "Select and preview the certificate template",
+      "miniPreview": "Template Preview",
+      "fullPreview": "Full Preview",
+      "modal": {
+        "titleSuffix": "Preview Template",
+        "close": "Close",
+        "footerNote": "Select this template for your certificate"
+      },
+      "next": "Next"
+    },
+    "training": {
+      "title": "Training Selection",
+      "subtitle": "Select the training for the certificate",
+      "loading": "Loading trainings...",
+      "pending": "Pending trainings",
+      "noItems": "No trainings available",
+      "back": "Back",
+      "next": "Next"
+    },
+    "students": {
+      "title": "Student Selection",
+      "subtitle": "Select students to include in the certificate",
+      "listTitle": "Student List",
+      "searchPlaceholder": "Search student by name or ID",
+      "loading": "Loading students...",
+      "notFound": "No students found",
+      "back": "Back",
+      "next": "Next"
+    },
+    "partners": {
+      "title": "Partner Selection",
+      "subtitle": "Select partners to accredit the certificate",
+      "uiaTitle": "Upper Institution Accreditation",
+      "no": "Not Required",
+      "yes": "Required",
+      "uiaHint": "Select if this certificate requires upper institution approval",
+      "uiaResponsible": "UIA Responsible Partner",
+      "select": "Select Partner",
+      "selected": "Selected Partners",
+      "loading": "Loading partners...",
+      "noPartners": "No partners available",
+      "external": "External Partner",
+      "externalCannotBeUia": "External partners cannot be UIA responsible",
+      "back": "Back",
+      "next": "Next"
+    },
+    "review": {
+      "title": "Review and Submit",
+      "subtitle": "Review the certificate details before submission",
+      "certificatePreview": "Certificate Preview",
+      "details": "Certificate Details",
+      "template": "Template",
+      "training": "Training",
+      "accreditorCount": "Accreditors",
+      "trainingHours": "Training Hours",
+      "hours": "hours",
+      "uia": "UIA Required",
+      "yes": "Yes",
+      "no": "No",
+      "studentCount": "Students",
+      "createdAt": "Creation Date",
+      "accreditors": "Accreditors",
+      "uiaResponsible": "UIA Responsible",
+      "payment": {
+        "title": "Payment",
+        "price": "Price per Certificate",
+        "required": "Required Balance",
+        "balance": "Your Balance"
+      },
+      "status": {
+        "enough": "Sufficient Balance",
+        "notEnough": "Insufficient Balance",
+        "enoughDesc": "You have enough balance to create these certificates",
+        "notEnoughDesc": "You need to load more balance to create these certificates"
+      },
+      "actions": {
+        "back": "Back",
+        "submit": "Create Certificates",
+        "submitting": "Creating...",
+        "createdSuccess": "Certificates created successfully!",
+        "errorPrefix": "Error:",
+        "createFailed": "Certificate creation failed",
+        "unexpectedError": "An unexpected error occurred"
+      }
+    }
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Professional solutions we offer for your institution",
+    "certificateManagement": {
+      "title": "Certificate Management",
+      "description": "Create, manage and distribute your digital certificates on a centralized platform"
+    },
+    "verification": {
+      "title": "Fast Verification",
+      "description": "Certificate verification in seconds with national ID or certificate number"
+    },
+    "partnerNetwork": {
+      "title": "Partner Network",
+      "description": "Add credibility to your certificates by collaborating with accreditor institutions"
+    },
+    "reporting": {
+      "title": "Reporting and Analytics",
+      "description": "Track your institution's performance with detailed statistics and reports"
+    },
+    "security": {
+      "title": "Security and Compliance",
+      "description": "Bank-level security protocols and GDPR compliant data management"
+    },
+    "support": {
+      "title": "24/7 Support",
+      "description": "Our technical support team is always available to help you"
+    },
+    "cta": {
+      "title": "Ready to Get Started?",
+      "subtitle": "Join thousands of institutions using our platform",
+      "getStarted": "Get Started",
+      "contactUs": "Contact Us"
+    }
+  },
+  "collaborations": {
+    "title": "Our Collaborations",
+    "subtitle": "All registered institutions and partners",
+    "search": {
+      "placeholder": "Search institution, partner or training...",
+      "filter": "Filter",
+      "filterType": "Type",
+      "all": "All",
+      "institutionsOnly": "Institutions Only",
+      "partnersOnly": "Partners Only",
+      "activeFilters": "Active filters:",
+      "searchLabel": "Search:",
+      "clearFilters": "Clear Filters"
+    },
+    "results": {
+      "loading": "Loading...",
+      "found": "results found",
+      "noResults": "No results found",
+      "noResultsDesc": "No institution or partner found matching your search criteria"
+    },
+    "badges": {
+      "partner": "Partner",
+      "institutions": "Institutions",
+      "partners": "Partners"
+    }
+  },
+  "acreditor": {
+    "dashboard": {
+      "title": "Accreditor Dashboard",
+      "subtitle": "Manage upper institution approvals and collaborations",
+      "stats": {
+        "pendingUiaApprovals": "Pending UIA Approvals",
+        "activeCollaborations": "Active Collaborations",
+        "totalCertificates": "Total Certificates"
+      },
+      "recentApprovals": {
+        "title": "Recent Approval Requests",
+        "viewAll": "View All",
+        "loading": "Loading...",
+        "noRecords": "No records found",
+        "uiaResponsible": "You (UIA Responsible)",
+        "uiaExists": "UIA Exists",
+        "noUia": "No UIA"
+      }
+    },
+    "approvals": {
+      "title": "Approval Requests",
+      "subtitle": "Manage certificates awaiting your approval as an accreditor",
+      "searchPlaceholder": "Search certificate, institution or ID...",
+      "onlyResponsible": "Only my UIA responsible ones",
+      "filter": {
+        "all": "All",
+        "pending": "Pending",
+        "approved": "Approved",
+        "rejected": "Rejected"
+      },
+      "table": {
+        "certificateId": "Certificate ID",
+        "training": "Training",
+        "institution": "Institution",
+        "date": "Date",
+        "uia": "UIA",
+        "actions": "Actions"
+      },
+      "actions": {
+        "approve": "Approve",
+        "reject": "Reject",
+        "viewDetails": "View Details",
+        "downloadPetition": "Download petition"
+      },
+      "uia": {
+        "responsible": "UIA Responsible",
+        "exists": "UIA Exists",
+        "none": "No UIA"
+      },
+      "inspect": {
+        "title": "Certificate Details",
+        "tabs": {
+          "details": "Certificate Info",
+          "students": "Students & UIA Codes",
+          "excel": "Bulk Upload via Excel"
+        },
+        "fields": {
+          "certificateId": "Certificate ID",
+          "issueDate": "Issue Date",
+          "template": "Template",
+          "studentCount": "Student Count"
+        },
+        "students": {
+          "note": "Note: Enter and save the UIA approval code for each student.",
+          "cols": {
+            "student": "Student",
+            "tc": "TC",
+            "birthDate": "Birth Date",
+            "uiaCode": "UIA Code"
+          },
+          "placeholder": {
+            "uiaCode": "e.g. ABCD-1234"
+          },
+          "actions": {
+            "saveCodes": "Save UIA Codes"
+          }
+        },
+        "excel": {
+          "title": "Bulk UIA Code Upload via Excel",
+          "step1": {
+            "title": "Download Excel File",
+            "desc": "With current student data"
+          },
+          "step2": {
+            "title": "Fill UIA_CODE Column",
+            "desc": "Do not change other columns"
+          },
+          "step3": {
+            "title": "Upload the Filled Excel"
+          },
+          "actions": {
+            "download": "Download Excel",
+            "upload": "Upload Excel and Save UIA Codes"
+          }
+        }
+      },
+      "petition": {
+        "headerDefault": "Partner Organization",
+        "paragraph": "The {count} students listed below have completed their trainings and achieved passing scores as shown in the table. We kindly request that the certificates of the successful students be prepared and submitted to e-Government.",
+        "table": {
+          "no": "No",
+          "student": "Student",
+          "tc": "TC",
+          "birth": "Birth",
+          "end": "End Date",
+          "hours": "Hours",
+          "training": "Training",
+          "exam": "Exam Result"
+        }
+      },
+      "noRecords": "No records found"
+    },
+    "institutions": {
+      "title": "Institutions",
+      "subtitle": "View institutions you partner with",
+      "searchPlaceholder": "Search institution or ID...",
+      "table": {
+        "name": "Institution Name",
+        "status": "Status",
+        "since": "Since",
+        "actions": "Actions"
+      },
+      "status": {
+        "pending": "Pending",
+        "approved": "Active",
+        "rejected": "Rejected"
+      },
+      "actions": {
+        "approve": "Approve",
+        "reject": "Reject",
+        "end": "End Partnership",
+        "delete": "Delete",
+        "viewDetails": "View Details"
+      },
+      "confirm": {
+        "approve": "Are you sure to approve this institution?",
+        "reject": "Are you sure to reject this institution?",
+        "end": "Are you sure to end the partnership?",
+        "delete": "Are you sure to delete the rejected collaboration?"
+      },
+      "noRecords": "No records found"
+    },
+    "profile": {
+      "title": "Profile",
+      "edit": "Edit",
+      "save": "Save"
+    },
+    "settings": {
+      "title": "Settings"
+    }
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "sortBy": "Sort by",
+    "actions": "Actions",
+    "delete": "Delete",
+    "cancel": "Cancel",
+    "add": "Add",
+    "download": "Download",
+    "downloadPdf": "Download PDF",
+    "approve": "Approve",
+    "reject": "Reject",
+    "serverError": "Server error",
+    "languageNames": {
+      "tr": "Turkish",
+      "en": "English",
+      "de": "German",
+      "fr": "French"
+    },
+    "countryNames": {
+      "tr": "Turkey",
+      "us": "United States",
+      "de": "Germany",
+      "gb": "United Kingdom",
+      "fr": "France"
+    },
+    "status": {
+      "active": "Active",
+      "pending": "Pending",
+      "approved": "Approved",
+      "rejected": "Rejected",
+      "completed": "Completed"
+    },
+    "trainings": {
+      "table": {
+        "languages": "Languages",
+        "mode": "Mode",
+        "country": "Country"
+      },
+      "form": {
+        "languages": "Languages",
+        "languagesRequired": "Languages Required",
+        "mode": "Mode",
+        "country": "Country",
+        "modes": {
+          "hybrid": "Hybrid",
+          "online": "Online",
+          "onsite": "Onsite"
+        }
+      }
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Get in touch with our team. We're here to help you.",
+    "info": {
+      "title": "Contact Information",
+      "email": "Email",
+      "phone": "Phone",
+      "phoneValue": "Coming soon",
+      "address": "Address",
+      "addressValue": "To be announced",
+      "businessHours": "Business Hours",
+      "businessHoursValue": "Monday - Friday: 9:00 AM - 6:00 PM"
+    },
+    "form": {
+      "title": "Send us a message",
+      "name": "Full Name",
+      "namePlaceholder": "John Doe",
+      "email": "Email Address",
+      "emailPlaceholder": "john@example.com",
+      "subject": "Subject",
+      "subjectPlaceholder": "How can we help you?",
+      "message": "Message",
+      "messagePlaceholder": "Tell us more about your inquiry...",
+      "submit": "Send Message",
+      "sending": "Sending...",
+      "successMessage": "Thank you! Your message has been sent successfully. We'll get back to you soon.",
+      "errorMessage": "Sorry, something went wrong. Please try again or email us directly."
+    }
+  },
+  "help": {
+    "title": "Help Center",
+    "subtitle": "Find answers to frequently asked questions",
+    "faqTitle": "Frequently Asked Questions",
+    "quickLinks": {
+      "verify": {
+        "title": "Verify Certificate",
+        "description": "Quickly verify any certificate"
+      },
+      "contact": {
+        "title": "Contact Support",
+        "description": "Get in touch with our team"
+      },
+      "howItWorks": {
+        "title": "How It Works",
+        "description": "Learn about our process"
+      }
+    },
+    "faqs": {
+      "0": {
+        "question": "How do I verify a certificate?",
+        "answer": "You can verify a certificate by entering the certificate number or national ID on our verification page. The system will instantly show you the certificate details and validity status."
+      },
+      "1": {
+        "question": "How long does it take to issue a certificate?",
+        "answer": "Certificate issuance is typically instant once all required approvals are obtained. The approval process may vary depending on your institution's settings and partner requirements."
+      },
+      "2": {
+        "question": "Can I download certificates in bulk?",
+        "answer": "Yes, institutions can download multiple certificates at once using our bulk download feature available in the certificate management panel."
+      },
+      "3": {
+        "question": "What security measures are in place?",
+        "answer": "We use bank-level encryption, blockchain technology for certificate verification, and comply with international data protection standards including GDPR and KVKK."
+      },
+      "4": {
+        "question": "How do I become a partner institution?",
+        "answer": "You can register as an institution through our registration page. After verification, you'll have access to all certificate management features."
+      },
+      "5": {
+        "question": "What payment methods do you accept?",
+        "answer": "We accept various payment methods including credit cards, bank transfers, and institutional invoicing. Contact us for enterprise payment options."
+      }
+    },
+    "contactCta": {
+      "title": "Still have questions?",
+      "subtitle": "Our support team is ready to help you",
+      "button": "Contact Us"
+    }
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last Updated",
+    "sections": {
+      "intro": {
+        "title": "Introduction",
+        "content": "This Privacy Policy explains how Mert CIN Certificate Authorisation collects, uses, and protects your personal information. We are committed to ensuring your privacy and protecting your data."
+      },
+      "dataCollection": {
+        "title": "Data We Collect",
+        "content": "We collect the following types of information:",
+        "items": {
+          "0": "Personal identification information (name, email, phone number)",
+          "1": "Certificate and training related data",
+          "2": "Usage data and analytics",
+          "3": "Technical information (IP address, browser type, device information)"
+        }
+      },
+      "dataUsage": {
+        "title": "How We Use Your Data",
+        "content": "Your data is used to provide and improve our services, process certificates, communicate with you, and ensure platform security. We never sell your personal information to third parties."
+      },
+      "dataSecurity": {
+        "title": "Data Security",
+        "content": "We implement industry-standard security measures including encryption, secure servers, and regular security audits to protect your information from unauthorized access, alteration, or disclosure."
+      },
+      "userRights": {
+        "title": "Your Rights",
+        "content": "You have the right to access, correct, delete, or export your personal data. You can also object to certain data processing activities. Contact us to exercise these rights."
+      },
+      "contact": {
+        "title": "Contact Us",
+        "content": "If you have any questions about this Privacy Policy, please contact us at"
+      }
+    }
+  },
+  "terms": {
+    "title": "Terms of Use",
+    "lastUpdated": "Last Updated",
+    "sections": {
+      "acceptance": {
+        "title": "Acceptance of Terms",
+        "content": "By accessing and using this platform, you accept and agree to be bound by these Terms of Use. If you do not agree to these terms, please do not use our services."
+      },
+      "services": {
+        "title": "Description of Services",
+        "content": "Mert CIN Certificate Authorisation provides a digital platform for certificate issuance, verification, and management. We reserve the right to modify or discontinue services at any time."
+      },
+      "userResponsibilities": {
+        "title": "User Responsibilities",
+        "content": "Users are responsible for:",
+        "items": {
+          "0": "Maintaining the confidentiality of their account credentials",
+          "1": "Ensuring the accuracy of information provided",
+          "2": "Complying with all applicable laws and regulations"
+        }
+      },
+      "intellectualProperty": {
+        "title": "Intellectual Property",
+        "content": "All content, trademarks, and intellectual property on this platform are owned by Mert CIN Certificate Authorisation or its licensors. Unauthorized use is prohibited."
+      },
+      "limitation": {
+        "title": "Limitation of Liability",
+        "content": "We strive to provide accurate and reliable services, but we cannot guarantee uninterrupted or error-free operation. Our liability is limited to the maximum extent permitted by law."
+      },
+      "contact": {
+        "title": "Contact Information",
+        "content": "For questions about these Terms of Use, please contact us at"
+      }
+    }
+  },
+  "kvkk": {
+    "title": "GDPR Notice",
+    "lastUpdated": "Last Updated",
+    "sections": {
+      "intro": {
+        "title": "Introduction",
+        "content": "This notice explains how we process your personal data in accordance with the General Data Protection Regulation (GDPR) and other applicable data protection laws."
+      },
+      "dataController": {
+        "title": "Data Controller",
+        "content": "Mert CIN Certificate Authorisation is the data controller responsible for your personal data. We are committed to protecting your privacy and ensuring compliance with data protection regulations."
+      },
+      "personalData": {
+        "title": "Personal Data We Process",
+        "content": "We process the following categories of personal data:",
+        "items": {
+          "0": "Identity data (name, surname, national ID number)",
+          "1": "Contact data (email address, phone number, address)",
+          "2": "Certificate and training records",
+          "3": "Technical data (IP address, login data, usage information)"
+        }
+      },
+      "processingPurpose": {
+        "title": "Purpose of Processing",
+        "content": "Your personal data is processed for certificate issuance and verification, service provision, legal compliance, and platform improvement. We only process data for legitimate purposes with appropriate legal basis."
+      },
+      "dataSubjectRights": {
+        "title": "Your Rights as a Data Subject",
+        "content": "Under GDPR, you have the following rights:",
+        "items": {
+          "0": "Right to access your personal data",
+          "1": "Right to rectification of inaccurate data",
+          "2": "Right to erasure (right to be forgotten)",
+          "3": "Right to restriction of processing",
+          "4": "Right to data portability"
+        }
+      },
+      "contact": {
+        "title": "Contact",
+        "content": "To exercise your rights or for any questions regarding data processing, please contact us at"
+      }
+    }
+  },
+  "howItWorks": {
+    "title": "How It Works",
+    "subtitle": "Discover how our platform simplifies certificate management for educational institutions",
+    "processTitle": "Simple 4-Step Process",
+    "processSubtitle": "From registration to reporting, everything you need in one platform",
+    "steps": {
+      "registration": {
+        "title": "Institution Registration",
+        "description": "Create your institutional account in minutes. Provide your organization details and get verified by our team to start issuing certificates."
+      },
+      "createCertificate": {
+        "title": "Create Certificates",
+        "description": "Design and issue digital certificates using our intuitive interface. Bulk upload student data, customize templates, and generate certificates instantly."
+      },
+      "verification": {
+        "title": "Instant Verification",
+        "description": "Recipients and employers can verify certificates in seconds using TCKN or certificate number. All verifications are logged and tracked for security."
+      },
+      "reporting": {
+        "title": "Analytics & Reporting",
+        "description": "Access detailed reports on certificate issuance, verification requests, and student data. Export reports and track your institution's performance."
+      }
+    },
+    "whyChooseUs": "Why Choose Our Platform?",
+    "whyChooseUsSubtitle": "Built specifically for educational institutions with security and efficiency in mind",
+    "features": {
+      "fast": {
+        "title": "Lightning Fast",
+        "description": "Issue thousands of certificates in minutes with our bulk upload feature"
+      },
+      "secure": {
+        "title": "Bank-Level Security",
+        "description": "Your data is protected with enterprise-grade encryption and security protocols"
+      },
+      "cloud": {
+        "title": "Cloud-Based",
+        "description": "Access your certificates from anywhere, anytime with our cloud infrastructure"
+      },
+      "collaboration": {
+        "title": "Partner Network",
+        "description": "Collaborate with accreditor institutions to add credibility to your certificates"
+      }
+    },
+    "stats": {
+      "institutions": "Trusted Institutions",
+      "certificates": "Verified Certificates",
+      "countries": "Countries Served"
+    },
+    "cta": {
+      "title": "Ready to Get Started?",
+      "subtitle": "Join hundreds of institutions already using our platform",
+      "getStarted": "Start Free Trial",
+      "contactUs": "Contact Sales"
+    }
+  },
+  "payment": {
+    "summary": {
+      "certificates": "Certificate Count",
+      "pieces": "pcs",
+      "total": "Total Amount"
+    },
+    "buttons": {
+      "cancel": "Cancel",
+      "pay": "Pay",
+      "processing": "Processing..."
+    },
+    "security": {
+      "note": "Your card details are securely encrypted. Protected by Stripe."
+    },
+    "error": {
+      "cardError": "There was an error with your card information.",
+      "unexpected": "An unexpected error occurred. Please try again."
+    },
+    "status": {
+      "processing": "Your payment is being processed...",
+      "succeeded": "Payment successful!",
+      "failed": "Payment failed."
+    }
+  }
+}
